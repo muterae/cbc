@@ -81,5 +81,8 @@ secrets.yaml
 .DS_Store
 
 
-.csv
-.pkl
+# ==========================================
+# ML Artifacts & Datasets
+# ==========================================
+predictor/data-sets/
+*.pkl
