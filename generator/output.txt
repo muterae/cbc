@@ -1,0 +1,1815 @@
+REPUBLIC OF KENYA
+
+LOWER PRIMARY LEVEL CURRICULUM DESIGNS
+GRADE 2
+
+MATHEMATICS ACTIVITIES
+FOR LEARNERS WITH HEARING IMPAIRMENT
+
+KENYA INSTITUTE OF CURRICULUM EDUCATION
+2024
+
+First Published in 2017
+Revised in 2024
+
+All rights reserved. No part of this book may be reproduced, stored in a retrieval system or transcribed, in any form or by any means,
+electronic, mechanical, photocopy, recording or otherwise, without the prior written permission of the publisher.
+
+ISBN: 978-9966-31-715-5
+
+Published and printed by Kenya Institute of Curriculum Development
+
+FOREWORD
+
+The Government of Kenya is committed to ensuring that policy objectives for Education, Training and Research meet the aspirations of
+the Constitution of Kenya 2010, the Kenya Vision 2030, National Curriculum Policy 2019, the United Nations Sustainable Development
+Goals (SDGs) and the Regional and Global conventions to which Kenya is a signatory. Towards achieving the mission of Basic Education,
+the Ministry of Education (MoE) has successfully and progressively rolled out the implementation of the Competency Based Curriculum
+(CBC) at Pre-Primary, Primary and Junior School levels.
+
+The implementation of Competency Based Curriculum involves monitoring and evaluation to determine its success. After the five-year
+implementation cycle, a summative evaluation of the primary education cycle was undertaken to establish the achievement of learning
+outcomes as envisaged in the Basic Education Curriculum Framework. The Government of Kenya constituted a Presidential working Party
+on Education Reforms (PWPER) in 2022 to address salient issues affecting the education sector. PWPER made far reaching
+recommendations for basic education that necessitated curriculum review. The recommendations of the PWPER, monitoring reports,
+summative evaluation, feedback from curriculum implementers and other stakeholders led to rationalisation and review of the basic
+education curriculum.
+
+The reviewed Grade one curriculum designs for learners with Hearing Impairments build on competencies attained by learners at Pre-
+primary level. Emphasis at this grade is the development of basic literacy, numeracy and skills for interaction with the environment.
+
+The curriculum designs present National Goals of Education, essence statements, general and specific expected learning outcomes for the
+subjects as well as strands and sub strands. The designs also outline suggested learning experiences, key inquiry questions, core
+competencies, Pertinent and Contemporary Issues (PCIs), values, and assessment rubric.
+
+It is my hope that all Government agencies and other stakeholders in Education will use the designs to plan for effective and efficient
+implementation of the CBC.
+
+HON. EZEKIEL OMBAKI MACHOGU, CBS
+CABINET SECRETARY,
+MINISTRY OF EDUCATION
+
+il
+
+PREFACE
+
+The Ministry of Education (MoE) nationally implemented Competency Based Curriculum (CBC) in 2019. Grade one is the first grade of
+Primary education level while Grade 6 is the final grade of the level in the reformed education structure.
+
+The reviewed Grade two curriculum furthers implementation of the CBC from Pre-Primary level. The curriculum provides opportunities
+for learners to focus in a field of their choice to form a foundation for further education and training and/or gain employable skills. This is
+very critical in the realisation of the Vision and Mission of the on-going curriculum reforms as enshrined in the Sessional Paper No. I of
+2019 whose title is: Towards Realizing Quality, Relevant and Inclusive Education and Training for Sustainable Development in Kenya.
+The Sessional Paper explains the shift from a content-focused curriculum to a focus on nurturing every learner’s potential.
+
+Therefore, the Grade two curriculum designs for learners with Hearing Impairments are intended to enhance the learners’ development in
+the CBC core competencies, namely: Communication and Collaboration, Critical Thinking and Problem Solving, Creativity and
+Imagination, Citizenship, Digital Literacy, learning to Learn and Self-efficacy.
+
+The curriculum designs provide suggestions for interactive and differentiated learning experiences linked to the various sub strands and
+the other aspects of the CBC. They also offer several suggested learning resources and a variety of assessment techniques. It is expected
+that the designs will guide teachers to effectively facilitate learners to attain the expected learning outcomes for Grade one and prepare
+them for smooth transition to Grade two. Furthermore, it is my hope that teachers will use the adapted designs to make learning interesting,
+exciting and enjoyable.
+
+DR. BELIO KIPSANG’, CBS
+
+PRINCIPAL SECRETARY
+
+STATE DEPARTMENT FOR BASIC EDUCATION
+MINISTRY OF EDUCATION
+
+Iv
+
+ACKNOWLEDGEMENT
+
+The Kenya Institute of Curriculum Development (KICD) Act Number 4 of 2013 (Revised 2019) mandates the Institute to develop and
+review (SNE adapt) curricula and curriculum support materials for basic and tertiary education and training. The curriculum development
+process for any level of education involves thorough research, international benchmarking and robust stakeholder engagement. Through a
+systematic and consultative process, the KICD conceptualised the Competency Based Curriculum (CBC) as captured in the Basic
+Education Curriculum Framework (BECF) 2017, that responds to the demands of the 21‘t Century and the aspirations captured in the
+Constitution of Kenya 2010, the Kenya Vision 2030, East African Community Protocol, International Bureau of Education Guidelines and
+the United Nations Sustainable Development Goals (SDGs).
+
+KICD receives its funding from the Government of Kenya to facilitate successful achievement of the stipulated mandate and
+implementation of the Government and Sector (Ministry of Education (MoE) plans. The Institute also receives support from development
+partners targeting specific programmes. The revised Grade one curriculum designs for learners with Hearing Impairments were developed
+and adapted with the support of the World Bank through the Kenya Primary Education Equity in Learning Programme (KPEELP); a
+project coordinated by MoE. Therefore, the Institute is very grateful for the support of the Government of Kenya, through the MoE and
+the development partners for policy, resource and logistical support. Specifically, special thanks to the Cabinet Secretary-MoE and the
+Principal Secretary — State Department of Basic Education,
+
+I also wish to acknowledge the KICD curriculum developers and other staff, all teachers, educators who took part as panelists; the Semi-
+Autonomous Government Agencies (SAGAs) and representatives of various stakeholders for their roles in the development and adaptation
+of the Grade one curriculum designs for learners with Hearing Impairments. In relation to this, I acknowledge the support of the Chief
+Executive Officers of the Teachers Service Commission (TSC) and the Kenya National Examinations Council (KNEC) for their support
+in the process of developing and adapting these designs. Finally, I am very grateful to the KICD Council Chairperson and other members
+of the Council for very consistent guidance in the process.
+
+I assure all teachers, parents and other stakeholders that this curriculum design will effectively guide the implementation of the CBC at
+Grade one and preparation of learners with Hearing Impairments for transition to Grade two.
+
+PROF. CHARLES O. ONG’ONDO, PhD, MBS
+DIRECTOR/CHIEF EXECUTIVE OFFICER
+KENYA INSTITUTE OF CURRICULUM DEVELOPMENT
+
+TABLE OF CONTENTS
+
+FOREWORD 0000 cccecc eee ec ec ec cece cence ceeeeecaceeeneaceavencacsanencaceveneasacaensasecsneseasacaensasscensasassnensasacseacacacsnsacacansnsasscsneassescseasacaneasassneeasecsnensacensneasaseneneaeeeeees ill
+PREFACE (oo. occecececeececececsesesececeeseeneecseeeencaceveneacscanensassarencacsnensasaceencacscansnsasacasasasscansasacansnsasscssesacacensacacsnensasecsneasacsceeasacanensaseneeasscenesesenenensaseseneaeeeeees iv
+ACKNOWLEDGEMENT ...0.0....ccccccecccssececsecseseececececeeseseecececececscecececeeseseseseeesesesesesseesesesesesesesessseseneesseesseseseeeseseseseseeeseeeeeseseseseseseeeeseeseeseeeeeseseeseseeeseeeeeeees Vv
+TABLE OF CONTENTS .00.0...cccceeccccecccceeeseceeeseseeeseeceseeececscevesecesesasavasacavasavavacavacacacacacacacacacacacacacaaacaacacacacacacacecacacecacacacacececacscecacacecacececececevevececetececerees vi
+NATIONAL GOALS OF EDUCATION ..0.0.ococcccccccecececeeesscecescecseecececseseseseseseseseeesesesesesessseseseseseseseesscececseeceesescecececececececececeeececenececesseeeeesseeeeseeceeececeeeses vil
+INTRODUCTION i
+
+LEARNING AREAS TIME ALLOCATION ..00.o..cccccccccccecceesececeseseeeeeececececececececscscecscscecececacececececececececacacececacecececececececececscececececececececececeeececetecetenecetetees x
+LEVEL LEARNING OUTCOMES FOR PRIMARY EDUCATION ..000....cccccccccsccsceseecsesesesescececececececacacececacececacecscecacacacacececececacacacacececacecevecececetececetees xl
+ESSENCE STATEMENT 00... cccccccccceccccececeeececeeeseceeeeeesesesesececesecacasacacaacacacacacaaacacacacacacacacacacacacacacacacacacacacacacacacececacacacecececacecacececacacecacacevecececacecevetees xl
+SUBJECT GENERAL LEARNING OUTCOMES ..00.0...0...ccccccccessssssesescseseececscecececececscececscscscscececececscscecscececececececacececececesececececececececececececececececececececeeetes xil
+STRAND1.0 NUMBERS ...0.o...cccsesccecssecsceescsesescececscscecececececacacacacscacecacacacecacscacecacacececacacecacececacecececacececacecacecacacacacacacecacacacacacecacacacacacecacacececacececacacecacecececes 1
+STRAND2.0 MEASUREMENT .....0....cccsccscscssssececscscecscececececececececacacacacacecscecscscececscecscscececscececscecececececacecscececececececesecececscececececececececececececececececececeeececeeeces 18
+STRAND 3.0 GEOMETRY ...0....c.ccececccececscecsesescecscececececececececacacacacacecscecscscecscscececscecscsseceessececssececececececececececececececececececscececececececececececececececececececeeececeeeces 30
+SUGGESTED RESOURCES ....0000o...cecceccececesecece ee eeeeeeeeeeeneneseeseneacecereneneacaeneacscanensassnensasacaeasacenereasacacensassceeasasscssasacsnensassesesesaesnensasecaneaceesceneaseeseeeeaees 35
+
+vil
+
+NATIONAL GOALS OF EDUCATION
+
+1. Foster nationalism, patriotism, and promote national unity.
+Kenya’s people belong to different communities, races and religions and should be able to live and interact as one people.
+Education should enable the learner to acquire a sense of nationhood and patriotism. It should also promote peace and mutual
+respect for harmonious coexistence.
+
+2. Promote social, economic, technological and industrial needs for national development
+Education should prepare the learner to play an effective and productive role in the nation.
+
+a) Social Needs
+
+Education should instill social and adaptive skills in the learner for effective participation in community and national
+development.
+
+b) Economic Needs
+Education should prepare a learner with requisite competences that support a modern and independent growing economy. This
+should translate into high standards of living for every individual.
+
+c) Technological and Industrial Needs
+Education should provide the learner with necessary competences for technological and industrial development in tandem with
+changing global trends.
+
+3. Promote individual development and self-fulfillment
+
+Education should provide opportunities for the learner to develop to the fullest potential. This includes development of
+one’s interests, talents and character for positive contribution to the society.
+
+4. Promote sound moral and religious values
+Education should promote acquisition of national values as enshrined in the Constitution. It should be geared towards
+developing a self-disciplined and ethical citizen with sound moral and religious values.
+
+vii
+
+5. Promote social equity and responsibility
+Education should promote social equity and responsibility. It should provide inclusive and equitable access to quality and
+differentiated education; including learners with special educational needs and disabilities. Education should also provide the
+learner with opportunities for shared responsibility and accountability through service learning.
+
+6. Promote respect for and development of Kenya’s rich and varied cultures
+Education should instill in the learner appreciation of Kenya’s rich and diverse cultural heritage. The learner should value, own
+and respect other people’s culture as well as embrace positive cultural practices in a dynamic society.
+
+7. Promote international consciousness and foster positive attitudes towards other nations
+Kenya is part of the interdependent network of diverse peoples and nations. Education should therefore enable the learner to
+respect, appreciate and participate in the opportunities within the international community. Education should also facilitate the
+learner to operate within the international community with full knowledge of the obligations, responsibilities, rights and
+benefits that this membership entails.
+
+8. Good health and environmental protection
+
+Education should inculcate in the learner the value of physical and psychological well-being for self and others. It should
+promote environmental preservation and conservation, including animal welfare for sustainable development.
+
+Vill
+
+INTRODUCTION
+
+The Lower Primary designs are meant for learners in Grade 1 to 3. They have taken cognisance of the various aspects of development
+
+of learners of that age cohort. The designs are comprehensive enough to guide the teachers to effectively deliver the curriculum.
+
+The teacher must understand the learning outcomes and be able to use the suggested learning experiences to achieve the outcomes.
+The teacher can also design their own learning experiences as long as they achieve the designed learning outcomes. A variety of
+learning experiences will ensure that learners are engaged in the learning experience. Practical experiences will allow learners to
+retain more in the learning process. The designs allow the teachers to use a variety of assessment methods but in the end they must
+
+evaluate the achievement of the learning outcomes.
+
+The curriculum designs are very critical and teachers must make reference to them consistently
+The Curriculum Designs for Lower Primary are in four volumes:
+
+Volume One
+
+® Kiswahili Activities
+@ Literacy
+© English Activities
+
+Volume Two
+
+@ Mathematics Activities
+@ Environmental Activities
+
+e@ Hygiene and Nutrition Activities
+
+1x
+
+Volume Three
+@ Christian Religious Education
+@ Hindu Religious Education
+
+e Islamic Religious Education
+
+Volume Four
+e Movement and Creative Activities
+
+LEARNING AREAS TIME ALLOCATION
+
+x
+
+Learning Area
+
+°
+
+Lesson
+
+Mathematical Activities for Learners with Hearing Impairment
+
+English Language Activities for Learners with Hearing Impairment
+
+Environmental Activities for Learners with Hearing Impairment
+
+Creative Activities for Learners with Hearing Impairment
+
+Religious Education Activities
+
+Kiswahili language activities for Learners with Hearing Impairment
+
+Kenyan Sign Language Activities
+
+P)/rIpalAfAlolwol—ls w
+
+Pastoral/ Religious Instruction Programme
+
+Total
+
+BWR] BRl[Wl/r] BR] nin
+
+
+LEVEL LEARNING OUTCOMES FOR PRIMARY EDUCATION
+
+By the end of the Primary Education, the learner should be able to:
+
+a) Communicate appropriately using verbal and or non-verbal modes in a variety of contexts.
+
+b) Apply acquired knowledge, skills, values and attitudes in everyday life.
+
+c) Demonstrate social skills, moral and religious values for positive contribution to society.
+
+d) Exploit one’s talents for individual development and self-fulfillment.
+
+e) Explore, manipulate, manage and conserve the environment for learning and sustainable development.
+f) Use digital literacy skills for learning and enjoyment.
+
+g) Value Kenya’s rich and diverse cultural heritage for harmonious living.
+
+h) Appreciate the need for, and importance of interdependence of people and nations
+
+ESSENCE STATEMENT
+
+Mathematics is a learning area that involves computation in numbers and arithmetic, shapes, spatial relations and information processing
+in the form of data. It is a vehicle of development and improvement of a country’s economic development. By learning mathematics,
+learners develop an understanding of numbers, logical thinking skills and problem-solving skills. Mathematics is applied in business,
+social and political worlds. At this level mathematics will build on the competencies acquired by the learner in the early years of education.
+Further, this design has been adapted to ensure that learners who are Deaf and those with Hard of Hearing learn effectively. The adaptations
+include suggestions for provision of sign interpretation on aspects that require use of sound, use of digital devices with assistive technology,
+use of visual aids such as charts, maps and diagrams, use of hands-on activities, guided demonstrations, purposeful pairing and use of
+adapted learning resources. The design has also incorporated alternative learning outcomes and activities to enhance the acquisition of
+sign language vocabulary to learners with Hearing Impairments.
+
+x1
+
+SUBJECT GENERAL LEARNING OUTCOMES
+
+By the end of Primary Education, the learner should be able to:
+
+1.
+
+Demonstrate mastery of number concepts by working out problems in day-to-day life.
+
+. Apply measurement skills to find solutions to problems in a variety of contexts.
+
+. Apply properties of geometrical shapes and spatial relationships in real life experiences.
+. Apply data handling skills to solve problems in day-to-day life.
+
+. Analyze information using algebraic expressions in real life situations.
+
+2
+3
+4
+5
+6.
+7
+8
+9
+
+Apply mathematical ideas and concepts to other learning areas or subjects and in real life contexts.
+
+. Develop confidence and interest in mathematics for further learning and enjoyment.
+. Develop values and competencies for a cohesive harmonious living in the society.
+
+. Manage pertinent and contemporary issues for enhanced inter-personal relationship
+
+xii
+
+STRAND1.0 NUMBERS
+
+a) sign words related to
+number concepts,
+
+b) identify numbers | to
+100 in symbols in
+different situations,
+
+c) represent
+numbers | to
+100 using
+concrete
+objects from
+the
+environment,
+
+d) play number
+games using
+number cards
+or digital
+devices,
+appreciate the use of
+numbers in real life
+situations.
+
+Learners in pairs or groups are guided to
+watch signed videos, captioned videos,
+illustrations and charts of objects from
+their immediate environment then collect
+safe concrete objects from the
+environment.
+
+Learners in groups are guided to
+fingerspell and sign the concrete objects
+collected from the environment.
+
+Learners in groups are guided to match a
+group of objects to their number value.
+Learners in groups to fingerspell and sign
+read and write number value of objects.
+
+In groups, learners discuss, choose and play
+number games in turns using number cards
+or digital devices.
+
+Strand Sub-strand Specific Suggested Learning Experiences Suggested
+Learning Key Inquiry
+Outcomes Question(s)
+1.0 1.1 Number By the end of the sub- Learners in groups are guided to identify, How do we tell
+NUMBERS Concept (8 strand, the learner fingerspell and sign read numbers | to our positions in a
+lessons) should be able to; 100 from cards or charts. competition?
+
+Core-Competencies to be developed:
+e Communication and collaboration: Teamwork is enhanced as learners actively contribute to group decision making in pairs or
+
+in groups, discuss.
+e Digital literacy: Interacting with digital technology as the learner plays games using digital devices with assistive technology.
+
+
+\Values:
+e Integrity: Transparency is enhanced as learners in groups run for a distance and each to be assigned the correct position using the
+words first, second up to Twentieth position depending on when they finish the race.
+
+Pertinent and Contemporary Issues (PCIs):
+e Self+ awareness: As learners participate in a race.
+
+[Link to other learning areas:
+e Learner interacts with environmental material for counting relating to the environment and its resources in Environmental activities.
+
+Suggested Learning resources:
+e Real objects like marbles, sticks, stones, grains, digital devices.
+
+
+Strand Sub-strand| Specific Learning Outcomes Suggested Learning Experiences Suggested Key
+Inquiry Question(s)
+1.0 NUMBERS| 1.2 By the end of the sub-strand, the | e Learners in pairs or groups fingerspell
+Whole learner should be able to: and sign numbers forward up to 100 —_ [How do we get the next
+Numbers | a) sign words related to starting from any point. Inumber in a number
+(20 lessons) counting of numbers eLearners in pairs or groups to sign pattern?
+
+forward up to 100,
+
+b) count numbers forward
+up to 100 in different
+situations,
+
+c) count numbers backward
+from number 50,
+
+d) read and write numbers | to
+100 in symbols in different
+situations,
+
+e) identify the place
+value of numbers in
+ones and tens,
+
+f) read and write numbers | to
+20 in words,
+
+g) work out missing numbers
+in number patterns up to
+100,
+
+h) appreciate number
+patterns in playing number
+games.
+
+numbers backward from 50 starting
+from any point.
+
+e Learners in pairs or groups are guided
+to practice through play using number
+cards counting numbers forward up to
+100.
+
+e Learners in groups discuss the place
+value of digits written on number
+cards on the chalkboard.
+
+e Sign read and write numbers 1
+to 20 in words.
+
+e Work out missing numbers in
+number patterns up to 100.
+
+e Post them on the wall or be
+attached to their individual
+portfolios.
+
+e Improvise place value tins and
+pockets from locally available
+materials.
+
+e Learners are guided to play games
+involving whole numbers up to
+100 using digital devices and other
+resources.
+
+
+Core-Competence to be developed:
+e Learning to learn: Independent learning is enhanced as learners work on their own in assigned tasks of counting numbers to 100.
+
+Values:
+e Respect: Learners understand and appreciate others' ideas and value the input of their peers as they work in pairs taking turns to
+read and write numbers 1-100 in words using number cards.
+
+Pertinent and Contemporary Issues (PCIs):
+e Health promotion: Learners in pairs or in groups take care of each other as they count forward in 1’s, 10’s, and 100’s starting from
+any point up to 1000 using rope skipping game.
+
+Link to other learning areas:
+e Learners relate skills for rhyme singing in counting to Creative activities.
+
+Suggested Learning resources:
+e A number line drawn on the ground/floor, place value chart, a rope, number cards
+
+
+Strand Sub-Strand_ | Specific Learning Outcomes Suggested Learning Experiences Suggested Key
+Inquiry Question(s)
+
+1.0NUMBERS| 1.3 By the end of the sub-strand, the e Learners in pairs or groups are 1) How do you
+Addition learner should be able to: guided to identify fingerspell and arrange numbers
+
+(25 lessons)
+
+a) signa | digit and a 2-digit
+number and terms related to
+addition and place values,
+
+b) adda 2- digit number to up to
+a | -digit number without
+regrouping with sum not
+exceeding 100,
+
+c) adda 2- digit number to a 2-
+digit number with and without
+regrouping with sum not
+exceeding 100,
+
+d) add two multiples of 10 whose
+sum does not exceed 100,
+
+e) work out missing numbers in
+patterns involving addition of
+whole numbers up to 100,
+
+f) appreciate the addition of
+numbers in real life situations
+while using digital devices or
+other resources.
+
+sign a 2-digit number and a 3-
+digit number and terms such as
+place value, place value pocket
+value and charts.
+
+e In pairs, write additional
+sentences given in horizontal
+form into vertical form
+according to place value.
+
+e Add a 2-digit number to a 1-
+digit number without
+
+regrouping.
+
+e Add a 2-digit number to a 1-
+digit number with
+regrouping.
+
+e In pairs or groups, discuss and
+come up with different ways of
+adding two 2-digit numbers
+without and with regrouping.
+
+e In pairs or groups, add 2
+multiples of ten whose sum does
+not exceed 100.
+
+e Play games involving addition
+using digital devices or other
+resources.
+
+e Ingroups, make patterns
+using numbers up to 100 and
+share with other groups.
+
+when adding
+vertically
+
+2) How do you
+identify the first
+two numbers to
+add when adding
+three single digit
+numbers?
+
+3) How can you get
+the next number
+in a given
+pattern?
+
+
+e Learers in pairs /groups are
+guided to use digital devices
+or other resources for
+activities involving additions.
+
+(Core Competencies to be developed:
+Imagination and creativity: Learners develop the skill of making connections as they create and work out missing numbers in patterns
+involving addition up to 1000.
+
+|Values:
+IRespect: accommodate each other as they work in groups to make number patterns and share with other groups.
+
+Pertinent and Contemporary Issues (PCIs):
+Social cohesion as learners works in groups to practice adding 2 multiples of ten with sum not exceeding 100.
+
+[Link to other learning areas:
+[Learner relates pattern making skill using numbers shading and drawing in Creative activities.
+
+Suggested Learning resources:
+Basic addition facts table, place value chart, abacus, tins.
+
+
+Strand Sub-Strand Specific Learning Outcomes | Suggested Learning Experiences Suggested
+Key
+Inquiry
+Question
+1.0 1.4 By the end of the sub- e Learner in groups/pairs to be guided to [How do you identify
+NUMBERS | Subtraction _| strand, the learner identify, fingerspell and sign the missing number in
+(20 lessons) should be able to. subtraction and the operation sign (-) —_ ja number pattern
+a) sign subtraction and terms | Learners in groups are guided to use involving subtraction?
+related to subtraction, place value pockets and charts to aid
+b) subtract a 1-digit number them in placing digits in their correct
+from a 2-digit number place values during subtraction.
+without regrouping, e Learers in groups/pairs are guided to
+c) subtract a 2-digit number subtract a 2-digit number from a 2-digit
+from a 2-digit number number without regrouping using place
+without and with value apparatus. ;
+regrouping, e Learners in turns are guided to
+d) subtract a lower multiple subtract a 2-digit number from a 2-
+of 10 from a higher digit number with regrouping using
+multiple of 10, place value apparatus.
+e) work out missing numbers | ® Learners in groups are guided to
+in patterns _ involving subtract lower multiples of 10 from
+subtraction up to 100, higher multiples of 10. ;
+f) appreciate e Learners in groups are guided
+subtraction of discuss how to work out missing
+numbers in real life numbers in patterns involving
+situations subtraction up to 100.
+
+(Core Competencies to be developed:
+le Digital literacy: Learners interact with digital technology with assistive technology as they play games involving subtraction using
+digital devices and other resources.
+
+
+Values
+
+le ~Unity: cooperation working in their respective groups subtracting of up to 2- digit numbers without regrouping using place value
+pockets and share findings with others.
+
+Pertinent and Contemporary Issues (PCIs):
+le ~Social cohesion kindness and friendliness when work in pairs or groups to subtract multiples of 10.
+
+[Link to other learning areas:
+le Learner relates skills of subtraction of numbers to consumer education in Environmental activities.
+
+Suggested Learning resources:
+le Bottle tops, marbles, stones, grains, number line drawn on the ground/floor, multiplication tables, abacus.
+
+
+Strand Sub-Strand Specific Learning Outcomes Suggested Learning Experiences | Suggested
+Key Inquiry
+Question(s)
+1.0 1.5 By the end of the sub-strand, the Learner in groups/ pairs are 1) How can you
+NUMBERS | Multiplication | learner should be able to: guided to identify, fingerspell work out
+(10 lessons) a) sign multiplication and terms and sign multiplication and multiplication
+related to multiplication, terms related to multiplication using repeated
+b) represent multiplication as such as multiplication charts/ addition?
+repeated addition using tables. 2) How do model
+numbers 1, 2, 3, by 2 and 3, in pairs or groups, use multiplication as
+Cc) write repeated addition counters or other concrete repeated addition?
+sentences as multiplication objects to represent
+using ‘x’ sign, multiplication as repeated
+d) multiply 1-digit numbers by 1, addition.
+2,3, 4 and 5, in pairs, model
+e) multiply 1-digit numbers by 10, multiplication as repeated
+f) appreciate arranging objects in addition using concrete
+
+groups of 3’s, 4’s, 5’s and 10’s
+in real life situations.
+
+objects.
+
+use *X’ sign in writing
+repeated addition
+sentences as
+multiplication.
+
+in groups, multiply 1-digit
+numbers by 1, 2, 3, 4, 5.
+use locally available
+materials to model a
+multiplication chart and
+display in the learning
+environment.
+
+in groups, multiply 1-digit
+numbers by 10 to form
+multiples of 10.
+
+
+e play games involving
+multiplication using digital
+devices or other resources.
+
+e visit the local market to see
+how different fruits and other
+items are arranged in groups
+of 3's, 4's, 5's or 10's for
+selling.
+
+e Learners to be guided to
+watch signed
+videos/captions and
+play digital games
+involving
+multiplication.
+
+Core competencies to be developed:
+
+e Learning to learn: Learners develop self- discipline as they work collaboratively in pairs or groups to model multiplication as
+repeated addition of numbers 1, 2, 3, 4 and 5 by 4 and 5 using counters.
+
+e Digital literacy: Interacting with digital technology as the learner plays adapted digital games involving multiplication
+
+|Values
+le Unity: Cooperation in sharing resources amicably as they model multiplication as repeated addition.
+
+Pertinent and Contemporary Issues (PCIs):
+le Financial literacy as learners visits the local market to see how different fruits and other items are arranged in groups of 3's, 4's, 5's
+or 10's for selling.
+
+[Link to other learning areas:
+le Learner relates multiplication skills to consumer education in Environmental activities.
+
+Suggested Learning resources:
+le Bottle tops, marbles, stones, sticks, grains, multiplication tables
+
+10
+
+Strand Sub-Strand Specific Learning Outcomes | Suggested Learning Experiences Suggested
+Key Inquiry
+Question(s)
+1.0 1.6 By the end of the sub- e Learner in groups/ pairs are guided to | 1. How can you
+NUMBERS | Division strand, the learner should identify, fingerspell and sign division represent division
+(8 be able to: and terms related to division such as as repeated
+lessons) a) sign division and terms take away, remainder. subtraction?
+
+related to division,
+
+b) represent division
+as equal sharing up
+to number 20 by 2,
+
+c) represent division
+as equal grouping
+of numbers up to 25
+by 3,
+
+d) use'+' sign in writing
+division sentences,
+
+e) divide numbers up to 25
+by 4 and 5 without a
+remainder,
+
+f) appreciate the
+application of division
+of numbers in real life
+situation.
+
+e in groups, share a given number of
+objects equally by each picking one
+object at a time until all the objects
+are finished. Each learner to count
+how many objects he/she got.
+
+e asaclass, place several objects
+together, let each group pick one item
+at a time until there is no object
+remaining, each group to count the
+number of objects they picked.
+
+e write division sentences
+using the sign ‘+’.
+
+e Organise numbers up to 25
+into groups of 4 or 5 without
+a remainder.
+
+e play games involving division using
+digital devices or other resources.
+
+2. How can we use the
+
+multiplication table
+to work out division
+questions?
+
+(Core Competencies to be developed:
+
+le Communication and collaboration: Learners develop teamwork as they contribute to group discussion and actively
+participating in modeling division as repeated subtraction of numbers up to 50 by 4 and 5 using counters and share their
+findings with others.
+
+11
+
+
+(Values:
+
+le ~=Social justice: Freedom working freely with each other regardless of their background as they share a given number of objects
+equally.
+
+Pertinent and Contemporary Issues (PCIs):
+le Social cohesion accommodating each other regardless of their background as they share a given number of objects equally.
+
+Link to other learning areas:
+le Learners relate skills in division to sharing in religious education activities.
+
+Suggested Learning resources:
+fe Basic addition facts table, place value chart, multiplication table.
+
+12
+
+Strand Sub-strand | Specific Learning Outcomes | Suggested Learning Experiences Suggested Key
+Inquiry Question(s)
+1.0 1.7 By the end of the sub-strand e Leamers in pairs or groups to bg guided to {How can you
+NUMBERS | Fractions the learner should be able to: identify, fingerspell and sign fractions, represent a half, a
+(10 lessons) | a) sign different types of proper fraction, improper fraction, mixed  (uarter or an eighth of
+fractions and terms fraction, numerator and denominator. a group?
+related to fractions, . . :
+identify a 2 . e In pairs, use papers, pencils and a pair of
+b) 1 ok ya 2 part ofa scissors to make circular paper cut-outs
+whole in different while observing safety.
+situations, : .
+1 e In pairs, fold the circular paper cut-outs _
+c) identify a = as part ofa into two equal parts and identify one of the
+whole in different parts as a half of the whole written as ~.
+situations, , 2
+d) use fractions in day-to-day | ® In pairs, make rectangular paper cut-outs
+activities, — and fold them into two equal parts to get a
+appreciate the application half of a whole written as=.
+of fractions in daily life ; ; 2
+activities. e In pairs, fold circular paper cut-outs to get
+4 equal parts and identify one of the parts
+asa : of a whole.
+e In pairs, practice making halves and
+quarters of a whole.
+e Play games involving fractions using
+digital devices or other resources.
+
+(Core-Competencies to be developed:
+le §=Critical thinking and problem solving: Communication skill is developed as learners discuss in pairs or in groups how to divide a
+number of objects into 8 equal groups and identify each of the small groups as eighth of a whole.
+
+(Values:
+
+le Unity: The spirit of cooperation is enhanced as learners work as a team to make rectangular cut-outs and fold them into 4 equal parts
+to get a quarter of a whole.
+
+13
+
+Pertinent and Contemporary Issues (PCIs):
+le Safety: Learners in pairs or in groups to safely make circular cut-outs from manila papers.
+
+[Link to other learning areas:
+le Learners are guided to make rectangular cut-outs and fold to get 8 equal parts and identify one part as % of the whole.
+
+Suggested Learning resources:
+le §©Circular and rectangular cut outs, marbles, bottle tops, sticks, grains, stones, manilla papers
+
+14
+
+Assessment Rubrics
+
+Exceeds Expectations
+
+Meets Expectations
+
+Approaches Expectations
+
+Below Expectations
+
+Ability to sign
+terms related to
+numbers
+
+Sign all terms related to
+numbers (number
+concepts, whole
+numbers, addition,
+subtraction, division,
+multiplication and
+fraction) used in a
+given context clearly
+and concisely.
+
+Sign terms related to
+measurements with good
+accuracy but may require
+prompts for less common
+terms
+
+sign terms related to
+numbers, but may make
+errors or struggle with less
+common terms
+
+sign terms related to
+numbers confusing
+most of the terms
+prompting the learner
+to fingerspell the terms
+
+Ability to identify
+positions of
+numbers 1-20.
+
+Identify positions of
+numbers 1-100 in both
+ascending and
+descending sequences
+and write the position
+of the numbers Ist, 2nd,
+3rd up to 20th.
+
+Identify positions of numbers
+1-100 in both ascending and
+descending sequences and
+write the position of most
+numbers Ist, 2nd, 3rd up to
+20th.
+
+Identify positions of
+numbers 1-20 but with
+notable errors in both
+ascending and descending
+sequences and write the
+position of the numbers Ist,
+2nd, 3rd up to 20th.
+
+Identify positions of
+numbers 1-20 but with
+limited ability to order
+numbers in both
+ascending and
+descending sequences
+and make significant
+errors in writing the
+position of the
+numbers Ist, 2nd, 3rd
+
+up to 20th.
+Ability to count Count numbers up to count numbers up to 1000 Count numbers up to 1000 ‘| Count numbers up to
+numbers up to 1000 maintaining maintaining consistency in but with inconsistencies in 1000 but with limited
+
+to 3-digit numbers
+
+numbers without and
+
+without and with regrouping
+
+without and with regrouping
+
+1000 consistency throughout | most parts of the counting counting sequence and ability to count the
+the counting sequence _| sequence and shows good portrays some numbers frequently
+and understands and understanding of understanding of place value | skipping or repeating
+applies place value place value concepts while concepts while counting up | and lacks place value
+concepts while counting up to 1000. to 1000. concepts.
+counting up to 1000.
+
+Ability to add up add up to 3-digit add up to 3-digit numbers add up to 3-digit numbers add up to 3-digit
+
+numbers without and
+
+15
+
+
+without and with
+regrouping with a
+sum not exceeding
+1000.
+
+with regrouping with a
+sum not exceeding
+1000 by demonstrating
+clear understanding of
+regrouping and solving
+the problems
+effectively
+
+with a sum not exceeding
+1000 by demonstrating
+understanding of regrouping
+and solving the problems
+effectively.
+
+with a sum not exceeding
+1000 by demonstrating
+some understanding of
+regrouping and add the
+problems omitting some key
+aspects in addition.
+
+with regrouping with a
+sum not exceeding
+1000 in a somewhat
+disorganised manner
+that lacks clarity.
+
+Ability to subtract
+up to 3-digit
+numbers from a 3-
+digit number
+without and with
+
+Subtract up to 3-digit
+numbers from a 3-digit
+number without and
+with regrouping by
+demonstrating clear
+
+Subtract up to 3-digit
+numbers from a 3-digit
+number without and with
+regrouping by demonstrating
+understanding of regrouping
+
+Subtract up to 3-digit
+numbers from a 3-digit
+number without and with
+regrouping by
+demonstrating some
+
+Subtract up to 3-digit
+numbers from a 3-digit
+number without and
+with regrouping in a
+somewhat
+
+regrouping. understanding of and subtracting the problems | understanding of regrouping | disorganised manner
+regrouping and effectively. and subtract the problems that lacks clarity.
+subtracting the omitting some key aspects
+problems effectively in subtraction.
+
+Ability to multiply | Multiplies single Multiplies single digit Multiplies single digit Multiplies single digit
+
+a single digit digit number by single | number by single digit number by single digit number by single digit
+
+number by a single | digit number, highlighting the number with little analysis | number without
+
+digit number. number insightfully and | products of each of the products of analysing the patterns
+with critical analysis of | multiplication. multiplication. and lacks clarity in
+
+the products and the
+patterns generated.
+
+organisation.
+
+Ability to divide 2-
+digit numbers by a
+single digit
+number without a
+remainder.
+
+Divide 2-digit numbers
+by a single digit
+number without a
+remainder and
+efficiently demonstrates
+a clear understanding of
+the concept with clarity.
+
+Divide 2-digit numbers by a
+single digit number without a
+remainder with neatly and
+clearly organised steps
+making it easy to follow the
+division and demonstrates a
+clear understanding of the
+concept.
+
+Divide 2-digit numbers by a
+single digit number without
+a remainder but omits some
+key aspects in performing
+division.
+
+Divide 2-digit
+numbers by a single
+digit number without a
+remainder in a
+somewhat
+disorganised manner
+that lacks clarity.
+
+16
+
+
+Ability to identify
+VY, Va, Ve as part of
+a whole or group
+
+Identifies 2, % and
+as part of a whole or
+group with a
+comprehensive
+elaboration and
+demonstrates how it is
+obtained from the
+whole with clarity.
+
+Identifies '4, 4 and ¥% as part
+of a whole or group
+mentioning how it is obtained
+from the whole.
+
+Identifies 2, % and ’% as
+part of a whole or group
+with little information on
+how it is obtained from the
+whole.
+
+Identifies %, % and %
+as part of a whole or
+group without
+explaining how it is
+obtained from the
+whole.
+
+17
+
+
+STRAND2.0 MEASUREMENT
+
+Strand Sub-Strand Specific Learning Outcomes} Suggested Learning Experiences Key Inquiry
+Question(s)
+2.0 Measurement | 2.1 By the end of the sub-strand, | e Learners in pairs/group are 1. How do you
+Length the learner should be able to: guided to identify, fingerspell, measure the
+(6 lessons) a) sign length and terms read by signing and write length chalkboard using a
+related to length, and terms related to length such metre stick?
+b) measure length using as meters, distance, measure, 2. How do you get
+fixed units, estimate. the total length in
+c) identify the metre as a e In pairs or groups, use sticks of metres of the 4
+unit of measuring length, equal length to measure classroom walls?
+d) measure length in metres, lengths of different objects and 3. How do you
+e) appreciate record the measurements. measure the
+measuring length e In pairs or groups, use sticks distance between
+using fixed units in of different lengths to the flag post and
+real life situations. measure length, including a the staffroom
+1- metre sticks. using a 5 metres
+e Use locally available materials to long string?
+make 1-metre sticks and use
+them to measure the length of
+various objects within the
+classroom and record the
+measurements.
+e@ Measure the length of different
+objects at home, record the
+measurements and _ discuss
+with peers in school.
+e Learmers in pairs are guided to
+
+watch and take videos of others
+measuring length then play back
+and discuss their results using
+
+digital devices.
+
+18
+
+
+(Core Competencies to be developed:
+le Digital literacy: Interacting with digital technology playing games involving length measurement using digital devices,
+
+|Values:
+le Integrity: Learners develop consistency as they engage in measuring the length of the chalkboard and the teacher’s table in metres.
+
+Pertinent and Contemporary Issues (PCIs):
+¢ Environmental awareness: Learners in groups measure the lengths of the 4 walls in their classroom and add the lengths.
+
+[Link to other learning areas: Learners relates measuring skills.
+
+Suggested Learning resources:
+eBooks, pencils, rulers, sticks, bottles, metre rule, metre sticks, digital devices, strings
+
+19
+
+Strand Sub-Strand Specific Learning Suggested Learning Experiences Suggested
+Outcomes Key
+Inquiry
+Question
+2.0 Measurement | 2.2 By the end of the sub- e Learners in pairs or groups are IHow can you make a
+Mass strand, the learner guided to identify fingerspell, 1kg mass using a beam
+should be able to: read and write terms related to balance?
+(6 a) sign mass and terms mass, such as kilograms, beam
+lessons) related to mass, balance, weighing scale.
+
+b) measure mass using
+fixed units,
+
+c) identify the kilogram as
+a unit of measuring
+mass,
+
+d) measure mass of
+different objects in
+kilograms,
+
+e) appreciate
+measuring mass
+using fixed units
+in real life
+situations.
+
+e In pairs or groups, collect safe
+materials from the environment
+for measuring mass.
+
+e Inpairs or groups use locally
+available materials to improvise a
+beam balance.
+
+e In pairs or groups, use items of the
+same mass and an improvised
+beam balance to measure different
+masses, record and discuss the
+results.
+
+e In pairs or groups, use an item
+equivalent to a 1-kilogram mass and
+a beam balance to measure mass of
+different objects in kilogram
+accurately.
+
+e Visit a shop or market and
+assist vendors measure items
+such as beans, maize, rice,
+flour using fixed units, for
+example an empty 1-kilogram
+container.
+
+20
+
+
+e Measure the mass of different
+items in kilograms using a 1-
+kilogram container.
+
+e In pairs or groups learners are
+guided to play digital games
+involving mass.
+
+(Core competencies to be developed:
+le Communication and collaboration: Signing and observing in groups, use items of the same mass and an improvised beam balance
+to measure different masses, record and discuss the results,
+
+Values:
+le Integrity: honesty in measuring mass of different objects and sharing own findings with others.
+
+Pertinent and Contemporary Issues (PCIs):
+le Safety of self and others to avoid accidents as they collect materials to be used to measure mass in their immediate environment.
+
+[Link to other learning areas:
+le Learner relates measuring skills to consumer education in Environmental activities.
+
+Suggested Learning resources:
+le Masses of lkg, soil, sand, beam balance
+
+21
+
+Strand Sub-Strand Specific Learning Outcomes | Suggested Learning Experiences | Suggested
+Key Inquiry
+Question(s)
+2.0 Measurement] 2.3 By the end of the sub- Learners in groups/pairs are [How can we measure
+Capacity strand, the learner should guided to identify, capacity of a 20litres
+(8 be able to: fingerspell, sign read and jjerrycan?
+lessons) a) sign capacity and terms write capacity and terms
+
+related to capacity,
+
+b) measure capacity using
+fixed units.
+
+c) identify the litre as a unit
+of measuring capacity.
+
+d) measure capacity in litres.
+
+e) appreciate measuring
+capacity in litres using
+improvised containers in
+real life situations.
+
+related to capacity such as
+litres.
+
+Learners in pairs /groups are
+guided to collect safe
+materials in their immediate
+environment to be used to
+measure capacity.
+
+Learners in groups are
+guided through
+demonstration/ illustration
+on measuring capacity.
+Learners in pairs or groups
+are guided to discuss and
+measure capacity of different
+containers using | litre
+containers.
+
+Learners in turns are guided
+to practice addition of
+capacity in litres in real life
+situations, example using a
+1litre container to fill a 10
+litres container.
+
+Learners in turns are guided
+to practice subtraction of
+
+22
+
+
+capacity in litres in real life
+situations.
+
+e In pairs learners are guided
+to estimate capacity using
+1 litres bottle.
+
+e In groups learners to be
+guided to watch recorded
+signed videos/captions,
+demonstrations and play
+digital games involving
+capacity in real life
+situations.
+
+(Core Competencies to be developed:
+le Creativity and Imagination: identify the resources within the school environment for use in estimating capacity using | Litre
+containers
+
+|Values:
+le Peace: Caring for peers and in turns practise addition of capacity in litres in real life situations.
+
+Pertinent and Contemporary Issues (PCIs):
+le Environmental Education and Climate change: Keeping surroundings clean and neat as the learner navigates their environment as
+they collect safe materials for measuring capacity.
+
+[Link to other learning areas:
+le Learner relates skills in measuring to consumer education in Environmental activities.
+
+Suggested Learning resources:
+le Containers of different sizes, 1 litre containers, sand, soil, water, 5 litre containers, digital devices
+
+23
+
+Strand Sub-Strand | Specific Learning Outcomes Suggested Learning Experiences Suggested
+Key Inquiry
+Question(s)
+2.0 Measurement [2.4 Time By the end of the sub-strand, Learners in pairs /groups are How do we read
+(10 lessons)| the learner should be able to: - guided to identify, fingerspell and tell time using
+
+a)
+b)
+c)
+d)
+e)
+f)
+8)
+h)
+
+i)
+
+sign time and terms related to
+time,
+
+relate the months of the year
+
+to special occasions,
+
+recite the number of days in
+each month of the year,
+
+read the calendar in terms of
+day and date,
+
+measure time using arbitrary
+units.
+
+identify the minute and hour hand
+in clock face,
+
+read time by the hour from the
+clock face,
+
+write time by the hour shown by
+an analogue and digital clock,
+appreciate keeping time in day-
+to-day activities.
+
+and sign time and terms related
+to time, i.e. clock, digital and
+analog clock, minute, ‘past’,
+‘to’.
+
+In pairs or groups, discuss
+special occasions that take
+
+place in different months of
+
+the year.
+
+In pairs or groups, sign sing
+songs and rhymes related to the
+number of days in the months of
+the year.
+
+In pairs or groups, discuss how
+to read, tell and write dates from
+the calendar.
+
+In pairs or groups, discuss and
+relate time by hour using the
+length of a shadow of an
+
+object such as a tree in the
+environment.
+
+Discuss places where clocks
+
+are displayed and how they
+look.
+
+Observe a clock face and
+discuss the minute and hour
+hand.
+
+digital and
+analogue clock?
+
+24
+
+
+e Discuss how to read, tell and
+write time by the hour using
+both the analogue and digital
+clock.
+
+e Discuss the importance of
+keeping time in different
+activities.
+
+Core Competencies to be developed:
+le +Communication and collaboration: Signing and observing clearly and effectively as they discuss in pairs or in groups how to tell
+time on the clock face using “past” and “to” the hour.
+
+\Values:
+le Respect: patiently wait for their turn to read and tell time on a digital clock.
+
+Pertinent and Contemporary Issues (PCIs):
+le Governance: Law and order in school in keeping time as learners in turns read and tell time on a digital clock.
+
+[Link to other learning areas:
+le Learners relate time skills to positions and direction in Environmental education and activities.
+
+Suggested Learning resources:
+e Clock face both analogue and digital, tactile clock face, manilla paper
+
+25
+
+Strand Sub-Strand | Specific Learning Outcomes | Suggested Learning Experiences Suggested
+Key Inquiry
+Question(s)
+2.0 22.5 Money By the end of the sub-strand, |e Learners in pairs or groups are How do you
+Measurement the learner should be able to: guided to identify, fingerspell, sign represent same
+(10 lessons) a) sign terms related to and sort out Kenyan currency notes amount of money
+Kenyan currency. according to their value up to using different
+b) identify Kenyan currency sh.1000 i.e. sh. 5 coin, sh 10 coin, denominations?
+coins and notes up to sh 20 coin, sh 50 note, sh 100 note
+sh.100, and balance.
+c) count the number of sh. e In pairs or groups, recognize and
+10 and sh. 20 coins in sort out Kenyan currency coins and
+different situations, notes up to sh.100.
+d) count the number of sh. e In groups, make sh. 10 and sh. 20
+50 and sh. 100 notes in coins paper cut-outs, sort and count
+different situations, the number of sh. 10 and sh. 20
+e) add two denominations of coins paper cut-outs.
+money with a sum not e In groups, make sh. 50 and sh. 100
+exceeding sh. 100, notes paper cut-outs, sort and count
+f) use money to buy up to 3 the number of sh. 50 and sh. 100
+items without balance, notes paper cut-outs.
+g) appreciate the use of money| e Add two denominations of money
+
+in buying items.
+
+with a sum not exceeding sh. 100.
+In pairs or groups, role play buying
+up to 3 items without balance from
+the model shop in the classroom.
+Record a video during a role play of
+classroom shopping activities.
+
+26
+
+
+(Core Competencies to be developed:
+le Citizenship: Information and communication skills communicates and collaborates with their peers, in pairs or in groups
+counting Kenyan currency notes in different denominations up to sh100 using imitation money.
+
+(Values:
+
+le Patriotism: Learners dedicate while working in pairs or groups sort out Kenyan currency notes according to their value up to
+sh.1000.
+
+Pertinent and Contemporary Issues (PCIs):
+
+le Financial literacy: The choice of what to buy and what not to buy as learners in groups role play buying up to 3 items involving
+balance using imitation money up to sh.1000 in shopping activities.
+
+[Link to other learning areas:
+le Learners relate skills on buying and shopping activities in Language activities.
+
+Suggested Learning resources:
+fe Kenyan currency coins and notes or imitations up to sh.1000, classroom shop, digital devices
+
+27
+
+STRAND 3.0 GEOMETRY
+
+(5 lessons)
+
+strand, the learner should
+
+be able to:
+
+a) sign position,
+direction and related
+terms,
+
+b) model straight lines in
+different ways,
+
+c) draw straight lines in
+different ways,
+
+d) model curved lines in
+different ways,
+
+e) draw curved lines in
+different situations,
+
+f) appreciate the use of
+lines in real life
+situations
+
+guided to identify, fingerspell and
+sign position, direction, right, left,
+turn.
+
+In pairs /groups, safely model
+straight lines using sticks, plasticine
+or clay or papier Mache and strings.
+In pairs /groups, safely model
+curved lines using plasticine or
+clay or papier Mache and
+
+strings.
+
+Individually model straight and
+curved lines by holding their
+
+hands in different ways;
+
+upward, horizontal, diagonal.
+
+Draw straight and curved lines on
+
+manila papers and books using pencils,
+
+crayons and rulers or sticks.
+Use digital devices or other resources
+to draw lines.
+
+Strand Sub-strand Specific Learning Suggested Learning Experiences Suggested
+Outcomes Key Inquiry
+Question(s)
+3.0 Geometry | 3.1 Lines By the end of the sub- Learners in pairs or groups are How do cross the
+
+road when you get to
+a road junction?
+
+(Core Competencies to be developed:
+
+and turning left or right.
+
+le Learning to Learn: Develop relationships in groups recreate moving along a straight line from a given point outside the classroom
+
+(Values:
+
+le Respect: open mindedness as learners listens and accommodate others’ opinions during modeling of straight and curved lines.
+
+Pertinent and Contemporary Issues (PCIs):
+
+
+Environmental awareness: Learners use their body parts in movement in moving along a straight line from a given point outside the
+classroom.
+
+[Link to other learning areas:
+
+Learners relate skills in line formation to drawing in Creative art activities.
+
+Suggested Learning resources:
+
+e Charts showing a straight line, a turn to the left and a turn to the right
+
+31
+
+
+making using digital devices or
+other resources.
+
+Strand Sub-strand | Specific Learning Outcomes Suggested Learning Experiences Key Inquiry
+Question(s)
+3.0 Geometry] 3.2 By the end of the sub-strand, e Learers in pairs or groups are guided] How many shapes can
+Shapes the learner should be able to: - to identify, fingerspell and sign shape| you identify in your
+a) sign shape and terms related and terms related to shapes. school?
+“ i shape, ef e Learners in pairs or groups are
+essons) b) identity different guided to name different shapes in
+shapes in the : .
+, the environment (triangles, squares,
+environment, .
+. circles and ovals).
+c) draw shapes in °
+different ways e In pairs or groups, learners
+d) draw patterns , discuss types of lines in different
+involving different shapes (triangles, squares, circles
+shapes, and ovals).
+appreciate the use of shapes e In turns, learners name different
+in forming patterns in shapes of objects or on surfaces in
+fabrics. their classroom.
+e Draw triangles, squares, circles and
+ovals on manila papers and display
+in the learning environment.
+e In groups, learners make patterns
+using triangles, squares, circles and
+ovals, colour them and share with
+other groups.
+e Play games involving pattern
+
+(Core Competencies to be developed:
+e@ Creativity and imagination: Imagination and originality as learners in pairs or groups draw or model combined figures found in the
+environment using up to 2 different shapes for example a hut.
+
+e Digital literacy: Using digital devices as learners use digital devices with assistive technology to play digital games
+
+(Values:
+
+32
+
+
+[Unity: Cooperation sharing available resources in groups or in pairs, for modelling combined figures of up to 2 shapes using safe
+locally available materials.
+
+Link to PCIs:
+le Environmental awareness: learners identify and name the different shapes from the cutouts and relate to shapes found in the
+environment.
+
+[Link to other learning areas:
+le Learners relate skills on combined figures and shapes to drawing and shading in Creative arts.
+
+Suggested Learning resources:
+e Cut- outs of rectangles, circles, triangles, ovals and squares of different sizes, tactile diagrams showing shapes, tactile cut-outs
+
+33
+
+Assessment Rubric
+
+LEVEL Exceeds Expectations Meets Expectations Approaches Expectations | Below Expectations
+INDICATOR
+Ability to sign sign the terms related to sign the terms related to signs terms related to sign term related to
+the terms related | lines and shapes with line and shapes. lines and shapes with lines and shapes with
+to geometry. appropriate facial limited facial expression noticeable struggles.
+expressions and body and body language
+language.
+Ability to draw Draws straight and curved | Draws straight and curved | Draws straight and curved | straight and curved
+straight and lines in different situations | lines in different situations | lines in different situations | lines in various
+curved lines in consistently applying the by applying the concepts __| applies the concepts of situations but lacks the
+different concepts of straight and of straight and curved straight and curved lines in | ability to apply it in
+situations curved lines in various lines in various situations _| various situations with different situations.
+situations. noticeable errors.
+Ability to identify | Identify shapes from a Identify shapes from a Identify shapes from a Identify shapes from a
+shapes from a figure made of different figure made of different figure made of different figure made of
+figure made of shapes with comprehensive | shapes by showing a clear | shapes with limited different shapes
+different shapes. | analysis of the shapes with | understanding of the understanding of the without any
+clarity and generate more shapes. shapes. explanations of the
+complex shapes. shapes.
+
+34
+
+
+SUGGESTED RESOURCES
+
+SUB -STRANDS RESOURCES
+
+NUMBER CONCEPT Marbles, sticks, stones, grains
+
+WHOLE NUMBERS |A number line drawn on the ground/floor, place value chart
+
+FRACTIONS Circular and rectangular cut outs, marbles, bottle tops, sticks, grains, stones
+
+ADDITION Place value chart, abacus, basic addition facts table
+
+SUBTRACTION Basic addition facts table, place value chart
+
+MULTIPLICATION Bottle tops, marbles, stones, grains, number line drawn on the ground/floor, multiplication
+tables
+
+DIVISION Bottle tops, marbles, stones, sticks, grains, multiplication tables
+
+LENGTH Books, pencils, rulers, sticks, bottles, metre rule, metre sticks
+
+MASS Masses of Ikg, soil, sand, beam balance
+
+CAPACITY Containers of different sizes, litre containers, sand soil water,5 litre containers
+
+TIME Clock face both analogue and digital
+
+MONEY Kenyan currency coins and notes/imitations up to sh.1000, classroom shop
+
+POSITION AND DIRECTION Charts showing a straight line, a turn to the left and a turn to the right
+
+SHAPES Cut- outs of rectangles, circles, triangles, ovals and squares of different sizes
+
+Suggested Assessment Methods and Tools
+
+1. Written tests and quizzes
+
+2. Rating scales
+
+3. Projects
+
+4. Observation Schedules
+5. Portfolio
+
+6. Assessment Rubric
+
+7. Questionnaire
+
+35
+
+
+NOTE
+The following ICT devices may be used in the teaching/learning of mathematics at this level:
+
+Learner digital devices (LDD), Teacher digital devices (TDD), Mobile phones, Digital clocks, Television sets, Videos, Cameras,
+Projectors, Radios, DVD
+
+players, CD’s, Scanners, Internet among other
+
+36
+
+Community Service Learning at Early Years Education (PP1&2 and Grade 1-3)
+
+At this level, the goal of the CSL activity is to provide linkages between concepts learnt in the various Learning Activities and the real-
+life experiences. Learners begin to make connections between what they learn and the relevance to their daily life. CSL is hosted in the
+Environmental Activities learning area. The class teacher is expected to identify and guide learners to undertake age-appropriate whole-
+class integrated CSL activity within the school. The safety of the learners should also be taken into account when selecting the CSL
+activity. The following steps for the integrated CSL activity should be staggered across the school terms:
+
+Steps in carrying out the integrated CSL activity
+
+1) ‘Preparation
+
+Determine the activity for the learners.
+
+Map out the targeted core competencies, values and specific learning areas skills for the CSL activity
+
+Identify resources required for the activity (locally available materials)
+
+Stagger the activities across the term (Set dates and time for the activities)
+
+Communicate to learners, parents/caregivers/guardians, school administration, teachers and other relevant stakeholders in the
+school community
+
+e Identify and develop assessment tools
+
+2) Implementation of CSL Activity
+
+Assigning roles to learners.
+
+Ensure every learner actively participates in the activity
+
+Observe learners as they carry out the CSL activity and record feedback.
+
+Use an appropriate assessment tool to assess both the process and the product (Assess learner’s work from the beginning to
+the end product)
+e Assess the targeted core competencies, values and subject skills.
+
+
+3) Reflection on the CSL Activity
+Conduct a self-evaluation session with learners on the integrated CSL activity undertaken by discussing the following:
+e@ what went well and why?
+e@ what did not go well and why,
+e@ what can be done differently next time?
+e@ what they have learnt.
+
+There will be one integrated CSL activity that will be conducted annually. The thematic areas for the integrated CSL activity will be
+derived from the broader categories of the PCIs and concepts from the various Learning Areas. The teachers are expected to vary the
+themes yearly to allow learners to address different PCIs within their contexts. There should be a linkage between the skills from the
+learning areas and the themes.
+
+The integrated CSL activity will take a Whole School Approach (WSA) where the entire school community is involved (learners,
+parents/caregivers/guardians, school administration, teachers). Parents/caregivers/guardians are key stakeholders in the planning and
+execution of the CSL activity. Although the teacher takes the lead role in the planning and integration of the CSL activity, learners will
+be expected to participate actively in the whole process.
+
+The CSL activity provides an opportunity for the development of core competencies and the nurturing of various values. The teacher is
+expected to vary the core competencies and values emphasised in the activity yearly.
+
+Assessment of the CSL Activity
+
+Assessment of the integrated CSL activity will focus on 3 components namely: skills from various learning areas applied in carrying out
+the activity, and core competencies developed, and values nurtured. Assessment should focus on both the process and end product of the
+CSL activity. The teacher will assess learners in groups using various tools such as an observation schedule, checklist, rating scale or any
+other appropriate assessment tool.
+
+38

@@ -1,50 +1,72 @@
 # CBC Student Competency Predictor
 
-A lightweight machine learning classification pipeline that evaluates student learning telemetry and environmental factors to predict CBC competency performance bands (*EE, ME, AE, BE*).
+Turns learner telemetry into one of four CBC competency bands (**BE / AE / ME / EE**).
+The band is passed to the RAG + LLM layers, which choose Grade 2 KICD content difficulty.
+
+**Full statistics, cleaning details, column list and model comparison: [REPORT.md](REPORT.md).**
 
 ---
 
-## 1. System Overview
-* **Role in Architecture:** Evaluates student profile attributes and behavioral quiz metrics (<5 ms CPU inference) to output a predicted competency band, which will be used to call the Generative AI / RAG quiz generation engine.
-* **Core Libraries:** `pandas`, `scikit-learn`, `xgboost`, `joblib`.
+## Dataset
+
+Kaggle **Student Performance Factors** (`lainguyn123`): 6,607 learners, 19 features.
+
+| Strongest signals | r with `Exam_Score` |
+|---|---|
+| `Attendance` | +0.581 |
+| `Hours_Studied` | +0.446 |
+| `Previous_Scores` | +0.175 |
+| `Tutoring_Sessions` | +0.156 |
+
+Bands are quartiles of `Exam_Score`; cut points are stored in the artifact.
 
 ---
 
-## 2. Data Pipeline & Features
-* **Target Variable:** Continuous final scores (`FinalGrade`) are grouped into standard KICD CBC bands:
-  * $\ge 80 \rightarrow$ Exceeding Expectation (EE)
-  * $60\text{--}79 \rightarrow$ Meeting Expectation (ME)
-  * $40\text{--}59 \rightarrow$ Approaching Expectation (AE)
-  * $< 40 \rightarrow$ Below Expectation (BE)
-* **Numerical Features:** `StudyHoursPerWeek`, `Attendance (%)`, `PreviousGrade`, `Online Classes Taken`.
-* **Categorical Features:** `ParentalSupport`, `ExtracurricularActivities`, `Gender`.
-* **Excluded Identifiers:** `StudentID` and `Name` dropped to prevent overfitting.
+## Results at a glance
+
+| Model | CV accuracy |
+|---|---|
+| **Logistic Regression** | **0.950 ± 0.006** |
+| XGBoost | 0.747 ± 0.015 |
+| Random Forest | 0.703 ± 0.015 |
+| Decision Tree | 0.600 ± 0.007 |
+
+The target is close to linear (R² ≈ 0.60), so the simplest model wins. Full breakdown in
+[REPORT.md §8](REPORT.md#8-model-comparison).
 
 ---
 
-## 3. Preprocessing & Data Leakage Prevention
-* **Encapsulation via `ColumnTransformer`:**
-  * **Numeric Pipeline:** `SimpleImputer(strategy="median")` followed by `StandardScaler()`.
-  * **Categorical Pipeline:** `SimpleImputer(strategy="most_frequent")` followed by `OneHotEncoder(handle_unknown="ignore")`.
-* **Label Encoding:** Scikit-learn's `LabelEncoder` guarantees contiguous integer target indices (`[0, 1, 2...]`), avoiding missing-class value errors in XGBoost.
-* **Stratified Splitting:** 80/20 train-test split (`train_test_split`) using `stratify=y_encoded` to preserve minority-class distributions across both subsets.
+## Usage
+
+```bash
+python predictor/train_model.py      # train, cross-validate, write bundle + metrics.json
+python predictor/test_inference.py   # smoke-test three sample learners
+python predictor/evaluate.py         # stats, correlations, CV, importances
+```
+
+| Artifact | Contents |
+|---|---|
+| `cbc_predictor_bundle.pkl` | Pipeline, label encoder, feature lists, band cut points, metrics |
+| `metrics.json` | Same metrics as plain JSON |
 
 ---
 
-## 4. Model Training & Export
-* **Classifier:** `XGBClassifier` configured with shallow tree depth (`max_depth=5`), moderate estimators (`n_estimators=120`), cautious step size (`learning_rate=0.08`), and `eval_metric="mlogloss"`.
-* **Complete Pipeline Packaging:** Preprocessing steps and the trained boosting model are wrapped into a single `Pipeline` instance.
-* **Artifact Generation:** Saved via `joblib.dump()` into `cbc_predictor_bundle.pkl`, containing:
-  * The fitted scikit-learn `Pipeline` object.
-  * Bidirectional class label mapping dictionaries.
-  * Expected input column schemas.
+## Decoding predictions
+
+`LabelEncoder` sorts band names **alphabetically**, not by difficulty. Always decode with
+the same encoder:
+
+```python
+band = artifact["label_encoder"].inverse_transform([idx])[0]
+```
+
+Never use a hand-written dictionary — that was the old bug, which silently swapped
+BE↔AE and ME↔EE.
 
 ---
 
-## 5. Usage & Inference
-1. **Train Model:** Run `python train_model.py` to process the dataset, evaluate classification metrics (Macro F1 & Confusion Matrix), and serialize the bundle.
-2. **Predict:** Load `cbc_predictor_bundle.pkl` directly inside FastAPI server startup memory:
-   ```python
-   artifact = joblib.load("cbc_predictor_bundle.pkl")
-   pipeline = artifact["pipeline"]
-   predicted_band = artifact["label_mapping"][pipeline.predict(student_payload)[0]]
+## Limitations
+
+Not Kenyan, not CBC-specific, cohort-relative bands. See
+[REPORT.md §10](REPORT.md#10-limitations) for the full list and the dataset search that
+justifies the proxy choice.
