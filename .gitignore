@@ -1,0 +1,44 @@
+# ==========================================
+# Android / Gradle (mobile/)
+# ==========================================
+*.iml
+.gradle/
+.kotlin/
+build/
+captures/
+local.properties
+.idea/
+*.jks
+*.keystore
+.externalNativeBuild/
+.cxx/
+
+# ==========================================
+# Python (server/)
+# ==========================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.pkl
+
+# ==========================================
+# Large local assets (not versioned)
+# ==========================================
+server/generator/documents/
+server/generator/images_temp/
+server/generator/data-sets/
+
+# ==========================================
+# OS / editors
+# ==========================================
+.DS_Store
+Thumbs.db
