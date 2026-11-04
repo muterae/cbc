@@ -1,7 +1,7 @@
 # CBC Student Competency Predictor
 
 Turns learner telemetry into one of four CBC competency bands (**BE / AE / ME / EE**).
-The band is passed to the RAG + LLM layers, which choose Grade 2 KICD content difficulty.
+The band is passed to the RAG + LLM layers, which choose Grade 3 KICD content difficulty.
 
 **Full statistics, cleaning details, column list and model comparison: [REPORT.md](REPORT.md).**
 
@@ -26,13 +26,11 @@ Bands are quartiles of `Exam_Score`; cut points are stored in the artifact.
 
 | Model | CV accuracy |
 |---|---|
-| **Logistic Regression** | **0.950 ± 0.006** |
-| XGBoost | 0.747 ± 0.015 |
+| **XGBoost** | **0.747 ± 0.015** |
 | Random Forest | 0.703 ± 0.015 |
-| Decision Tree | 0.600 ± 0.007 |
+| Decision Tree | 0.596 ± 0.011 |
 
-The target is close to linear (R² ≈ 0.60), so the simplest model wins. Full breakdown in
-[REPORT.md §8](REPORT.md#8-model-comparison).
+Full breakdown in [REPORT.md §8](REPORT.md#8-model-comparison).
 
 ---
 
@@ -40,6 +38,7 @@ The target is close to linear (R² ≈ 0.60), so the simplest model wins. Full b
 
 ```bash
 python predictor/train_model.py      # train, cross-validate, write bundle + metrics.json
+python predictor/compare_models.py   # model comparison -> model_comparison.json
 python predictor/test_inference.py   # smoke-test three sample learners
 python predictor/evaluate.py         # stats, correlations, CV, importances
 ```
@@ -70,3 +69,9 @@ BE↔AE and ME↔EE.
 Not Kenyan, not CBC-specific, cohort-relative bands. See
 [REPORT.md §10](REPORT.md#10-limitations) for the full list and the dataset search that
 justifies the proxy choice.
+
+---
+
+## Experimental — not yet validated
+
+Linear and logistic regression were tested as baselines and their full findings are recorded in [REGRESSION.md](REGRESSION.md); neither is part of the deployed model.

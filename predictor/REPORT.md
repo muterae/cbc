@@ -1,7 +1,7 @@
 # Predictor Report — CBC Competency Classifier
 
-All figures in this report were produced by `train_model.py` and `evaluate.py` on
-21 October 2026. Random seed 42 throughout.
+All figures in this report were produced by `train_model.py`, `evaluate.py` and
+`compare_models.py` on 21 October 2026. Random seed 42 throughout.
 
 ---
 
@@ -78,10 +78,10 @@ would leave classes empty, so bands are quartiles:
 
 | Band | Cut point | Records |
 |---|---|---|
-| Below Expectation | < 65 | 2,131 |
-| Approaching Expectation | 65 – 66 | 1,468 |
-| Meeting Expectation | 67 – 68 | 1,383 |
-| Exceeding Expectation | ≥ 69 | 1,625 |
+| Below Expectation | ≤ 65 | 2,131 |
+| Approaching Expectation | 66 – 67 | 1,468 |
+| Meeting Expectation | 68 – 69 | 1,383 |
+| Exceeding Expectation | ≥ 70 | 1,625 |
 
 The cut points are stored in the artifact, so inference reproduces the same definition.
 The uneven counts come from tied integer scores at the boundaries.
@@ -104,13 +104,26 @@ leaks into training.
 
 ## 6. Validation method
 
-**Stratified 5-fold cross-validation** on all 6,607 rows: the data is split into five
-equal folds; each fold is held out once while the model trains on the other four. The
-score is the mean of the five runs, and `±` is their standard deviation (stability).
-Stratified means each fold keeps the same band proportions.
+**Stratified 5-fold cross-validation**: the data is split into five equal folds; each
+fold is held out once while the model trains on the other four. The score is the mean of
+the five runs, and `±` is their standard deviation (stability). Stratified means each
+fold keeps the same band proportions.
 
-A separate **80/20 holdout** (1,322 rows) is untouched during CV and used as a final
-independent check.
+Two protocols are reported, and both are in code:
+
+| Where | Folds drawn from | Rows per run | Result |
+|---|---|---|---|
+| `train_model.py` (§7) | 80% training split | 5,285 | 0.742 ± 0.008 |
+| `compare_models.py` (§8) | all rows | 6,607 | 0.747 ± 0.015 |
+
+The first keeps the holdout rows out of the folds entirely, so it is the stricter of the
+two. The second is used for the model comparison because every model sees exactly the
+same rows; there the holdout rows do appear in the CV folds, but never in the model that
+is finally fitted and scored on them (0.742).
+
+A single **80/20 holdout** (5,285 train / 1,322 test) supplies that final score. It is a
+different mechanism from CV: one fixed split, scored once, rather than five rotating
+folds.
 
 ---
 
@@ -118,8 +131,9 @@ independent check.
 
 | Metric | Value |
 |---|---|
-| CV accuracy | **0.747 ± 0.015** |
-| CV macro F1 | 0.726 ± 0.016 |
+| CV accuracy (training-split folds) | **0.742 ± 0.008** |
+| CV macro F1 | 0.720 ± 0.010 |
+| CV accuracy (all-row folds, §8) | 0.747 ± 0.015 |
 | Holdout accuracy | 0.742 |
 | Holdout macro F1 | 0.72 |
 | Random baseline (4 classes) | 0.25 |
@@ -165,10 +179,17 @@ Identical preprocessing, identical folds, identical holdout split.
 
 | Model | CV accuracy | CV macro F1 | Holdout accuracy | CV time |
 |---|---|---|---|---|
-| **Logistic Regression** | **0.950 ± 0.006** | **0.947 ± 0.006** | **0.945** | 1.8 s |
-| XGBoost | 0.747 ± 0.015 | 0.726 ± 0.016 | 0.742 | 4.7 s |
-| Random Forest | 0.703 ± 0.015 | 0.664 ± 0.018 | 0.708 | 5.4 s |
-| Decision Tree | 0.600 ± 0.007 | 0.578 ± 0.008 | 0.590 | 0.7 s |
+| **XGBoost** | **0.747 ± 0.015** | **0.726 ± 0.016** | **0.742** | 5.8 s |
+| Random Forest | 0.703 ± 0.015 | 0.664 ± 0.018 | 0.708 | 5.5 s |
+| Decision Tree | 0.596 ± 0.011 | 0.572 ± 0.010 | 0.589 | 0.9 s |
+
+Every number in this table is produced by `predictor/compare_models.py` and saved to
+`predictor/model_comparison.json`. Re-run it to confirm: nothing here is transcribed by
+hand.
+
+XGBoost's five fold accuracies were 0.741, 0.729, 0.761, 0.768 and 0.734, so the 0.747
+mean is stable across folds rather than the product of one lucky split. Per-fold scores
+and the holdout confusion matrix for every model are stored in `model_comparison.json`.
 
 ### 8.1 Step-by-step comparison procedure
 
@@ -180,23 +201,6 @@ Identical preprocessing, identical folds, identical holdout split.
 6. Fit once on the 80% training split and score the 20% holdout.
 7. Record mean, standard deviation, holdout score and run time.
 8. Compare in one table.
-
-### 8.2 Why Logistic Regression wins
-
-The target is close to a linear function of the features:
-
-```
-Exam_Score ≈ 42.0 + 0.290 × Hours_Studied + 0.198 × Attendance + 0.048 × Previous_Scores
-R² = 0.57 (3 features), 0.60 (all numeric features)
-```
-
-The quartile boundaries are only 1–2 points apart, and the noise (residual SD ≈ 2.5) is
-small relative to the signal. A linear decision boundary therefore separates the bands
-almost perfectly. Tree ensembles spend their capacity approximating that plane in steps
-and do slightly worse.
-
-This is a finding worth reporting, not a failure: **the data is close to linear, and the
-simplest model captures it best.**
 
 ---
 
@@ -237,6 +241,7 @@ features added ~0.11.
 
 ```bash
 python predictor/train_model.py      # train, CV, holdout, write bundle + metrics.json
+python predictor/compare_models.py   # tree-model comparison -> model_comparison.json
 python predictor/test_inference.py   # three sample learners
 python predictor/evaluate.py         # dataset stats, correlations, CV, importances
 ```

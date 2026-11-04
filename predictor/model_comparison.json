@@ -1,0 +1,276 @@
+{
+  "random_state": 42,
+  "rows": 6607,
+  "features": 19,
+  "cut_points": [
+    65.0,
+    67.0,
+    69.0
+  ],
+  "band_counts": {
+    "Approaching Expectation": 1468,
+    "Below Expectation": 2131,
+    "Exceeding Expectation": 1625,
+    "Meeting Expectation": 1383
+  },
+  "cv": "stratified 5-fold on all rows",
+  "holdout": "stratified 80/20",
+  "models": {
+    "Logistic Regression": {
+      "cv_accuracy_mean": 0.9502,
+      "cv_accuracy_std": 0.0059,
+      "cv_accuracy_folds": [
+        0.9539,
+        0.9395,
+        0.9569,
+        0.9493,
+        0.9516
+      ],
+      "cv_f1_macro_mean": 0.9474,
+      "cv_f1_macro_std": 0.0063,
+      "cv_f1_macro_folds": [
+        0.9513,
+        0.936,
+        0.9545,
+        0.9465,
+        0.9485
+      ],
+      "holdout_accuracy": 0.9448,
+      "holdout_f1_macro": 0.9411,
+      "holdout_confusion_matrix": [
+        [
+          416,
+          10,
+          0,
+          0
+        ],
+        [
+          9,
+          260,
+          25,
+          0
+        ],
+        [
+          0,
+          3,
+          265,
+          9
+        ],
+        [
+          6,
+          1,
+          10,
+          308
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Below Expectation",
+        "Approaching Expectation",
+        "Meeting Expectation",
+        "Exceeding Expectation"
+      ],
+      "cv_seconds": 1.8
+    },
+    "XGBoost": {
+      "cv_accuracy_mean": 0.7466,
+      "cv_accuracy_std": 0.015,
+      "cv_accuracy_folds": [
+        0.7413,
+        0.7292,
+        0.7608,
+        0.7676,
+        0.7343
+      ],
+      "cv_f1_macro_mean": 0.7257,
+      "cv_f1_macro_std": 0.0163,
+      "cv_f1_macro_folds": [
+        0.719,
+        0.7065,
+        0.7422,
+        0.7478,
+        0.7131
+      ],
+      "holdout_accuracy": 0.7421,
+      "holdout_f1_macro": 0.7199,
+      "holdout_confusion_matrix": [
+        [
+          381,
+          41,
+          4,
+          0
+        ],
+        [
+          57,
+          176,
+          58,
+          3
+        ],
+        [
+          0,
+          78,
+          152,
+          47
+        ],
+        [
+          5,
+          4,
+          44,
+          272
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Below Expectation",
+        "Approaching Expectation",
+        "Meeting Expectation",
+        "Exceeding Expectation"
+      ],
+      "cv_seconds": 5.1
+    },
+    "Random Forest": {
+      "cv_accuracy_mean": 0.703,
+      "cv_accuracy_std": 0.0146,
+      "cv_accuracy_folds": [
+        0.6884,
+        0.7005,
+        0.7101,
+        0.7275,
+        0.6889
+      ],
+      "cv_f1_macro_mean": 0.6643,
+      "cv_f1_macro_std": 0.018,
+      "cv_f1_macro_folds": [
+        0.6433,
+        0.6595,
+        0.6699,
+        0.6957,
+        0.6528
+      ],
+      "holdout_accuracy": 0.708,
+      "holdout_f1_macro": 0.6725,
+      "holdout_confusion_matrix": [
+        [
+          388,
+          33,
+          5,
+          0
+        ],
+        [
+          102,
+          135,
+          55,
+          2
+        ],
+        [
+          4,
+          75,
+          128,
+          70
+        ],
+        [
+          5,
+          6,
+          29,
+          285
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Below Expectation",
+        "Approaching Expectation",
+        "Meeting Expectation",
+        "Exceeding Expectation"
+      ],
+      "cv_seconds": 5.6
+    },
+    "Decision Tree": {
+      "cv_accuracy_mean": 0.5957,
+      "cv_accuracy_std": 0.0109,
+      "cv_accuracy_folds": [
+        0.6127,
+        0.6014,
+        0.592,
+        0.5927,
+        0.5799
+      ],
+      "cv_f1_macro_mean": 0.5716,
+      "cv_f1_macro_std": 0.0101,
+      "cv_f1_macro_folds": [
+        0.5849,
+        0.5806,
+        0.5684,
+        0.5671,
+        0.5569
+      ],
+      "holdout_accuracy": 0.5885,
+      "holdout_f1_macro": 0.5661,
+      "holdout_confusion_matrix": [
+        [
+          318,
+          85,
+          18,
+          5
+        ],
+        [
+          71,
+          117,
+          90,
+          16
+        ],
+        [
+          18,
+          72,
+          115,
+          72
+        ],
+        [
+          7,
+          14,
+          76,
+          228
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "Below Expectation",
+        "Approaching Expectation",
+        "Meeting Expectation",
+        "Exceeding Expectation"
+      ],
+      "cv_seconds": 0.9
+    }
+  },
+  "linear_score_fit": {
+    "three_features": {
+      "features": [
+        "Hours_Studied",
+        "Attendance",
+        "Previous_Scores"
+      ],
+      "intercept": 42.002,
+      "coefficients": {
+        "Hours_Studied": 0.29,
+        "Attendance": 0.198,
+        "Previous_Scores": 0.048
+      },
+      "r2": 0.572
+    },
+    "six_features": {
+      "features": [
+        "Hours_Studied",
+        "Attendance",
+        "Sleep_Hours",
+        "Previous_Scores",
+        "Tutoring_Sessions",
+        "Physical_Activity"
+      ],
+      "intercept": 40.93,
+      "coefficients": {
+        "Hours_Studied": 0.292,
+        "Attendance": 0.198,
+        "Sleep_Hours": -0.018,
+        "Previous_Scores": 0.048,
+        "Tutoring_Sessions": 0.493,
+        "Physical_Activity": 0.144
+      },
+      "r2": 0.598
+    }
+  }
+}

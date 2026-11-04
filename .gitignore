@@ -86,3 +86,11 @@ secrets.yaml
 # ==========================================
 predictor/data-sets/
 *.pkl
+
+# ==========================================
+# Large local source material (not versioned)
+# ==========================================
+generator/documents/
+generator/images_temp/
+generator/data-sets/
+

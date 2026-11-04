@@ -196,8 +196,8 @@ def assign_bands(
 # ---------------------------------------------------------------------------
 # Model
 # ---------------------------------------------------------------------------
-def build_pipeline() -> Pipeline:
-    """Full preprocessing + classifier pipeline.
+def build_preprocessor() -> ColumnTransformer:
+    """Shared preprocessing, reused by every model in the comparison.
 
     All preprocessing lives inside the pipeline so cross-validation refits it on
     each fold. That is what prevents data leakage.
@@ -216,13 +216,16 @@ def build_pipeline() -> Pipeline:
         ]
     )
 
-    preprocessor = ColumnTransformer(
+    return ColumnTransformer(
         transformers=[
             ("num", numeric_transformer, NUMERICAL_FEATURES),
             ("cat", categorical_transformer, CATEGORICAL_FEATURES),
         ]
     )
 
+
+def build_pipeline() -> Pipeline:
+    """Full preprocessing + XGBoost classifier pipeline."""
     classifier = XGBClassifier(
         n_estimators=120,
         max_depth=5,
@@ -231,7 +234,9 @@ def build_pipeline() -> Pipeline:
         eval_metric="mlogloss",
     )
 
-    return Pipeline([("preprocessor", preprocessor), ("classifier", classifier)])
+    return Pipeline(
+        [("preprocessor", build_preprocessor()), ("classifier", classifier)]
+    )
 
 
 # ---------------------------------------------------------------------------

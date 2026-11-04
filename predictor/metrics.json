@@ -121,7 +121,7 @@
       "Meeting Expectation"
     ]
   },
-  "trained_at": "2026-10-21T09:51:08.404131+00:00",
+  "trained_at": "2026-10-29T09:58:37.120287+00:00",
   "versions": {
     "python": "3.14.3",
     "scikit-learn": "1.9.1",

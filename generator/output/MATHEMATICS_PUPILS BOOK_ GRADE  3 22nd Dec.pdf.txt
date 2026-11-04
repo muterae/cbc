@@ -1,0 +1,5843 @@
+3
+33
+
+MatheMatics  PUPiL's 
+BOOK 3
+
+MINISTRY OF EDUCATION
+All rights reserved. No part of this handbook may be reproduced, stored in a 
+retrieval system or transcribed in any form by any means, electronic, mechanical, 
+photocopying or otherwise without prior written permission of the publisher.
+First Published 2017
+ISBN: ISBN 978-9966-31-748-3
+
+Foreword
+The focus of education in any country is the provision of quality inclusive education 
+and training to all its citizens. The Government of Kenya is committed towards this goal 
+as one of the Sustainable Development Goals (SDGs), according to the Constitution of 
+Kenya. Quality education is paramount to any country in development and the building 
+of a just and cohesive society that enjoys inclusive and equitable social development. 
+In an effort to realise national aspirations of education as envisioned in all policy docu-
+ments, the Government has provided a policy framework to offer direction in modernis-
+ing and re-branding the country’s education and training system. These documents in -
+clude Vision 2030, the National Education Sector Strategic Plan 2018 – 2022 (NESSP) 
+and Sessional Paper No. 1 of 2019. 
+It is the focus of Government to ensure maintenance and improvement of quality of 
+education to avoid persistent regional disparities in learning outcomes as well as ac -
+cess to education based on gender, diverse needs, location and region. The basis of the 
+ongoing education reform is to make education in Kenya competitive internationally 
+and socio-economically viable. The Government is ensuring that education strives to 
+stimulate innovation and enhance the acquisition of 21st Century skills. 
+The Ministry of Education, in partnership with Global Partnership for Education (GPE) 
+and other development partners, has invested heavily in the provision of educational 
+materials, infrastructure, and human resources. This supports the initiatives aimed at 
+enhancing provision of quality and inclusive education. Evidence-based interventions 
+and global best practices have been adopted in teaching numeracy in early grades.
+This mathematics pupil’s book is based on Competency Based Curriculum and is ap -
+proved by the Kenya Institute of Curriculum Development for use in schools. It will no 
+doubt inform and guide the teaching and learning of mathematics in early grades. The 
+design of the book ensures that all Kenyan children can perform arithmetic operations 
+accurately and efficiently.
+Prof. George A. O. Magoha, Egh,
+Cabinet Secretary, 
+Ministry of Education
+
+Preface
+The goal of the Ministry of Education is to provide quality inclusive education to all 
+learners irrespective of their socio-economic and physical status. Over time, reforms 
+have been undertaken to improve the education sector with a view to making it globally 
+competitive. The Competency Based Curriculum that has been rolled out emphasises 
+nurturing every learner’s potential to ensure they are engaged, empowered and ethical. 
+Its focus is on the provision of quality and relevant education. 
+Research initiatives such as National Assessment Monitoring Learning Achievement 
+(NASMLA) and Southern and Eastern Africa Consortium for Monitoring Education 
+Quality (SACMEQ) indicate the need for improved achievement in literacy and numer-
+acy competencies. Recent developments in the education reform process emphasise the 
+role of literacy and numeracy competencies in supporting learning, especially in the 
+foundational early grades. The increasing focus on the quality of education has resulted 
+in interventions that have shown a positive impact on literacy and numeracy outcomes.
+The Ministry of Education has had an increasing focus on the quality of education 
+in lower primary, particularly in the areas of literacy and numeracy. The Early Grade 
+Mathematics component of the Kenya GPE’s Primary Education Development (PRIE-
+DE) Project is a scale-up of the Primary Mathematics and Reading (PRIMR), which 
+was supported by USAID and DFID. 
+The overarching goal of Early Grade Mathematics is to improve early grade mathemat-
+ics competency among learners. The programme aims at improving teacher capacity for 
+effective delivery of classroom instruction, improving access to appropriate mathemat-
+ics textbooks, teachers’ guides, and enhancing instructional support and supervision of 
+teachers by Curriculum Support Officers and head     teachers.
+This pupil’s textbook is based on the Competency Based Curriculum and is approved 
+by Kenya Institute of Curriculum for use in the teaching of mathematics in early grades. 
+The book aims at helping pupils to learn a variety of mathematical skills and concepts. 
+Dr Belio R. Kipsang, CBS
+Principal Secretary, 
+State Department of Early Learning and Basic Education
+Ministry of education
+
+Acknowledgements
+This pupil’s book  has been  developed as a result of the generous financial support from 
+the Global Partners in Education (GPE). The book was initially developed based on the 
+8-4-4 curriculum after a successful USAID/Kenya and DFID/Kenya funded pilot pro -
+gramme, the Primary Math and Reading Program (PRIMR). It was reviewed in align -
+ment with the Competency Based Curriculum and is approved by the Kenya Institute of 
+Curriculum Development.
+The Principal Secretary, State Department of Early Learning and Basic Education, Min-
+istry of Education, Dr Belio Kipsang and Dr Julius Jwan, were instrumental in tirelessly 
+directing the technical efforts of the relevant directorates at MoE, the Kenya National 
+Examinations Council (KNEC), Kenya Education Management Institute (KEMI), Ken-
+ya Institute of Special Education (KISE) and the Teacher’s Service Commission (TSC). 
+In a special way, we thank the Global Partnerships for Education (GPE) for funding 
+the implementation of the PRIEDE Project, and World Bank for effective supervision. 
+We also express our deepest appreciation to Ruth Charo, the Task Team Leader (World 
+Bank), who provided invaluable guidance and support in the development process of 
+this book. 
+Special recognition to MoE Director General Elyas Abdi, PRIEDE Project National Co-
+ordinator Martha Ekirapa, and KICD Senior Deputy Director Jacqueline Onyango for 
+their outstanding support to the team during the process of the adaptation of this book. 
+Further, we acknowledge the role of the PRIEDE Project Component 1 Lead, Hellen 
+Boruett, PRIEDE staff Juma Munyiri and Mr Joshua Kilundo for effective coordination 
+of the whole process, and the crucial role of the relevant MoE Directorates: the Direc -
+torate of Quality Assurance and Standards, the Directorate of Primary Education, the 
+Directorate of Special Needs Education, the Directorate of Field and other Services, 
+CEMASTEA, KNEC, and KICD, and the TSC for providing all the required technical 
+support
+More fundamentally, we wish to also recognise members of the multi-sectoral members 
+of KICD Mathematics Panel and Early Grade Mathematics Technical Team for their in-
+valuable commitment, support, immense individual contribution and sacrifice towards 
+the completion of the development of the content of this book.
+NAME INSTITUTION  
+Jacqueline Onyango KICD
+Martha Ekirapa MOE - PRIEDE
+Hellen Boruett MOE - PRIEDE
+Joshua M. Kilundo KICD
+Zackariah Kabiru MOE HQ
+Hassan Bundu KNEC
+
+NAME INSTITUTION  
+Martin Ng’ang’a Kigari TTC
+Maurice Aboge Kenyenya TTC
+John Kuria Muranga TTC
+Juma Munyiri MOE - PRIEDE
+Stephen Sugut MOE - PRIEDE
+Abednego Kamandi MOE
+Joseph Kuria CEMASTEA
+Catherine Kiyiapi CSO
+Joy Mulunda Thogoto TTC
+Andrew Gatonye KICD
+Florence Keta KICD
+Joash Manyi KICD
+Francisca Mbatha CSO
+Queen M. Jonathan Muslim Township Primary  Machakos
+Moses Salau Kitarian Eremit Primary School
+Mary Muriithi Mount Kenya Salvation Primary School 
+Onesmus Kakungi KICD
+Arthur Musambai KICD
+Elyas Abdi, OGW
+Director General
+Ministry of Education
+
+iii
+NOT FOR SALE
+Table of Contents
+TERM ONE
+NUMBERS     
+Number Concept  
+Whole Numbers 
+Fractions 
+Addition
+Subtraction 
+Multiplication 
+Division
+MEASUREMENT
+Length 
+Mass 
+Capacity
+Time
+Money 
+GEOMETRY 
+Position and Direction
+Shapes
+TERM TWO
+NUMBERS     
+Number Concept  
+Whole Numbers 
+Fractions 
+..............................................................................1
+..............................................................................99
+........................................................................77
+.....................................................................3
+...................................................................101
+.................................................................................80
+..............................................................................3
+..............................................................................101
+.....................................................................................77
+......................................................................12
+......................................................................103
+..............................................................................82
+..............................................................................22
+..............................................................................113
+.....................................................................................84
+..................................................................................30
+..................................................................................88
+.............................................................................51
+.............................................................................93
+..........................................................................65
+..............................................................93
+...................................................................................71
+...................................................................................95
+
+iv
+Property of the Government of Kenya
+Addition
+Subtraction 
+Multiplication 
+Division
+MEASUREMENT
+Length 
+Mass 
+Capacity
+Time
+Money 
+GEOMETRY 
+Position and Direction
+TERM THREE
+NUMBERS     
+Number Concept  
+Whole Numbers 
+Fractions 
+Addition
+Subtraction 
+Multiplication 
+Division
+MEASUREMENT
+Length 
+Mass 
+Capacity
+................................................................................118
+......................................................................150
+..............................................................................134
+.............................................................................186
+................................................................................158
+...................................................................164
+................................................................................164
+...........................................................................189
+...............................................................................201
+................................................................................169
+...............................................................................191
+..................................................................................204
+............................................................................173
+......................................................................191
+..................................................................................176
+.......................................................................194
+.......................................................................223
+............................................................................213
+.................................................................................229
+.......................................................................232
+..................................................................................232
+..................................................................................236
+..................................................................................238
+...............................................................186
+..................................................................................181
+
+v
+NOT FOR SALE
+Time
+Money 
+GEOMETRY 
+Position and Direction
+Shapes
+......................................................................................241
+.................................................................................245
+.............................................................................248
+.............................................................248
+..................................................................................249
+
+vi
+Property of the Government of Kenya
+
+1
+NOT FOR SALE
+terM i
+
+2
+Property of the Government of Kenya
+
+3
+NOT FOR SALE
+Week 1 Lesson 1
+ John is in the fourth position.
+ Amina is in the first        position.
+ James is in the second     position.
+ Janet is in the ______ position.
+ Mary is in the ______ position.
+First
+NUMBer cONcePt
+NUMBERS
+Activity 2
+Name the position of the footprints from 1 to 5
+1            2               3           4            5 
+First Second Third
+Activity 1
+Identify John's position
+
+4
+Property of the Government of Kenya
+Work to do
+1.  Match
+2.  OFFice GraDe
+2
+GraDe
+3
+GraDe
+4
+GraDe
+5
+GraDe
+6
+What is the position of the classrooms from the 
+office?
+Grade Position
+2 First
+3 __________
+4 __________
+5 Fourth
+6 __________
+School days
+Tuesday
+Friday
+Monday
+Wednesday
+Thursday
+Position
+First
+Second
+Third
+Fourth
+Fifth
+
+5
+NOT FOR SALE
+Week 1 Lesson 2
+Activity  
+Write the position 
+Position
+______    _______  3rd    ________     _______
+ 1. Match the rally cars colours to position 
+Work to do
+Colour Position
+Red     3rd
+Blue 4th
+Green 2nd
+Yellow 5th
+Orange 1st
+
+6
+Property of the Government of Kenya
+2.  Match months of the year
+April 1st       
+February 5th
+January 3rd
+May 2nd
+March 4th
+
+7
+NOT FOR SALE
+Week 1 Lesson 3
+Activity 
+Use the picture to fill in the position
+Position
+   Vehicle    Position
+   Bus    Sixth
+   Lorry _____________
+   Tractor _____________
+   Car _____________
+   Van _____________
+First
+Fifth
+Ninth
+Second
+Sixth
+Tenth
+Third
+Seventh 
+Fourth
+Eighth
+
+8
+Property of the Government of Kenya
+fifth
+January tenth
+May second
+September third
+March sixth
+July seventh
+November eleventh
+February first
+June ninth
+October eighth
+April fourth
+August
+December twelfth
+Work to do
+Match             Position
+
+9
+NOT FOR SALE
+Week 1 Lesson 4                                 
+1 2 3 4 5 6 7 8 9 10
+Wagon Position
+1 __________
+2 __________
+3 __________
+4 __________
+5 5th
+6 __________
+7 __________
+8 __________
+9 __________
+10 10th
+Positions
+Activity 1
+Name the positions of the wagons
+
+10
+Property of the Government of Kenya
+Pineapple Banana Orange Mango
+     1st _______ ______   4th
+ 
+Lemon Pawpaw Apple Tomato
+________ _________ _______ ______ 
+Onion Passion
+________   10th
+Activity 2
+Fill in the position
+
+11
+NOT FOR SALE
+Work to do
+Fill in the position 
+January is the  ________  month of the year
+February is the        2nd  month of the year
+March is the ________  month of the year
+April is the  ________  month of the year
+May is the ________  month of the year
+June is the  ________  month of the year
+July is the  ________  month of the year
+August is the ________  month of the year
+September is the  ________  month of the year
+October is the       10 th  month of the year
+November is the       11 th  month of the year
+December is the       12 th   month of the year
+
+12
+Property of the Government of Kenya
+Week 1 Lesson 5
+Fill in the missing numbers
+1. 105, 106, 107, ______, _______, 110, 111
+2. 312, 313, 314, ______, 316,  _______, 318
+3. 600, 599, 598, ______, ______, 595, 594
+4. 825, 824, 823, ________, _______, 820
+5. 900, 901, 902, _______, _____, 905, 906
+6. 1000, 999, 998, _______, ______, 995
+Work to do
+Fill in the missing numbers
+1. 100, 99, 98, _____, _____, _____, _____
+2. 270, 269, 268, _____, _____, ____, _____
+3. 720, 721, 722, _____, _____, _____, _____
+4. 515, 514, 513, _____, ____, _____, _____
+5. 431, 430, 429, _____, _____, _____, _____
+WhoLe Numbers
+Counting in ones
+Activity
+Arrange the number cards in order
+100 602
+
+13
+NOT FOR SALE
+Example 1 
+Counting forward
+302, 304, 306, 308, 310, 312
+601, 603, 605, 607, 609, 611
+914, 916, 918, 920, 922, 924
+Example 2 
+Counting backwards
+730, 728, 726, 724, 722, 720
+565, 563, 561, 559, 557, 555    
+480, 478, 476, 474, 472, 470
+Work to do
+Write the next two numbers
+1. 511, 513, 515,  ___________, ___________ 
+2. 610, 612, 614, ___________, ___________ 
+3. 325, 323, 321, ___________, ___________ 
+4. 755, 753, 751, ___________, ___________ 
+5. 998, 996, 994, ___________, ___________ 
+6. 100, 102, 104, ___________, ___________ 
+7. 81, 77, 75, ___________, ___________ 
+8. 30, 32, 34,  ___________, ___________ 
+Week 2 Lesson 1
+Counting in twos
+
+14
+Property of the Government of Kenya
+Week 2 Lesson 2       
+Example 1
+36 can be shown using bundles of sticks as 
+shown
+Example 2
+The number 36 can also be shown on an abacus 
+as 3 tens and 6 ones
+Example 3
+Place value
+3  tens and 6 ones
+Using a place value 
+chart 45 is shown as 
+4 tens and 5 ones
+
+15
+NOT FOR SALE
+Work to do
+How Many Ones and Tens ?
+1. 29   =  2  tens and 9 ones
+2. 36  =   3 tens and 6 ones
+3. 97  =_______ tens   and ______ ones
+4.       4  =_______ tens   and ______ ones
+5. 84  = _______ tens   and ______ ones
+6. 49  =_______ tens   and ______ ones
+7. 75  = _______ tens   and ______ ones
+
+16
+Property of the Government of Kenya
+Week 2 Lesson 3
+Activity 1 
+Let us read
+1 11 21 31 41 51 61 71 81 91
+2 12 22 32 42 52 62 72 82 92
+3 13 23 33 43 53 63 73 83 93
+4 14 24 34 44 54 64 74 84 94
+5 15 25 35 45 55 65 75 85 95
+6 16 26 36 46 56 66 76 86 96
+7 17 27 37 47 57 67 77 87 97
+8 18 28 38 48 58 68 78 88 98
+9 19 29 39 49 59 69 79 89 99
+10 20 30 40 50 60 70 80 90 100
+Activity 2
+Read
+28,   60,   17,   99,   100,  82,
+45,   64,  33,   47,   55,   70,
+69,   20,   13,   8,  3,   27,
+32,   91
+Numbers in symbols
+
+17
+NOT FOR SALE
+Week 2 Lesson 4
+Number Words
+8 eight
+17 seventeen
+25 twenty five
+38 thirty eight
+42 forty two
+50 fifty
+Work to do
+1. Write the number
+two  ___________
+nine ___________
+eighteen ___________
+twenty seven ___________
+thirty two ___________
+forty four ___________
+fifty ___________
+2. Match
+Number Words
+18 five
+48 fourteen
+14 twenty three
+5 eighteen
+23 forty eight
+Numbers in words
+Activity : Reading numbers one to fifty in words
+
+18
+Property of the Government of Kenya
+Week 2 Lesson 5      
+Numbers in words
+Activity 
+Reading numbers one to fifty in words 
+Number Words
+13 thirteen
+21 twenty one
+37 thirty seven
+45 forty five
+49 forty nine
+50 fifty
+Work to do
+1. Write the number name
+ Number   Words
+ 33 ________________
+ 29 ________________
+ 50 ________________
+ 44 ________________
+ 14 ________________
+ 26 ________________
+ 12 ________________
+2. Match
+Number Words
+29 thirty two
+  9 seventeen
+32 forty
+17 twenty nine
+40 nine
+
+19
+NOT FOR SALE
+Week 3 Lesson 1 
+Work to do
+What is the next number?
+1. 1, 3, 5, 7,  _____
+2. 2, 4, 6, 8,  _____
+3. 10, 8, 6, 4,  _____
+4. 9, 7, 5, 3,  _____
+5. 4, 5, 6, 7,  _____
+6. 8, 7, 6, 5,  _____
+7. 6, 7, 8, 9,  _____
+Number patterns 
+Example 1
+What is the missing number? 
+1, 2, 3, 4, __, 6, 7
+By counting on, the missing number is 5 
+Example 2
+10, 9, 8, 7, 6, _____, _____ 
+By counting backwards, the next two 
+numbers are 5, 4
+
+20
+Property of the Government of Kenya
+Week 3 Lesson 2
+To get the next number, skip once on the number line 
+from 30. This gets you to 40. Following the same steps, 
+we can get the missing numbers as  50 and 60
+Activity 2
+Activity 1
+Arrange the cards with numbers 90 to 100 in or-
+der 
+Remove the cards with numbers 91, 93, 95 and 97
+We have formed the pattern 90, 92, 94, 96
+To get the next number, we count in twos.
+90 91 93 94 95 96 9792
+90 91 92 93 94 95 96 97
+Fill in the missing numbers
+Number patterns
+
+21
+NOT FOR SALE
+Work to do
+Fill in the missing numbers
+1. 91, 93, 95, _______, ______
+2. 81, 82, 83, _______, ______
+3. 61, 64, 67, ____, _____, ______
+4. 41, 46, 51, 56, ______, ______ 
+5. 30, 32, 34, 36,  _______, ______
+6. 17, 15, 13,______, ______, _______
+
+22
+Property of the Government of Kenya
+Activity 1
+In groups cut circular 
+cut-outs from manilla 
+paper.
+Fold the circular 
+cut-out into two equal 
+parts and cut.
+One part is called a half 
+written as      .      
+One
+whole
+Week 3 Lesson 3fractions
+A fraction tells us how many parts of a whole we 
+have.
+Half as part of a whole
+
+23
+NOT FOR SALE
+Activity 2
+In groups cut a rectangular 
+cut-out from manilla paper.
+ 
+Fold the rectangular cut-out 
+into two equal parts and 
+cut. Each part is a half.
+When an object is cut into 2 equal parts each 
+part is called a half.       is a fraction.
+Work to do
+Draw and shade half
+1.         2.                    3.
+4.           5.           6.
+One whole
+
+24
+Property of the Government of Kenya
+Week 3 Lesson 4
+Activity 1
+Activity 2
+In groups cut circular 
+cut-outs from manilla paper.
+In groups cut rectangular 
+cut - outs from 
+manilla paper.
+Fold the cut-out and cut into 
+4 equal parts. One part is called 
+a quarter, written as      .  
+Fold the cut-out and cut into 
+4 equal parts. One part is called 
+a quarter, written as  
+Quarter
+Quarter Quarter
+Quarter
+Quarter Quarter
+QuarterQuarter
+When an object is cut into four equal parts each 
+part is called a       . A quarter is a fraction.
+One 
+whole
+Quarter as part of a whole
+
+25
+NOT FOR SALE
+1.      2.
+3. 
+Quarter or
+Whole
+Whole
+Work to do
+Draw the following and shade a quarter
+Example
+
+26
+Property of the Government of Kenya
+Work to do
+Which shaded part is bigger ?
+1. a)           2. a)                     b)
+   
+   b)
+3. a.)      b)    
+Week 3  Lesson 5
+a or  b _______
+a or  b _______a  or  b _______
+Activity
+Comparing     and 
+Write      or
+a)    b)    c) 
+d)    e)
+
+27
+NOT FOR SALE
+Week 4 Lesson 1
+Fraction as part of a group
+We have learnt that a fraction is a part of a 
+whole. A fraction can also be a part of a group.
+Activity 1
+Form a group of 6 bottle tops with three 
+black and three red.
+We have two small groups. Out of the two, 
+one group is shaded red.
+Activity 2
+         
+What part of the group is red?  ______
+What part of the group is girls? ______
+What part of the group is boys? ______
+The fraction shaded red is    .
+The fraction shaded black is        .
+
+28
+Property of the Government of Kenya
+Activity 3
+Work to do
+  Whole group    half of 2 is 1
+  Whole group          half of 6 is 3
+1.       What fraction is shaded  
+      blue? _____
+2.       What fraction is shaded  
+      green? _____
+3.       Half of 4 = ______
+
+29
+NOT FOR SALE
+5.  Half of 8  = ______
+6. Half of 12  = ______
+7.  Half of 6  = ______
+8. Half of 10  = ______
+9.   Half of 20  =  ______
+4.       Half of 10 = ______
+
+30
+Property of the Government of Kenya
+Week 4 Lesson 2
+ 471
+    +    3
+      
+ 471
+  +    3
+     474  
+i)  Represent 471 as 1 ring in 
+the ones spike, 7 rings in 
+the tens spike and 4 rings 
+in the hundreds spike.
+ii) Add 3 rings in the ones 
+spike to get 4 rings.
+iii) The results is 4 rings in the 
+ones spike, 7 rings in the 
+tens spike and 4 rings in 
+the hundreds spike.
+Addition
+Using an Abacus
+Adding a 3 - digit number to a 1 - digit number
+Activity
+
+31
+NOT FOR SALE
+Example 1
+Steps
+1. Add 4 ones to 5 ones to get 9 
+ones.
+2. Record 9 in the ones column.
+3. Bring down 2 in the tens column.
+4. Bring down 3 in the hundreds 
+column.
+Arrange as:
+324  +  5 =   
+     324
+   +     5
+      329
+Example 2
+ 892
+   +     5
+      897
+1. Add 2 ones to 5 ones to get 7 
+ones. 
+2. Bring 9 ones down and 8 
+hundreds down to get the 
+answer.
+Steps
+Count 3 steps from 456, 457, 458, 459
+456 + 3 =
+456 + 3 = 459
+Example 3
+
+32
+Property of the Government of Kenya
+5. 79 1
++       7
+4. 441
+ +       6
+6. 904
+  +      3
+7. 344  +  3 =       
+9. 342  +  3 =       
+8. 950  +  5 =       
+10.  510  +  8 =       
+Work to do
+Add
+1. 990
+ +      7
+3. 672
+  +      5
+2. 287
++     2
+
+33
+NOT FOR SALE
+Week 4 Lesson 3
+Activity 
+Using an abacus
+      687
+  +     4
+      
+ 687
+  +     4
+      691
+1. Represent 687 as 7 rings in ones 
+spike, 8 rings in the tens spike 
+and 6 rings in the hundreds 
+spike.
+2. Add 4 rings in the ones spike to 
+get 11 rings.
+3. Remove 10 rings from the ones 
+spike and replace them with 1 
+ring in the tens spike, to get 9 
+rings in the tens spike.
+4. You have 6 rings in the hundreds 
+spike 9 rings in the tens spike 
+and 1 ring in the ones spike (691)
+Adding a 3 - digit number to a 1 - digit number
+Steps
+
+34
+Property of the Government of Kenya
+Example 
+1. Add Ones 7 + 8 = 15 
+2. Regroup 15 as 1 tens and 5 ones.
+3. Write 5 and take 1 to tens
+4. Add tens 1 + 8 = 9.
+5. Write 9 inTens place. 
+6. Bring down 6 hundreds.
+Work to do 
+Add
+1. 784
+ +      7
+3. 543
+  +     9
+2.  188
+  +     4
+7. 223 +  8 =    8. 138 +  4  =    
+9. 876 +  6 =    10. 309 +  3 =    
+4. 342
+    +     9
+6. 813
++     7
+5.  615
+    +     8
+ 687
+      +      8
+      695
+1
+Steps
+
+35
+NOT FOR SALE
+Week 4 Lesson 4
+Activity 1
+1. Add 3 ones to 4 ones to 
+get 7 ones. 
+2. Record 7 in the ones 
+column.
+3. Add 2 tens to 1 ten to 
+get 3 tens. record 3 in 
+the tens column.
+4. Bring down 4 in the 
+hundreds column.
+Arrange in the place value chart as :
+Adding a 3 - digit number to a 2 - digit number
+Hundreds Tens Ones
+4 2 3
+1 4
+4 3 7
+423 
++    14 
+Steps
+
+36
+Property of the Government of Kenya
+1. 324
+   +     15 
+2. 416
+    +    22 
+3. 934
+   +    24 
+4. 102
+   +   7 1 
+5. 823
+    +    45 
+Work to do 
+1. Add
+Activity 2
+Steps
+1. Add 2 Ones  to 4 ones to 
+get 6 ones. Record 6 in 
+the ones column
+2. Add 5 tens to 3 tens to 
+get 8 tens. Record 8 in 
+the tens column.
+3. Bring down 8 in the 
+hundreds column
+852  +  34  =
+Arrange in the place value chart as :
+Hundreds Tens Ones
+8 5 2
+3 4
+8 8 6
+
+37
+NOT FOR SALE
+6. 801 + 84 =    7. 920 + 43 =    
+8. 744 + 25 =    
+10 432 + 63 =    
+9. 123 + 52 =
+
+38
+Property of the Government of Kenya
+Using an abacus
+1. Represent 354 as 4 rings in 
+the ones spike, 5 rings in the 
+tens spike and 3 rings in the 
+hundreds spike.
+2. Represent 28 as 8 rings on the 
+ones spike 2 rings in the tens 
+spike
+3. Add 4 rings to 8 rings in the 
+ones spike to get 12 rings in the 
+ones spike.
+4. Regroup 12 rings as 1 ten and 2 
+ones. Remove 10 rings from the 
+ones spike and add one ring in 
+the tens spike to get 8. 2 rings 
+remain in the ones spike.
+5. The result is 2 rings in the ones 
+spike, 8 rings in the tens spike 
+and 3 rings in the hundreds 
+spike.
+   354  +  28  =  382
+Week 4 Lesson 5
+Activity 1
+354   +   28   =    
+Adding a 3 - digit number to a 2 - digit number
+
+39
+NOT FOR SALE
+Steps
+1. Add Ones 6 + 7 = 13.
+2. Regroup 13 as 1 tens and 3 
+ones.
+3. Take 1 ten to the tens 
+column. 
+4. Write 3 in ones column 
+add 1 to 4 in the tens 
+column.
+5. Add tens 1 + 4 + 3 = 8 . 
+Write 8. 
+6. Bring down 2 hundreds.
+Example 1
+Example 2
+Hundreds Tens Ones
+2 4 6
+3 7
+2 8 3
+Hundreds Tens Ones
+4 7 2
+5 4
+5 2 6
+472 + 54 = 
+246 + 37 = 
+Steps
+1. Add ones 2 + 4 = 6. 
+2. Add tens 7 + 5 = 12
+3. Regroup 12 tens as 1 
+hundreds and 2  
+tens. Take 1 hundred to 
+the hundreds    
+column
+4. Write 2 and carry 1 
+hundreds.
+5. Add hundreds 1 + 4 = 5
+
+40
+Property of the Government of Kenya
+1. 342
+     +    49
+3. 275
+ +   16
+2.  467
+ +   25
+4. 862
+     +   29
+6. 758
++   81
+5.  657
+    +    52
+7. 
+8. 
+Work to do
+Add
+263 + 35 = _______
+496 + 72 = _______
+827 + 91 = _______ 196  + 32 = _______9. 10.
+
+41
+NOT FOR SALE
+Week 5 Lesson 1
+Activity 1
+3 + 4 + 2 = 
+3 + 4 + 2 = 9
+Steps
+1. Start at 0 and skip 3 steps forward.
+2. Skip another 4 steps forward.
+3. Skip another 2 steps forward.
+4. The final point is 9.
+This can be done using the number line
+Adding 3-single digit numbers
+
+42
+Property of the Government of Kenya
+3. 2  +  3  +  4 =    
+5. 3  +  1  +  2 =    
+1. 3  +  3  +  4 =    2. 2  +  1  +  5 =    
+4. 3  +  3  +  3 =    
+3  +  4  +  2 =
+6.      2
+    +    4 
+            4
+9.      4
+    +    1 
+           3
+10.      6
+    +    1 
+           3
+7.      4
+    +    3 
+            2
+8.      5
+    +    2 
+            2
+Example
+Work to do
+Add
+3  +  4  = 7
+7  +  2  = 9
+3  +  4  +  2  = 9
+
+43
+NOT FOR SALE
+Activity
+  Using place value tins
+Week 5   Lesson 2
+     342
+    + 125 
+Steps
+1. Represent 342 as 2 sticks 
+in ones tin, 4 sticks in 
+tens tin and 3 sticks in 
+hundreds tin.
+2. Add 125 as 5 sticks in the 
+ones tin, 2 sticks in the 
+tens tin and 1 stick in the 
+hundreds tin.
+3. Count the sticks to get, 
+7 sticks in the ones tin, 6 
+sticks in the tens tin and 
+4 sticks in the hundreds 
+tin.
+ 
+     342
+    + 125
+467 
+Adding two 3 - digit numbers
+
+44
+Property of the Government of Kenya
+a)  324
+     + 135
+c)   266
+    +  232
+b)  144
+    + 351
+a) 126 + 232 =    b) 342  +  143 =    
+c) 318 + 181 =    d) 372  +  122 =    
+d) 372
+    + 120
+f) 375
+    + 121
+e)  274
+     + 124
+Example 1
+Example 2
+ 246
+   +  132
+      378
+Ones :   6 + 2 = 8    Write 8
+Tens :   4 + 3 = 7    Write 7
+Hundreds :   2 + 1 = 3    Write 3 
+   157
++   232
+      389
+Write as
+Add Ones
+Add Tens
+Add Hundreds
+157 + 232 =
+Work to do  
+1. Add
+2. Add
+
+45
+NOT FOR SALE
+Week 5 Lesson 3
+Example 1
+    235
+   +   147
+   
+Adding two 3 - digit numbers
+1. Add 5 ones to 7 ones to 
+get 12 ones.
+2. Regroup 12 as 1 tens and 
+2 ones.
+3. Write 2 in the ones 
+column and take 1 tens 
+to the tens column.
+4. Add 1 tens to 3 tens and 
+4 tens to get 8 tens. 
+Write  8 in the tens 
+column.
+5. Add 2 hundreds to 
+1 hundreds to get 3 
+hundreds.
+hundreds tens ones
+2 3 5
+1 4 7
+3 8 2
+Steps
+
+46
+Property of the Government of Kenya
+Example 2
+ 267
+  + 452
+  
+1. Arrange in columns.
+2. Add 7 ones to 2 ones to 
+get 9 ones.
+3. Add 6 tens to 5 tens to 
+get 11 tens. Regroup 11 
+tens  as 1 hundreds and 
+1tens.
+4. Write  1 in the tens 
+column.
+5. Take 1 hundreds to the 
+hundreds column. 
+6. Add 1 hundreds to 2 and 
+4  hundreds to get 7 
+hundreds.
+hundreds tens ones
+2 6 7
+4 5 2
+7 1 9
+267+ 452 = 
+Steps
+1.    126
+  + 348
+2.    257
+  + 234
+3.    363
+  +  129
+Work to do
+
+47
+NOT FOR SALE
+5.    122
+  + 181
+6.    281
+  + 1 36
+4.    227
+  + 256
+7.    227 + 256 = 8.    227 + 256 = 
+9.  Juma had 46 8 party chairs. He bought 125  
+party chairs. How many party chairs does 
+he have altogether?
+10.  Asha had 135  kg of flour. Fatuma gave 
+her 180 kg. How many kg does she have 
+altogether?
+
+48
+Property of the Government of Kenya
+1 2 4 5 6 7 10
+13 14 15 18 19
+21 23 26 30
+31 32 35 37 38
+41 42 43 47 49 50
+51 54 55 58
+62 63 66 67 69
+71 74 75 78 80
+81 82 84 86 88 90
+94 95 97 99 100
+Week 5   Lesson 4
+Fill in the missing numbers
+Number patterns
+Activity
+
+49
+NOT FOR SALE
+Example 1
+Fill in the missing numbers
+422, 424, 426, 428, _____, ______
+Steps
+1. Get the rule by getting the difference 
+through addition between two numbers 
+following each other.
+2. The rule is add 2 to the previous number.
+3. To get the next number, add 2 to 428. 
+The next number is 430. 
+4. To get the next missing number, add 2 to 
+430. The number is 432. 
+Example 2
+Fill in the missing numbers
+450, 460, 470, ___, ____, 500.
+Steps
+1. Get the rule by getting the difference 
+through addition between two numbers 
+following each other.
+2. The rule is 10 more than the previous 
+number.
+3. To get the missing number, add 10 to 470. 
+The next number is 480. 
+4. To get the next missing number, add 10 
+to 480. The number is 490.
+
+50
+Property of the Government of Kenya
+Work to do
+Work out the missing numbers
+1. 125, 150, 175, _____, ____ , 250
+2. 320, 325, 330, _____, _____, 345
+3. 415, 430, 445, 460, ___,____
+4. 200, 250, 300, 350,  _____, ____
+5. 75, 150, 225,300,  ____, ____
+
+51
+NOT FOR SALE
+Week 5 Lesson 5 Subtraction
+Example 1 
+Subtracting a 1 - digit  number from a 2 - digit 
+number 
+Example 2
+   28 
+-    3
+  tens ones
+    2  8
+ -    3
+      2  5
+  tens      ones
+    7  9
+ -    5
+      7  4
+1. Subtract 5 ones from 
+9 ones to get 4 ones.
+2.  There is no tens in the 
+second number.
+3. Bring down 7.
+1. Subtract 3 ones from 8 ones to get 5 ones.
+2. Bring down 2 tens.
+79 - 5 =  
+arrange as
+Work out
+Week 5 Lesson 5 
+Steps
+Steps
+
+52
+Property of the Government of Kenya
+1.       27
+    -   5
+5.      19
+  -    6
+2.    78
+ -   3
+6.     83
+  -   3
+3.      45
+  -    4
+4.    64
+  -   1
+Work to do 
+Subtract
+9.  A box contains 25 pieces of soap. Grade 3 
+learners used  5 pieces to wash their hands.  
+How many pieces remained?
+10.  A poultry keeper had 83 chicken. She ate 
+two. How many remained?
+7.  98 -  7 = 8.  48 -  5 =
+
+53
+NOT FOR SALE
+Week 6 Lesson 1 
+Activity 
+Using an abacus
+         57
+  -  23
+        57
+  -  23
+          34
+Subtracting two 2 - digit numbers
+1. Represent 57 as 7 rings in the 
+ones spike and 5 rings in the 
+tens spike.
+2. Remove 3 rings from the ones 
+spike and 2 rings from the tens 
+spike.
+3. Count the remaining rings 
+in the ones spike and record 
+in ones  place. Count the 
+remaining rings in the tens 
+spike and record in tens palce.
+Steps
+
+54
+Property of the Government of Kenya
+Example 1 
+ 3 6 
+-  1 2
+  
+1.  Subtract 2 ones from 6 ones to get 4 ones.
+2.  Subtract 1 tens from 3 tens to get 2 tens.
+Example 2 
+  tens       ones
+    8  6
+ -    5  4
+      3  2
+1. Subtract 4 ones from 
+6 ones to get 2 ones.
+2. Subtract 5 tens from 
+8 tens to get 3 tens.
+86   -   54   = 
+arrange as
+Steps
+Steps
+  tens       ones
+  3  6
+ -  1  2
+    2  4
+
+55
+NOT FOR SALE
+Work to do
+1.   2.   3.   4.
+5.      6.
+7.
+8.  A class has 45 pupils.  The number of boys is 
+30. How many girls are in that class?
+9.  Andrew bought 88 story books. He gave 43 
+to  Grade 3 learners. How many remained?
+10.  Morris had 54 bags of cement. Violet bor-
+rowed 32 bags. How many were left?
+     42
+ - 31
+        
+     29
+ -  12
+     17
+ - 14
+     31
+ - 21
+        
+85 - 61  = 
+75 - 43 = 
+66 - 44 =
+
+56
+Property of the Government of Kenya
+Activity
+Using Bundles of sticks
+      36
+  -   7
+     36
+  -  7
+        29
+1. Represent 36 as 3 bundles 
+of tens and 6 single sticks.
+2. Take 7 single sticks away 
+from 6 single sticks. Since 
+we cannot take 7 sticks 
+from 6 sticks.
+3. Untie 1 bundle of tens to 
+get 10 single sticks. Add to 
+the 6 single sticks to get 16 
+single sticks.
+4. Remove 7 single sticks from 
+16 single sticks.
+5. Count the remaining 
+bundles of tens and single 
+sticks to get 2 bundles of 
+ten and 9 singles.
+Week 6 Lesson 2
+Subtracting a 1 - digit number from a 2 - digit 
+number
+Steps
+
+57
+NOT FOR SALE
+1.   2.   3.   4.
+5.   6.   7.   8.
+1. Since you can not subtract 4 ones 
+from 3 ones, regroup 6 tens as 5 
+tens and 10 ones. Add 10 ones to 
+3 ones to get 13 ones. 
+2. Subtract 4 ones from 13 ones to 
+get 9 ones.
+3. Bring down the remaining 5 tens
+Example
+     63
+  -  4
+        59
+Work to do
+ Subtract
+        8 7
+  -    9
+        
+        26
+  -    7
+        14
+  -    5
+        31
+  -    3
+        
+        62
+  -    6
+         75
+  -    6
+        
+        90
+  -    8
+        
+        48
+  -    9
+        
+9.  Boaz had 16 rabbits. He gave nine to his 
+friends. How many was he left with?
+10.  A shopkeeper had a tray of 30 eggs. He sold 
+five eggs.  How many eggs remained?
+Steps
+
+58
+Property of the Government of Kenya
+Week 6 Lesson 3
+Example 1
+Example 2
+ 44 
+-  27
+    
+ 88 
+-  29
+  tens     ones
+   4  4
+ -   2  7
+     1  7
+1. Since you can not subtract 7 ones from 4 
+ones, regroup 4 tens as 3 tens and 10 ones. 
+Add 10 ones to 4 ones to get 14 ones. 
+2. Subtract 7 ones from 14 ones to get 7 ones.
+3. Subtract 2 tens from the remaining 3 tens to 
+get 1 tens
+1. Since you can not subtract 9 ones from 8 ones, 
+regroup 8 tens as 7 tens and add 10 ones to 8 
+ones to get 18 ones. 
+2. Subtract 9 ones from 18 ones to get 9 ones.
+3. Subtract 2 tens from the remaining 7 tens to 
+get 5 tens.
+Subtracting a 1 - digit number from a 2 - digit 
+number
+  tens     ones
+   8  8
+ -   2  9
+     5  9
+Steps
+Steps
+
+59
+NOT FOR SALE
+1.   2.   3.   4 .
+5.   6.   7.      
+ 
+      
+      
+      
+8.  A teacher bought 82 mangoes to give to pupils 
+on athletics day.  The teacher gave out 49 
+mangoes. How many mangoes remained? 
+9.  A mobile phone shop had 8 2 phones in the 
+morning. By evening, 53 phones had been 
+sold. How many phones remained? 
+10. Ouma bought 8 3 bananas to sell. Seventeen 
+bananas were spoilt. How many bananas did 
+he sell? 
+Work to do
+Subtract
+     42
+ -  1 7
+        
+     34
+ - 2 8
+     98
+ - 69
+     35
+ - 27
+        
+     53
+ - 36
+     92
+ - 46
+        
+     74 
+ - 5 8
+
+60
+Property of the Government of Kenya
+Week 6 Lesson 4
+Example
+50 - 30 =  
+Work to do : 
+Subtract
+On the number line, start at 50 and skip 
+backwards 3 steps in tens, to land at 20. 
+1.   2.   3.   4.
+5.   6.   7.   8.  
+ 
+      
+      
+      
+9.  A school had 90 plates. Thirty plates were 
+broken. How many remained?  
+10. Alex had 20 shirts. He gave 10 shirts to his 
+brother. How many was he left with?
+     30
+ -  1 0
+        
+     40
+ - 30
+     50
+ - 50
+     50
+ - 40
+        
+     40
+ - 20
+     70
+ - 40
+        
+     80 
+ - 60
+        
+     90 
+ - 70
+        
+Subtracting multiples of 10
+
+61
+NOT FOR SALE
+Week 6 Lesson 5
+Example 1
+Example 2
+Steps
+Steps
+What is 539 take away 
+16? 
+Represent the numbers 
+in a place value chart.
+1. Subtract 6 ones from 9 ones to get 3 ones. 
+2. Subtract 1 tens from 3 tens to get 2 tens. 
+3. Record 5 in the hundreds column.
+1. Subtract 0 ones from 2 ones to get 2 ones. 
+Record 2 in the ones column.
+2. Subtract 2 tens from 5 tens to get 3 tens. 
+Record 3 in the tens column.
+3. Record 8 in the hundreds column.
+Hundreds Tens Ones
+   8 5 2
+2 0
+   8 3 2
+ 852 
+-    20
+Hundreds Tens Ones
+   5 3 9
+1 6
+   5 2 3
+Subtracting a 2 - digit number from a 3 - digit 
+number
+
+62
+Property of the Government of Kenya
+Work to do : 
+Subtract
+1.    2.    3.   
+4.    5.    6.
+     462
+ -    31
+        
+     666
+ -  1 4 5
+        
+     589
+ -    16
+        
+     7 86
+ -    73
+        
+     749
+ -    35
+        
+     585
+ -    72
+        
+7.  Muga has sh. 896. He spent sh. 64. How much 
+money was he left with?
+8.  Albert’s shop had 572 pairs of trousers. He 
+sold 51 pairs. How many remained?
+9.  Judy had 158 litres of paraffin to sell. She sold 
+33 litres. How many litres remained?
+10. The total number of teachers and learners in 
+a school is 265. There are 12 teachers. How 
+many learners are there in the school?
+
+63
+NOT FOR SALE
+Week 7 Lesson 1
+Example 1
+What is the next number in the pattern?
+Number patterns
+40, 35, 30, 25 _____
+Steps 
+1. Get the rule by getting the difference through 
+subtraction between two numbers following 
+each other.
+2. The rule is subtract 5.
+3. To get the next number, subtract 5 from 25. 
+The next number is 20.
+Example 2
+What are the missing numbers in the pattern?
+68, 64,60,  ____, ____, 48
+Steps
+1. Get the rule by getting the difference through 
+subtraction between two numbers following 
+each other
+2. The rule is subtract 4.
+3. To get the next number, subtract 4 from 60. 
+The next number is 56. 
+4. To get the next missing number, subtract 4 
+from 56. The number is 52.
+
+64
+Property of the Government of Kenya
+Work to do 
+Fill in the missing numbers
+1. 12, 10, 8, 6, ______, _______
+2. 20, 17, 14, ______, ______, 5
+3. 60, 50, 40, ______,  ______, 10
+4. 75, 70, 65, 60, ______, _______
+5. 90, 70, 50, 30, ______, _______
+
+65
+NOT FOR SALE
+Multiplication
+ Week 7 lesson 2 
+Multiplying numbers
+Work to do : 
+Fill in the missing numbers
+1.                                                
+    _______     +      _____              2 x 4
+3        +      3                     2   x  3
+        2  x  3   =   6
+2  x  3   =    
+3   x   4    =       
+Example 1
+Example 2
+4      +      4     +      4                     3  x  4 
+    3 x 4   =   12
+
+66
+Property of the Government of Kenya
+2.                                            
+           5  + 5        ___ x ___   =     10
+3.                                                 
+         ___   +   ___    +    ___          ___ x ___ = 15
+                     
+5.    7  +   7        ___ x___  =  14
+6.    7   +   7  +   7        ___ x___  =___ 
+7.     8  +   8         ___  x ___ = ___
+ __    + ___+ ___  + ____        ___ x ___ =  18
+4.
+
+67
+NOT FOR SALE
+Week 7 lesson 3 
+X 1 2 3 4 5 6 7 8 9 10
+1 1 2 3 4 5 6 7 8 9 10
+2 2 4 6 8 10 12 14 16 18 20
+3 3 6 9 12 15 18 21 24 27 30
+4 4 8 12 16 20 24 28 32 36 40
+5 5 10 15 20 25 30 35 40 45 50
+6 6 12 18 24 30 36 42 48 54 60
+7 7 14 21 28 35 42 49 56 63 70
+8 8 16 24 32 40 48 56 64 72 80
+9 9 18 27 36 45 54 63 72 81 90
+10 10 20 30 40 50 60 70 80 90 100
+7   x   5   =  
+Examples
+Multiplying numbers
+Multiplication table
+Steps
+1. Identify number 7 along the first row and 
+number 5 along the first column.
+2. Move along the row and the column indentified 
+until they meet.
+3. Identify the number where they meet as 35.
+ 7  x  5  =  35
+
+68
+Property of the Government of Kenya
+7.     9
+  X  4
+8.     5
+  X  7
+9.     8
+  X  4
+10.     5
+  X  8
+Work to do : 
+Multiply
+1. 5 x  1 =     2. 4 x 2 =    
+ 
+3. 6 x  3 =    4. 7 x 8 =   
+ 
+5. 9 x 10 =   6. 5 x 5 =
+
+69
+NOT FOR SALE
+Example 
+Week 7 lesson 4
+X 1 2 3 4 5 6 7 8 9 10
+1 1 2 3 4 5 6 7 8 9 10
+2 2 4 6 8 10 12 14 16 18 20
+3 3 6 9 12 15 18 21 24 27 30
+4 4 8 12 16 20 24 28 32 36 40
+5 5 10 15 20 25 30 35 40 45 50
+6 6 12 18 24 30 36 42 48 54 60
+7 7 14 21 28 35 42 49 56 63 70
+8 8 16 24 32 40 48 56 64 72 80
+9 9 18 27 36 45 54 63 72 81 90
+10 10 20 30 40 50 60 70 80 90 10070
+Multiplying numbers 
+Steps 
+1. Identify the number 7 in the first row and 
+number 10 in the first column.
+2. Move along the identified row and column 
+until they meet.
+3. Identify the number where they meet as 70.
+ 7 x 10 = 70
+7   x   10   =
+
+70
+Property of the Government of Kenya
+1. 10 x  2 =    6.  10 x 6 = 
+2. 10 x  3 =    7.  10 x 7 = 
+3. 10 x  4 =    8.  10 x 8 = 
+4. 10 x  5 =    9.  10 x 9 = 
+5. 10 x 10 =    10. 10 x 1 = 
+Work to do
+Multiply
+
+71
+NOT FOR SALE
+Week 7 Lesson 5
+Dividing numbers
+Work to do 
+Divide
+Division
+How many can we substract 2 from 8?
+8  –  2  –  2  –  2  –  2  =  0 time 
+8  –  2  =  6 = 1  time
+6  –  2  =  4 = 2 times
+4  –  2  =  2 = 3  times
+2  –  2  =  0 = 4 times
+We can subtract 2 from 8 four times.
+   8  ÷  2  =  4
+1. 4 ÷ 2 =  
+2. 6 ÷ 2 = 
+3. 8 ÷ 2 = 
+4. 8 ÷ 4 =
+Example
+8 ÷ 2 = 
+5. 9 ÷ 3 = 
+6. 6 ÷ 2 = 
+7. 4 ÷ 1 = 
+8. 5 ÷ 1 =
+
+72
+Property of the Government of Kenya
+15 – 5 = 10  1 time
+10 – 5 = 5      2 times
+ 5 – 5 =  0    3 times
+We can subtract 5 from 15 three times
+15 ÷ 5 = 3
+Week 8  Lesson 1
+Dividing Numbers
+Division as repeated subtraction on a number line
+From 12 skip backwards in 3’s until you get to 
+zero.
+Count the number of skips made
+12 ÷ 3 = 4
+`0``````````1``````````2` ```````3`````````4` ``````````5`````````6` ````7` `````8` ``````9` ```````10`````````11` 12
+1234
+Example 1
+Example 2
+Work out
+15 ÷ 5 = 
+ 12 ÷ 3 =
+
+73
+NOT FOR SALE
+Work to do
+Divide
+1.  12 ÷  3   =  
+2.  15 ÷  3   = 
+3.  20 ÷  4     =  
+4. 25 ÷  5  =  
+5.  16  x  4  =  
+`0``````````1``````````2` ```````3`````````4` ``````````5`````````6` ````7` `````8` ``````9` ````````106. 
+  10   ÷   2  =  
+7.
+   ______ ÷ _____ = _________
+`0``````````1``````````2` ```````3`````````4` ``````````5`````````6` ````7` `````8` ``````9` ```````10`````````11` 12
+
+74
+Property of the Government of Kenya
+8. 
+   _____ ÷ ____ = _________
+9.
+    _____ ÷ ____ = _________
+10.
+   _____ ÷ ____ = _________
+`0``````````1``````````2` ```````3`````````4` ``````````5`````````6
+`0``````````1``````````2` ```````3`````````4` ``````````5`````````6` ````7` `````8` ``````9` ```````10`````````11` 12` ``13` ```14` `````15
+`0``````````1``````````2` ```````3`````````4` ``````````5`````````6` ````7` `````8` ``````9` ```````10`````````11` 12` ``13` ```14` `````
+
+75
+NOT FOR SALE
+1 2 3 4 5 6 7 8 9
+1 1 2 3 4 5 6 7 8 9
+2 2 4 6 8 10 12 14 16 18
+3 3 6 9 12 15 18 21 24 27
+4 4 8 12 16 20 24 28 32 36
+5 5 10 15 20 25 30 35 40 45
+6 6 12 18 24 30 36 42 48 54
+7 7 14 21 28 35 42 49 56 63
+8 8 16 24 32 40 48 56 64 72
+9 9 18 27 36 45 54 63 72 81
+Week 8   Lesson 2
+Relationship between division and 
+multiplication using multiplication table
+24 ÷ 6 = _____
+6 x ____ = 24
+6  x  4  = 24
+24
+Example 
+1. From 24 move up to 4 
+from 24 move across to 6.
+2. Therefore  
+    6 x 4 = 24 and 24 ÷ 6 = 4
+Steps
+
+76
+Property of the Government of Kenya
+1. 20    ÷    4   =  5
+ ____  x  ____ = 20
+2. 12    ÷  _____   =  _____
+  4     x  _____   =  12
+3. 12    ÷  _____   =   4
+4. 25   ÷  _____   =   5
+5. 10    ÷ ______  =   5
+6. 15   ÷   3  =  ____
+7.  8  ÷  ____ = 4
+8. ______  ÷ 5 = 4
+9. ______  ÷  5 = 1
+10. ______  ÷  4 = 2
+Work to do
+Divide
+
+77
+NOT FOR SALE
+LENGTH
+ Week 8 Lesson 3 
+Measuring lengthin metres
+Activity 1 
+What is the length of the chalkboard?
+Work to do 
+Measure
+Objects Lengths in metres
+1 Longer side of the classroom 
+cupboard
+2 Shorter side of the classroom 
+door
+3. Length of classroom window
+4. The shorter length of the 
+football field
+5. The length of the school garden
+MEASUREMENT
+
+78
+Property of the Government of Kenya
+Week 8 Lesson 4
+1.  The distance from the head teacher’s office 
+to the flag post.
+2.  The shorter length of the football pitch.
+3.  The school garden.
+Estimating length
+Our School  
+Activity
+Estimate then measure
+Distance Estimate in 
+metres
+Actual distance 
+in metres
+was the 
+estimate close
+1.
+2.
+3.
+
+79
+NOT FOR SALE
+Distance Estimate in 
+metres
+Measurement 
+in metres
+How close 
+was the 
+estimate
+1. Staffroom to class
+2. Flag post to the nearest 
+tree
+3. Between two trees
+4. Between two classes
+5. Between headteacher’s 
+office and flagpost
+6. The shorter length of 
+the pitch.
+7. The length of the school 
+garden
+What do you think is the 
+distance between the car 
+and the tree?
+Work to do 
+Estimate and measure the distance 
+Activity
+
+80
+Property of the Government of Kenya
+Week 8 Lesson 5
+Work to do 
+Measure the masses of other objects using the 1 
+kg mass.
+Objects Mass in kg
+a) Mathematics textbooks
+b) Chalkboard duster
+c) Boxes of chalk
+d) A packet of maize
+e) A packet of beans
+1 kg
+MASS
+Activity 2
+Using the beam 
+balance and two  
+1-kg masses, 
+guide learners to 
+measure 2 kg of  
+beans.
+The kilogram (kg) is used for measuring mass. A 
+shopkeeper measures  the mass of sugar, rice and 
+flour in kilograms.
+Measuring mass in kilograms
+Activity 1  
+Make 1 kg masses of 
+sand or soil using a 
+beam balance
+
+81
+NOT FOR SALE
+Week 9 Lesson 1
+Estimating mass 
+Activity 1
+Using 1 kg masses estimate and 
+measure the mass of pebbles. 
+How close was the estimate?
+Activity 2
+Using soil of unknown mass, use 1 - kg masses to 
+determine the mass of the soil. How close was 
+the estimate?
+Work to do 
+Estimate and measure mass in kg.
+Object Estimated 
+Mass
+Actual 
+Mass
+How close was 
+the estimate?
+a)
+b)
+c)
+d)
+e)
+f)
+
+82
+Property of the Government of Kenya
+CapaCity
+ Week 9  Lesson 2
+Capacity is measured in litres.  
+Liquids such as water, milk and 
+petrol can be used to measure the 
+capacity of different containers. 
+Measure the capacity using 1 litre container of 
+water
+Measuring Capacity in Litres
+Activity 1
+1.
+ The bucket can be filled by 14 one litre 
+containers. The bucket holds _______ 
+litres.
+2.
+ The bottle can be filled by 5 one litre 
+containers The bottle holds ________ 
+litres.
+3.
+ The jug can be filled by 8 one litre 
+containers. The jug holds ______ 
+litres.
+Container How many 1 litre 
+containers
+How many 
+litres?
+Pot
+Jerrican
+Sufuria
+Work to do
+How many litres?
+
+83
+NOT FOR SALE
+Week 9 Lesson 3
+Containers Estimate Actual How close was 
+the Estimate?
+1. 
+2.  
+3. 
+4. 
+Estimating capacity
+Activity
+Work to do
+Estimate and measure the capacity of the 
+containers 
+What is the 
+capacity of this 
+bucket?
+2 Litres5 Litres
+
+84
+Property of the Government of Kenya
+Week 9 Lesson 4
+Hour hand and minute hand
+This is a picture of a 
+___________
+1. Read the numbers it has.
+2. The long hand is called the ________ hand
+3. The short hand is the ________ hand.
+Activity 2
+  Using the manila paper provided make a 
+clock face of at least 15 cm wide
+Work to do
+  Draw a clock face in your exercise books 
+name the hour hand and the minute hand. 
+TIME
+Activity 1
+
+85
+NOT FOR SALE
+Week 9 Lesson 5
+Relationship between hour hand and minute 
+hand
+1.  The clock face has 12 
+equal divisions marked 
+1 to 12.
+2.  Each division between 
+two numbers is an 
+hour
+Work to do
+ Draw a clock face with 
+1.  Hour hand pointing at 8 and minute hand 
+pointing at 4
+2.  Hour hand pointing at 11 and minute hand 
+pointing at 6
+3.  Hour hand pointing at 12 and minute hand 
+pointing at 8
+4.  Hour hand pointing 3 and minute hand 
+pointing 9
+3.  Between two numbers are five smaller equal 
+divisions. Each small division is a minute.
+ Activity 
+1.  How many big divisions can you see on the 
+clock face?
+2.  How many small divisions can you see on 
+the clock face?
+
+86
+Property of the Government of Kenya
+Week 10 Lesson 1
+Time by the hour
+Activity 1 : Read and tell time
+The time is 
+3 o’clock
+The time is 
+8 o’clock
+The time is 
+6 o’clock
+The time is 
+12 o’clock
+Work to do
+1. What is the time?
+a)           b)        c)                           d)
+    
+a)      b)        c)        d)
+___o’clock ___o’clock  ___o’clock  ___o’clock
+  4 o’clock   1 o’clock2 o’clock11 o’clock
+2. Show the time
+
+87
+NOT FOR SALE
+Week 10 Lesson 2
+Time past the hour
+Example
+Quarter  past 12 o’clock
+15 minutes past 12 o’clock
+Half past 2 o’clock. 
+30 minutes past 2 o’clock
+Work to do
+What is the time ?
+1.    2.    3.   
+4.    7.    8.   
+8.    9.
+
+88
+Property of the Government of Kenya
+MONEY
+Kenya currency notes
+50 100 200
+Work to do
+Write what you can see in the Kenyan currency 
+notes.
+Week 10 Lesson 3
+Activity
+Identify your shilling notes
+
+89
+NOT FOR SALE
+Week 10 Lesson 4
+Counting money
+Sh. 50 + Sh. 100 = Sh. 150
+Sh. 200 + Sh. 500 = Sh. 700
+Sh. 500 + Sh. 100 = Sh. 600
+Sh. 50 + Sh. 200 + Sh 500 = Sh. 750
+1.
+2.
+3.
+ 
+ 
+4.
+Activity
+How much money?
+
+90
+Property of the Government of Kenya
+2.
+3.
+4.
+Work  to do
+How much money?
+1.
+
+91
+NOT FOR SALE
+Week 10 Lesson 5
+1. John has a sh.100 
+note.  How many 
+sh. 50 notes will be 
+get?
+John will get two  
+sh.50 notes
+Shopping activities involving change.
+Work to do
+How much money?
+1. Asha has a sh. 1000 note.  How many sh. 500 
+notes will she get?
+2. Salim has a sh. 200 note.  How many sh. 100 
+notes will he get?
+3. James has a sh. 500 not.  How many sh. 100 
+notes will he get?
+4. Judy has a sh. 100 note.  How many sh.  50 
+notes will she get?
+Activities
+Using the classroom shop.
+Change is getting the same amount of 
+money in smaller value
+2. Jane has a sh. 200 note.  How many sh. 50 
+notes will she get? 
+ Jane will get four sh. 50 notes
+
+92
+Property of the Government of Kenya
+Week 11 Lesson 1
+Shopping activities involving balance.
+Kenya currency notes
+Work to do
+How much balance?
+Examples
+1. Jane has a sh. 500 note.  She bought a book 
+at sh. 300.  How much money did she get 
+back?
+ sh. 500 – sh. 300 = sh. 200. 
+She got sh. 200 back. 
+Money she got back is called balance.
+2. Peter had a sh. 200 note.  He bought a bag at 
+sh. 180.  What was his balance?
+ Sh. 200 – sh. 180 = sh. 20. 
+ His balance is sh. 20.
+1. Salim had a sh. 1000 note.  He bought a chair 
+for sh. 600.  What was his balance?
+2. James had a sh. 500 note.  He bought a table 
+at sh. 450.  What was the balance?
+3. Asha had a sh. 200 note.  She bought a book 
+at sh. 125.  What was her balance?
+4. Mary has a sh. 1000 note.  She bought a 
+dress for sh. 800. What was her balance?
+5. Judy had sh. 100 note.  She bought a pencil at 
+shs. 30.  What was her balance?
+
+93
+NOT FOR SALE
+Week 11 Lesson 2
+Turning to the right
+Work to do
+Rose
+Kamau
+BANKSHOP
+HOSPITA
+L
+School
+Picture on position and direction
+Position and directions
+1. To go to the school, Kamau will move ______.
+2. To visit the bank, Kamau will walk straight then 
+turn ___________.
+3. To visit the shop, Rose will walk straight and turn 
+__________.
+4. To visit Kamau, Rose will walk __________.
+5. From the bank to the school one will walk straight 
+then turn  _________.
+Use the picture to fill in the spaces
+GEOMETRY
+
+94
+Property of the Government of Kenya
+Week 11  Lesson 3
+1.  To go to the bank Kamau will walk straight 
+and then turn to the __________.
+2.  To go to the bank, Jane will walk straight 
+then turn __________.
+3.  To visit the hospital, Jane will walk straight 
+then turn __________.
+4.  From the shop, Kamau will turn _________ 
+to the hospital.
+5.  From the hospital to the bank you walk 
+__________.
+Jane
+Kamau
+BANK
+SHOP
+HOSPITA
+L
+School
+Turning to the left
+Work to do
+Picture on position and direction
+Use the picture to fill in the space
+
+95
+NOT FOR SALE
+Week 11 Lesson 4ShapeS
+Activity
+Name the shapes
+A is a
+B is a
+C is a
+D is a
+E is a
+A is a ________
+B is a ________
+C is a ________
+D is a ________
+E is a ________
+Work to do
+ 1. Name the shapes
+Geometric shapes
+
+96
+Property of the Government of Kenya
+2. write straight or curved
+3. Write straight or curved
+a) A rectangle                is made of _____ lines
+b) A triangle      is made of _____ lines
+c) An oval                     is made of _____ lines
+a)
+c)
+e)
+b)
+d)
+f)
+
+97
+NOT FOR SALE
+Week 11 Lesson 5
+1.
+2.
+3.
+4.
+Example
+Complete the pattern to the right 
+Work to do
+Add the pattern to the right 
+Patterns
+the pattern is
+the pattern is
+
+98
+Property of the Government of Kenya
+
+99
+NOT FOR SALE
+Term 2
+
+100
+Property of the Government of Kenya
+
+101
+NOT FOR SALE
+Week 1 Lesson 1
+1 2          3        4         5   6
+  12       13            14          15  
+7  8  9   10  11
+Work to do
+Animal Position
+Elephant Tenth
+Lion Twelfth
+Buffalo
+Cow
+Use the picture above to fill in the spaces
+NUmBer CONCePT
+Position
+Activity 
+What is the position of the animals in the 
+picture?
+Giraffe
+Gazelle
+Sheep
+Cat
+The weaver bird is in the first position. The 
+eagle is in the second position. The rat is in the 
+third position.
+NUMBERS
+
+102
+Property of the Government of Kenya
+Week 1   Lesson 2
+1st
+2nd
+9th
+10th
+15th
+Positions symbols
+Activity
+Fill in the missing 
+positions
+
+103
+NOT FOR SALE
+Week 1  Lesson 3
+Work to do
+Count and fill in the missing numbers
+1. 327, 332, 337, ______ ______  ______ 
+2. 713, 71 8, 723, ______, ______, ______.
+3. 625, 630, 635, ______, ______, ______.
+4. 905, 910, 915, ______, ______, ______.
+5. 1000, 995, 99,______, ______, ______.
+6. 5 81, 576, 571, _____, _______, ______.
+7. 470, 465, 460, _____, ______, ______.
+WHOLE NUMBERS
+342, 347, 352.
+Counting in fives
+Activity
+Count
+1. 100, 805, 810,815, 820, 825, 830
+2. 220, 225, 230, 235, 240, 245, 250
+3. 400, 395, 390, 3 85, 380, 375, 370
+4. 105, 100, 95, 90, 85, 80, 75, 70
+
+104
+Property of the Government of Kenya
+Week 1 Lesson 4
+The same number 84 can also be shown using an 
+abacus as
+Work to do
+Fill in the missing numbers
+1. 17  =     1  tens     7    ones
+2.   9    = ___tens ____ ones
+3. 65   = ___tens ____ ones
+4. 30   = ___tens ____ ones
+84  = 8 Tens and 4 Ones 
+The chart shows the place value of digits in the 
+number 84
+Place value 
+4
+tens ones
+tens ones
+
+105
+NOT FOR SALE
+5. 54 =  ___tens ____ ones
+6. ___ =  7 tens  5 ones
+7. ___ =  9 tens  2 ones
+8. ___ =  4 tens  1 ones
+9. ___ =  3 tens  7 ones
+10.
+
+106
+Property of the Government of Kenya
+Week 1 Lesson 5
+Place value 
+Example
+The chart shows the place value of digits in the 
+number 253 
+The same number 253 can also be shown using 
+an abacus as
+Work to do
+Fill in the missing numbers
+1. 125  = ___hundreds  2     tens  5      ones
+2. 695 = ___ hundreds ___tens ____ ones
+3. 741  = ___ hundreds ___tens ____ ones
+4. 825 = ___ hundreds ___tens ____ ones
+253   =  2 Hundreds  5 Tens  3 Ones
+
+107
+NOT FOR SALE
+5. 970 =  ___ hundreds ___tens ____ ones
+6. 53  =  ___ hundreds ___tens ____ ones 
+7. _____ =  9 hundreds  8 tens  6 ones
+8. _____  =  7 hundreds  3 tens  1 ones
+9._____   = 1 hundreds  0 tens  4 ones
+10.
+
+108
+Property of the Government of Kenya
+Week 2 Lesson 1
+Activity
+Let us read
+798, 191,  289,  80,  75, 
+  72, 63,  560, 654,  51,
+  49,  44,  332,  30, 427,
+ 921, 19, 816, 14, 710.
+Work to do 
+1. Learners in pairs or in groups to read 
+number symbols 1 - 1000, both forward and 
+backwards 
+Reading in symbols
+
+109
+NOT FOR SALE
+Week 2 Lesson 2
+Number Words
+54 Fifty four
+63 Sixty three
+79 Seventy Nine
+84 Eighty Four
+90 Ninety
+98 Ninety Eight
+100 Hundred
+Work to do
+1.  sixty nine ____________
+2.  seventy six ____________
+3.  seventy five ____________
+4.  eighty nine ____________
+5.  ninety three ____________
+6.  ninety nine ____________
+7.  one hundred ____________
+69
+Reading Numbers 
+Activity
+Let us read
+
+110
+Property of the Government of Kenya
+Number Words
+80 eighty
+75 seventy five
+66 sixty six
+78 seventy eight
+89 eighty nine
+99 ninety nine
+100 hundred
+Work to do
+Write the numbers in words
+1.  81 ________________
+2.  77 ________________
+3.  64 ________________
+4.  87 ________________
+5.  98 ________________
+6.  90 ________________
+7.  93 ________________
+8.  100 ________________
+Week 2 Lesson 3
+Eighty One
+Numbers
+Activity
+Write number in words
+
+111
+NOT FOR SALE
+Work to do
+Fill in the missing number
+1.  100, 96, 92, 88, _____, ______. 
+2.  321, 324, 327, ____, 333, _____, _____.
+3.  76, 70, 64, _____, _____, 46
+4.  410, 430, 450 , _____, ______. 
+5.  410, 430, 450, _____, _____.
+6.  365, 361, 357, ______, ______.
+Week 2 Lesson 4WHOLE NUMBERS
+Examples
+Identify the missing numbers in the number 
+patterns 
+30, 35, 40, 45 ______
+To get the missing number count forward in 5s
+    The missing number is 50
+199, 193, 1 8 7, 1 8 1  ______
+To get the next number, subtract 6 from the 
+number before. 1 8 1  - 6 = 175
+The missing number is 175
+Number Patterns
+
+112
+Property of the Government of Kenya
+Week 2 Lesson 5
+Work to do
+Fill in the missing number
+1.  866,  864, _____, _____, _______, ______
+2.  21 8,  219, _____,  221, 222, ______
+3.  717 ,  719, ______, _____,  725, ______
+4.  540, 535, 530, _____, ______, ______
+5.  5 80, 530, _____, _____, 380, ______
+6.  370, _____, 410,  430, ______, ______
+862
+721
+480
+450
+727
+858
+Number Patterns
+Identify the missing numbers in the number patterns
+To get to the next number count forward in 50s or 
+add 50 to the number before. 750 + 50
+The missing number is 800
+WHOLE NUMBERS
+Examples
+600, 650, 700, 750, ______.
+424, 422, 420, ______, ______.
+To get the next number, count backwards in twos
+The missing numbers are 418, 416
+
+113
+NOT FOR SALE
+Week 3  Lesson 1
+a)
+Eighth as part of a whole
+  
+      Whole   One eighth written as     
+Work to do
+1. What fraction is shaded?                                                                    
+              
+2. Shade        of the whole
+b)
+c)
+a) b) c)
+FRACTION
+Example
+
+114
+Property of the Government of Kenya
+Write        or 
+              
+Work to do
+Which fraction is bigger?
+1.                                                                  
+                                                                                                         
+                                                                         
+             
+Comparing       and      
+Example
+Week 3 Lesson 2
+a)
+a)
+a)
+a)
+a)
+d)b) e)
+1
+4
+Which fraction is smaller?
+What fraction is shaded.
+b)
+b)
+b)
+b)
+2.
+4.3.
+
+115
+NOT FOR SALE
+Week 3 Lesson 3
+Work to do
+1. What is a quarter of 8 ?                                
+Quarter as part of a group
+   Whole group of 16         A quarter of 16 = 4
+  Example
+A quarter of 8 is
+a) b)
+2. Draw and shade    of the group                                
+-  We have a group of 16.
+-  Put them into four equal groups. 
+-  These are four groups. One group is shaded.
+-  The shaded is a quarter.
+1
+4
+
+116
+Property of the Government of Kenya
+3. What is                                                                                                                                                                                                        
+a)   A quarter of 24  is 
+ b)  A quarter of 32  is 
+ c)  A quarter  of 36  is
+ d)  A quarter  of 48  is
+
+117
+NOT FOR SALE
+Week 3 Lesson 4
+Eighth as part of a group 
+Example
+What is an eighth of 32?
+Whole group of 32
+Work to do
+1. What is an eighth of 24?
+2. What is
+a)  An eighth of 16 is?              b)       of 16 is?
+c)        of 40 is?
+3.                Draw and shade 
+An eighth of 24 is
+An eighth of 32 is 4
+
+118
+Property of the Government of Kenya
+Example 1
+  346
+    +    53
+     399
+  346
+    +   53
+Week 3 Lesson 5ADDITION
+Adding a 3-digit number to a 2-digit number
+Steps
+1. Add ones 6 + 3 = 9 ones
+2. Add tens 4 + 5 = 9
+3. Bring down the 3 hundreds
+Example 2
+  532    
++    46
+      578
+  532    
++    46
+Steps
+1. Add ones 2 + 6 = 8 
+2. Add tens 3 + 4 = 7 
+3. Bring down 5 hundreds in the 
+hundreds place
+Work to do
+Add
+1.        246
+    +   32
+2.         318
+    +   81
+3.       425
+    +    64
+
+119
+NOT FOR SALE
+4.     861
+   +    26
+5.      972
+    +   26
+9.       18 1
+    +  17
+6.     555
+    +   22
+10.       802
+     +   9 5
+7.       617
+     +   42
+8.     734
+    +   35
+
+120
+Property of the Government of Kenya
+Example 1
+Example 2
+Steps
+1. Add ones 2 + 6 = 8
+2. Add tens 7 + 2 = 9
+3. Write 4 hundreds in 
+hundreds place
+Steps
+1. Add ones 2 + 5 = 7 
+2. Add tens 1 + 6 = 7  
+3. Write 3 hundreds in 
+hundreds place
+Week 4 Lesson 1
+Adding a 3 - digit number to a 2 - digit number
+472 + 26 = 
+    312 + 65 = 
+    472 + 26 =  498
+    312 + 65 =  377
+1. 253 + 36  
+2. 765 + 21  
+3. 155 + 43  
+4. 661 + 1 2  
+5. 315 + 73  
+6. 900 + 84  
+7. 482 + 10  
+8. 501 + 57  
+9. 230 + 61  
+10. 873 + 26 
+Work to do
+Add
+
+121
+NOT FOR SALE
+Example 1
+Example 2
+    352
+    +   29
+Steps
+1. Add 2 ones to 9 ones to get 11 
+ones
+2. Regroup 11 as 1 tens and 1 ones
+3. Write 1 in the ones column and 
+take 1 tens to the tens column
+4. Add 1 tens to 5 tens and 2 tens 
+to get 8 tens. 
+5. Bring down the 3 hundreds
+Week 4 Lesson 2
+Add a 3 - digit number to a  2- digit number
+    352
+    +   29
+        381
+  413  + 77 =
+Steps
+1. Arrange vertically
+2. Add 3 ones to 7 ones to get 10 
+ones
+3. Regroup 10 as 1 tens and 0 ones
+4. Write 0 in the ones column and 
+take 1 tens to the tens column
+5. Add 1 tens to 1 tens and 7 tens to 
+get 9 tens.
+6. Bring down the 4 hundreds
+       413
+    +    77
+       490
+
+122
+Property of the Government of Kenya
+1.        246
+    +  4 8
+5.    724
+    +   36
+2.    367
+     +  24
+3.     406
+     +   55
+4.    555
+     +   39
+6.  848
+     +  1 3
+7. 826 + 58 = 
+Work to do
+Add
+8. 914 + 69 =    
+9.    876 + 19  =
+10. 653 + 29 =
+
+123
+NOT FOR SALE
+Example 1
+Example 2
+     367
+  +  52
+     419
+   367
+   +  52
+     782
+    +   47
+        829
+Steps
+1. Add 7 ones to 2 ones to get 9 
+ones.
+2. Add 6 tens to 5 tens to get 
+11 tens. Regroup 11 tens  as 1 
+hundreds and 1 tens.
+3. Write  1 in the tens column and 
+take 1 hundreds to the hundreds 
+column. 
+4. Add 1 hundreds to 3 to get 4 
+hundreds.
+Week 4  Lesson 3
+Add a 3 - digit number to a  2 - digit number
+782 + 47 = Steps
+1. Arrange vertically.
+2. Add 2 ones to 7 ones to get 9 
+ones.
+3. Add 8 tens to 4 tens to get 
+12 tens. Regroup 12 tens  as 1 
+hundreds and 2 tens.
+4. Write  2 in the tens column and 
+take 1 hundreds to the hundreds 
+column. 
+5. Add 1 hundreds to 7 hundreds to 
+get 8 hundreds.
+
+124
+Property of the Government of Kenya
+Add
+7. 856 + 6 3 = 
+8. 475 + 6 3 = 
+9. 160 + 45 = 
+1.        263
+    +   75
+5.    567
+    +   40
+2.    384
+     +   35
+3.    6 80
+     +   47
+4.     652
+     +   93
+6.  78 1
+    +  55
+10. Peter had 246 bottles of soda in his shop.  He 
+bought another 70 bottles. How many bottles 
+of soda does he have altogether?
+Work to do
+
+125
+NOT FOR SALE
+Work to do
+Steps
+1. Count on 6 steps from 3 steps to get 9.
+2. Count on 7 steps from 9 to get 16
+OR
+1. Using a number line. Start from 0, skip 3 
+steps forward, then 6 steps and lastly 7 
+steps to get to 16 
+ 3 + 6 + 7 = 16
+Week 4 Lesson 4
+9.         3
+    8
+   +   7
+10.        4
+    8
+   +   6
+7.         5
+    7
+   +   6
+8.         9
+    5
+   +   3
+Add
+Example 1
+Add 3 single digit number
+3 + 6 + 7 = 
+1. 2 + 4 + 6 = 
+2. 7 + 6 + 5 =  
+3. 5 + 4 + 8 = 
+4. 6 + 7 + 5 =
+5. 3 + 6 + 9 =
+6. 3 + 6 + 9 =
+1 2 73 85 10 164 96 11 1714 2012 181513 190
+
+126
+Property of the Government of Kenya
+Week 4 Lesson 5
+Example 1
+Example 2
+    273
+    + 1 16
+       389
+     273
+    + 116 Steps
+1. Add  3 ones to 6 ones to get 
+9 ones
+2. Add  7 tens to 1 tens to get 8 
+tens
+3. Add  2 hundreds to 1 
+hundreds to get 3 hundreds
+  502
++ 496
+   998
+Steps
+1. Arrange the numbers 
+vertically
+2. Add  2 ones to 6 ones to 
+get 8 ones
+3. Add  0 tens to 9 tens to get 
+9 tens
+4. Add  5 hundreds to 4 
+hundreds to get 9 hundreds
+502 + 496 =
+
+127
+NOT FOR SALE
+1.       186
+    + 202
+2.    214
+     + 375
+3.     382
+     + 417
+4.    406
+     + 51 1
+5. 215 + 340 =
+6. 461 + 392 =
+7. 600 + 392 =
+8. 812 + 161  =
+9. 710 + 281 =
+10. 827 + 172  =
+Work to do
+Add
+
+128
+Property of the Government of Kenya
+Example 1
+Example 2
+   625
+  + 247
+    872
+   625
+  + 247
+   463
+   + 528
+      991
+Steps
+1. Add 5 ones to 7 ones to get 12 
+ones
+2. Regroup 12 ones a 1 tens and 2 
+ones 
+3. Write  2 ones in the ones 
+column and take  1 tens to the 
+tens column. 
+4. Add 1 tens to 2 and 4  to get 7 
+tens
+5. Add 6 hundreds to 2  hundreds 
+to get 8 hundreds
+Week 5 Lesson 1
+Add Two 3 - digit numbers
+Steps
+1. Arrange vertically
+2. Add 3 ones to 8 ones to get 11 
+ones
+3. Regroup 11 ones as 1 tens and 1 
+ones
+4. Write 1 ones in ones column and 
+take 1 tens to tens column. 
+5. Add 1 tens to 6 and 2 to get 9 
+tens
+6. Add 4 hundreds to 5 hundreds to 
+get 9 hundreds
+463 + 528 = 
+ 1
+ 1
+
+129
+NOT FOR SALE
+1.          226
+    +  154
+5.   514
+   +  239
+9.   856
+    + 1 28
+7.    729
+    + 23 1
+6.   427
+    + 353
+10.    183
+    + 207
+8.  648
+    + 117
+2.   371
+    + 209
+3.     465  
++ 12 8
+4.    345
+    +  236
+Work to do
+
+130
+Property of the Government of Kenya
+Example 1
+Example 2
+   365
+  + 452
+   365
+  + 452
+    8 17
+Steps
+1. Add 5 ones to 2 ones to get 7 
+ones
+2. Add 6 tens to 5 tens to get 
+11 tens. Regroup 11tens  as 1 
+hundreds and 1 tens
+3. Write  1 in the tens column 
+and take 1 hundreds to the 
+hundreds column. 
+4. Add 1 hundreds to 3 and 4  
+hundreds to get 8 hundreds.
+Week 5  Lesson 2
+Add Two 3 - digit numbers
+   6 14
+  + 295
+     909
+614 + 295 = 
+Steps
+1. Add 4 ones to 5 ones to 
+get 9 ones
+2. Add 1 tens to 9 tens to get 10 
+tens. Regroup 10 tens  as 1 
+hundreds and 0 tens
+3. Write  0 in the tens column 
+and take 1 hundreds to the 
+hundreds column. 
+4. Add 1 hundreds to 6 hundreds 
+and 2 hundreds to get 9 
+hundreds
+
+131
+NOT FOR SALE
+1.        179
+  +  340
+5.   667
+   +  252
+6.   782
+   +  176
+2.    264
+     + 485
+3.    346
+     + 382
+4.   473
+    + 356
+7. 449 + 290  =  
+8. 236 + 193  =  
+9. 527 + 281  =  
+Work to do
+
+132
+Property of the Government of Kenya
+Example 1
+  Work out the missing numbers
+550, 600, 650, 700, _____, _____.
+Steps
+1. Get the rule by getting the difference between 
+two numbers following each other.
+2. The rule is 50 more than the previous number.
+3. To get the next number, add 50 to 700. The 
+next number is 750. 
+4. To get the next missing number, add 50 to 
+750. The number is 800. 
+Example 2
+425, 430, ______, 440, ______ , 450, 455
+Steps 
+1. The rule is count on in 5s to get the next 
+number. 
+2. By counting on the first missing number after 
+430 is 435 and the second missing number is 
+445. 
+Week 5 Lesson 3                             
+Number Patterns
+
+133
+NOT FOR SALE
+Work to do
+Fill in the missing numbers
+1. 310, 385, 460, 535 ______, _______
+2. 460, 520, 580, 640 ______, _______
+3. 200, 250, 300, 350 ______, _______
+4. 300, 375, ______, 475, 500, _______
+5. 570, 590, _______, 630, 650, ______
+6. 250, 400, 550, 700, ______, _______
+7. 280, 360, 440, 520 ______, _______
+
+134
+Property of the Government of Kenya
+Examples
+1.      57
+   -     36
+2.       64
+      -  22
+3.      85
+   -     60
+          98
+    - 67
+     31
+         72
+    - 30
+       42
+       1.   98
+    - 67
+       
+Steps
+1. Subtract 7 ones from 8 
+ones to get 1 ones.
+2. Subtract 6 tens from 9 
+tens to get 3 tens.
+Week 5 Lesson 4Subtraction
+Work to do
+Subtract
+2. 72 - 30 = Steps
+1. Arrange vertically.
+2. Subtract 0 ones from 2 
+ones to get 2 ones.
+3. Subtract 3 tens from 7 
+tens to get 4 tens.
+Subtracting Two 2 - digit Numbers
+
+135
+NOT FOR SALE
+7. A school had 56 clean cups, thirty two cups  
+were used. How many were not used? 
+8. A head teacher had 49 mathematics books. 
+She gave 25 to grade three learners. How 
+many remained? 
+9. A class of 55 learners visited an old peoples’ 
+home. Twenty learners cleaned the rooms. 
+The rest washed utensils. How many learners 
+washed the utensils?
+10. A school had 77 learners in one year. 25 
+learners were transferred. How many were 
+left? 
+4.     79
+   -     55
+5.    38
+   -    26
+6.    96
+   -    74
+
+136
+Property of the Government of Kenya
+Example 1
+Example 2
+1. 138
+      -     4
+2. 234
+        -    1
+3. 308
+        -    5
+  476
+    -    5
+      471
+Steps 
+1. Subtract 5 ones from 6 ones 
+to get 1 ones.
+2. Bring down 7 tens and 4 
+hundreds. 
+Week 5 Lesson 5
+Work to do
+Subtract
+  476
+    -    5
+      
+Subtracting a single digit number from a 3 - 
+digit number 
+546 - 3 = 
+546 
+-    3
+Steps
+1. Arrange vertically. 
+2. Subtract 3 ones from 6 
+ones to get 3 ones.
+3. Bring down  4  tens  
+and 5 hundreds.
+
+137
+NOT FOR SALE
+8. 789
+      -    2
+9. Eight hundred and ninety nine bags of maize 
+were given to a zone. Kaloleni primary school 
+received 6 bags. How many bags were left for 
+the other schools?  
+10. During a school tree planting day 349 trees 
+were planted. Teachers planted 8 trees. How 
+many trees did pupils plant?  
+4.            449
+       -       7
+7. 676
+     -    2
+6. 506
+     -    6
+
+138
+Property of the Government of Kenya
+Week 6 Lesson 1
+Subtract two 2 - digit numbers
+   70
+   -  34
+     36
+  82
+   -   47
+     35
+  82
+   -   47
+Steps
+1. Since you cannot subtract 7 
+ones from 2 ones, regroup 8 
+tens as 7 tens and 10 ones.
+2. Add 10 ones to 2 ones to get 
+12 ones.
+3. Subtract 7 ones from 12 ones 
+to get 5 ones.
+4. Subtract 4 tens from the 
+remaining 7 tens to get 3 
+tens.
+70 - 34 =
+Example 1
+Example 2
+Steps
+1. Arrange vertically.
+2. Regroup 7 tens as 6 tens 
+and 10 ones.
+3. Subtract 4 ones from 10 
+ones to get 6 ones.
+4. Subtract 3 tens from the 
+remaining 6 tens to get 3 
+tens.
+
+139
+NOT FOR SALE
+5.       33
+ -   27
+6.       85
+    - 56
+7.   A shopkeeper has 42 packets of biscuits. He 
+sells 27 packets. How many packets were left?
+8.   A farmer harvested 64 bags of maize. He gave 
+out 38 bags to a childrens home. How many 
+bags of maize were left?
+9.   A Grade 3 class had 8 0 learners. One day 32 
+learners went for a trip. How many were left?
+10.    A matchbox had 32 sticks. In one week 14 
+were used. How many were left?
+4.       20
+    - 19
+1.           72
+    -   48
+2.             51
+      -   32
+3.          67
+    -   18
+Work to do
+Subtract
+
+140
+Property of the Government of Kenya
+Week 6 Lesson 2
+Example 1
+   684
+    -    5
+      679
+    172
+    -    3
+      169
+Steps
+1. Since you can not subtract 5 
+ones from 4 ones, regroup 8 
+tens as 7 tens and 10 ones. Add 
+10 ones to 4 ones to get 14 ones. 
+2. Subtract 5 ones from 14 ones to 
+get 9 ones.
+3. Bring down the remaining 7 
+tens and 6 hundreds.
+Example 2
+Subtract a single digit number from a 3 - digit 
+number
+Steps
+1. Since you can not subtract 3 
+ones from 2 ones, regroup  7 
+tens as 6 tens and 10 ones. Add 
+10 ones to 2 ones to get 12 ones. 
+2. Subtract 3 ones from 12 ones to 
+get 9 ones.
+3. Bring down the remaining 6 
+tens and 1 hundreds
+
+141
+NOT FOR SALE
+7. Abdi had 615 kg of flour in his shop. He sold 6 
+kg. How many were left?
+8. Alex had 783 goats. 4 died. How many were 
+left?
+9. A class had 150 textbooks. 2 got lost. How 
+many were left? 
+10. A shopkeeper had 124 packets of milk. She 
+sold 5 packets. How many packets were left? 
+4.     271
+       -  6
+6.     934
+     -   7
+5.     892
+     -    8
+1.     346
+        - 7
+2.     553
+        - 5
+3. 460
+       -  4
+Work to do
+Subtract
+
+142
+Property of the Government of Kenya
+Week 6 Lesson 3
+Subtracting two 3 - digit numbers
+ 738
+   -   526
+     212
+ 738
+   -   526
+     
+  482
+-    381
+     101
+Steps
+1. Subtract 6 ones from 8 
+ones to get 2 ones.
+2. Subtract 2 tens from 3 tens 
+to get 1 tens
+3. Subtract 5 hundreds from 7 
+hundreds to get 2 hundreds
+Steps
+1. Subtract 1 ones from 2 
+ones to get 1 ones.
+2. Subtract 8 tens from 8 
+tens to get 0 tens
+3. Subtract 3 hundreds 
+from 4 hundreds to get 1 
+hundreds
+Example 1
+Example 2
+1.
+482 - 381 =
+
+143
+NOT FOR SALE
+4.           455
+    - 340
+5.             347
+    - 105
+6.           888
+    - 777
+7. A garden had 719 seedlings. In one day 616 
+seedlings were sold. How many were left?
+8. A wholesale shop had  328 bags of fertilizer. 
+In one month, 120 bags were sold. How many 
+were left? 
+9. Ole Sakida had 478 sheep. He sold 324. How 
+many were left?? 
+10. A tank had 566 litres of water. A family used 
+323 litres. How many were left? 
+1.           264
+    - 152
+2.            986
+    - 731
+3.            697
+    - 224
+Work to do
+Subtract
+
+144
+Property of the Government of Kenya
+Example 1
+Example 2
+   753
+    -     26
+      727
+Steps
+1. Since you can not subtract 6 
+ones from 2 ones, regroup 4 
+tens as 3 tens and 10 ones. Add 
+10 ones to 2 ones to get 12 ones. 
+2. Subtract 6 ones from 12 ones to 
+get 6 ones.
+3. Subtract 3 tens from 3 tens to 
+get 0 tens.
+4. Bring down the 4 hundreds.
+Week 6 Lesson 4
+Subtract 2 - digit numbers from 3  -  digit 
+numbers
+Steps
+1. Since you can not subtract 6 
+ones from 3 ones, regroup 5 
+tens as 4 tens and 10 ones. Add 
+10 ones to 3 ones to get 13 ones. 
+2. Subtract 6 ones from 13 ones to 
+get 7 ones.
+3. Subtract 2 tens from the 
+remaining 4 tens to get 2 tens.
+4. Bring down the 7 hundreds.
+   442    
+-   36
+      406
+
+145
+NOT FOR SALE
+5. 619
+     - 34
+6. 708
+      - 72
+7.       257
+      - 82
+8. A fish pond had 508 fish. On one day, 67 died.  
+How many were left?
+9. A farmer harvested 335 bags of beans. In 
+June he sold 82 bags.  How many were left?
+10. A shopkeeper had 124 packets of milk. She 
+sold 5 packets.  How many packets were left? 
+4.  632
+     -   18
+1.    426
+     -   71
+2. 914
+      - 37
+3. 836
+      - 58
+Work to do
+Subtract
+
+146
+Property of the Government of Kenya
+Example 1
+  300
+   -     100
+     200
+  670
+   -     520
+     150
+Steps
+1. Subtract 0 ones from 0 ones to 
+get 0 ones.
+2. Subtract 0 tens from 0 tens to 
+get 0 tens.
+3. Subtract 1 hundreds from 3 
+hundreds to get 2 hundreds.
+Steps
+1. Arrange vertically.
+2. Subtract 0 ones from 0 ones 
+to get 0 ones.
+3. Subtract 2 tens from 7 tens to 
+get 5 tens.
+4. Subtract 5 hundreds from 6 
+hundreds to get 1 hundreds.
+Week 6 Lesson 5
+Example 2
+Subtract multiples of
+     OR
+1. Count backwards by hundreds from 300 to 
+100.
+2. Get how many hundreds you have counted, 
+which is 2 hundreds (200).
+670 - 520 =
+
+147
+NOT FOR SALE
+9.        430
+    -   430
+8.          70
+      -   60
+4.         880
+    -   440
+6.        650
+     -  50
+  5.         790     
+-  690
+7.          240
+   -  220
+10. A school took 80 learners for a music festival.  
+30 learners performed a traditional dance and 
+the rest recited a poem.  How many learners 
+recited a poem? 
+1.           90
+     -  40
+2.         120
+      -  110
+3.          360
+      -  30
+Work to do
+Subtract
+
+148
+Property of the Government of Kenya
+Week 7 Lesson 1
+200, 195, 190, 185, _____, _____
+Steps
+1. Get the rule by getting the difference 
+through subtraction between two numbers 
+following each other.
+2. The rule is subtract 5 from the nuber before.
+3. To get the next number, subtract 5 from 
+185. The next number is 180. 
+4. To get the next missing number, subtract 5 
+from 180. The number is 175. 
+Example 2
+900, 800, 700, _____, _____, 400
+Steps
+1. Get the rule by getting the difference 
+through subtraction between. 
+2.  two numbers following each other.
+3. The rule is 100 less.
+4. To get the next number, count backwards 
+from 700 to get 600 and 500.
+Number patterns
+Example 1
+Work out the missing numbers
+
+149
+NOT FOR SALE
+Work to do
+Fill in the missing numbers
+1. 55, 50, 45, 40, ____, ____
+2. 117, 115, 113, ____,____, 107
+3. 170, 160, 150, ____, ____, 120
+4. 2 88, 284,  280, ____, ____, 268
+5. 390, 3 87, 384, _____,  ____, 375
+6. 800, 750, 700, 650, ____, ____.
+7. 520, 420, 320, 220, _____, _____
+8. 713, 710, 707, _____, ____,69 8
+
+150
+Property of the Government of Kenya
+Multiplication
+ Week 7 lesson 2
+Multiplying numbers
+3   +  3  +  3 +  3 +  3    =    15
+5     x     3    =    15
+Work to do
+Multiply
+1.  
+ 5  x  1 = 
+2.  
+ 5  x             =
+=
+Example
+
+151
+NOT FOR SALE
+6. Complete the table
+X 1 2 3 4 5 6 7 8 9
+1
+2 10
+3 24
+4
+5 30
+Write in multiplication
+3.      4.
+5.
+____ x ____ = _____
+___ x ___ = ____ ___ x ___ = ____
+
+152
+Property of the Government of Kenya
+Week 7 lesson3
+4 x 3 = 12
+Work to do
+1. Write the following multiplication
+a)           b) 
+2.
+   a)              3           
+x 2
+      
+    b)               5
+  x 2
+      
+c)            3
+  x 5
+      
+d)            5
+x 5
+      
+Multiply
+Multiplying numbers
+Example 1 Example 2
+2 x 5 = 10
+ ___ x ___  = ___       ___ x ___  = ___
+
+153
+NOT FOR SALE
+3. Multiply 
+a)  5 x 4  =  
+b)  3 x 4  = 
+c)  5 x 1  = 
+d)  4 x 4  = 
+e)  4 x 2  =  
+f)     4 x 1  = 
+4.  Fill in the multiplication table
+X 1 2 3 4 5
+1
+2
+3 6
+4
+5 25
+
+154
+Property of the Government of Kenya
+Work to do
+There are 3 groups each with 5 balls. Write as 
+multiplication.
+1.
+Week 7 lesson 4
+There are 3 groups 
+each with 6 chicks.
+The multiplication is
+3  x  6  =  18
+Example
+ a)  6  x  6  =                b)  6  x  7  =
+ c)  6  x  8  =  
+2.  Multiply
+Multiplying numbers
+3 x 6 = 
+____ x ____ = ____
+
+155
+NOT FOR SALE
+4. Peter works out 6 mathematics questions 
+each day. How many questions will he work 
+out in 5 days?
+5. Kaunda eats 5 bananas each day. How many 
+bananas will he eat in 6 days?
+a)      9
+     x    6
+      
+b)       10  
+x    6
+      
+3.  Multiply
+
+156
+Property of the Government of Kenya
+Example
+Work to do
+1.  There are 3 groups each with 7 balls Write as 
+multiplication.
+a) 7 x 5  =
+b)  7 x 4  =
+c) 7 x 7 = 
+Week 7 lesson 5
+Multiplying numbers
+4  x  7  = 
+ There are 4 groups 
+of 7 birds each. 
+The multiplication 
+is 
+4  x 7  =  28
+___ x ___ = _____
+2.  Multiply
+
+157
+NOT FOR SALE
+4. A teacher uses 2 pieces of chalk each day. How 
+many pieces will she use in 7 days?
+5. John plants 3 trees at home each month. How 
+many trees does John plant in 7 months?
+3.
+a)          7
+  x   8
+      
+b)          7
+  x   9
+
+158
+Property of the Government of Kenya
+Week 8 Lesson 1Division
+Dividing numbers 
+Multiplication table
+18  ÷ 6 = 3
+X 1 2 3 4 5 6 7 8 9
+1 1 2 3 4 5 6 7 8 9
+2 2 4 6 8 10 12 14 16 18
+3 3 6 9 12 15 18 21 24 27
+4 4 8 12 16 20 24 28 32 36
+5 5 10 15 20 25 30 35 40 45
+6 6 12 18 24 30 36 42 48 54
+7 7 14 21 28 35 42 49 56 63
+8 8 16 24 32 40 48 56 64 72
+9 9 18 27 36 45 54 63 72 81
+18
+15
+15 ÷ 3 = 5
+From 18 move up to 
+find 6 in the first row. 
+From 18 move across 
+to find 3 in the first 
+column
+From 15 move up to 
+find 3 in the first row.
+From 15 move across 
+to find 5 in  the first 
+column
+Example 1 
+18  ÷  6  =
+Example 2
+15 ÷ 3  =
+
+159
+NOT FOR SALE
+1. 9 ÷ 3   =  
+2. 10 ÷ 2  = 
+3. 12 ÷ 6  = 
+4. 16 ÷ 8  =  
+Work to do 
+Divide
+5. 18 ÷ 9  =  
+6. 20 ÷ 4 =  
+7. 25 ÷ 5 =
+8.  A mother shared 24 oranges equally among 
+4 children. How many oranges did each child 
+get?
+9.  A class teacher shared 18 pencils between 3 
+groups of learners. How many pencils did each 
+group get?
+10. A farmer put 15 water melons into 3 baskets 
+equally. How many water melons were put in 
+each basket?
+
+160
+Property of the Government of Kenya
+Week 8 Lesson 2
+72  ÷  8 = 
+72  ÷  8 = 9
+X 1 2 3 4 5 6 7 8 9 10
+1 1 2 3 4 5 6 7 8 9 10
+2 2 4 6 8 10 12 14 16 18 20
+3 3 6 9 12 15 18 21 24 27 30
+4 4 8 12 16 20 24 28 32 36 40
+5 5 10 15 20 25 30 35 40 45 50
+6 6 12 18 24 30 36 42 48 54 60
+7 7 14 21 28 35 42 49 56 63 70
+8 8 16 24 32 40 48 56 64 72 80
+9 9 18 27 36 45 54 63 72 81 90
+10 10 20 30 40 50 60 70 80 90 100
+72
+Dividing numbers 
+Multiplication table
+Example  
+72 ÷ 8 =
+From 72 move up to find 8 
+in the first row.
+From 72 move across to 
+find 9 in the first column.
+
+161
+NOT FOR SALE
+Divide 
+1. 72  ÷  9  = 
+2. 90  ÷ 10  =
+3. 14  ÷  7  =
+4. 15  ÷  5  =
+8.  Bakari had 36 mathematics books. He 
+shared equally among 9 groups in his grade. 
+How many did each group get?
+9.  Wavinya had 64 rubbers. She shared equally  
+among 8 of her friends. How many did each 
+friend get?
+10. A shopkeeper had 72 bags of rice. He shared  
+them equally among 8 other shopkeepers.   
+How many bags did each shopkeeper get?
+Work to do 
+5. 21   ÷  7  = 
+6. 27  ÷  3   = 
+7. 36  ÷  6  =
+
+162
+Property of the Government of Kenya
+Week 8 Lesson 3
+x 1 2 3 4 5 6 7 8 9 10
+1 1 2 3 4 5 6 7 8 9 10
+2 2 4 6 8 10 12 14 16 18 20
+3 3 6 9 12 15 18 21 24 27 30
+4 4 8 12 16 20 24 28 32 36 40
+5 5 10 15 20 25 30 35 40 45 50
+6 6 12 18 24 30 36 42 48 54 60
+7 7 14 21 28 35 42 49 56 63 70
+8 8 16 24 32 40 48 56 64 72 80
+9 9 18 27 36 45 54 63 72 81 90
+10 10 20 30 40 50 60 70 80 90 100
+32
+90
+Steps
+1. Write 32 ÷ 4 in long form. 
+2. From 32 move up to find 4, in the 
+first row.
+3. From 32 move across to find 8, in 
+the first column. 
+4. Write 8 on top of the long division 
+sign.
+5. Multiply 8 by 4 to get 32 and 
+subtract 32 to get 00.
+  4 32
+  4 32
+   - 32
+      00
+8
+Example 1
+Dividing numbers 
+Multiplication table
+32 ÷ 4  =
+
+163
+NOT FOR SALE
+1.  6 4 8
+2.  8 64
+3.  9 27
+4.  7 63
+5.  8 32
+6.  9 45
+7.  8 24
+8.  Eight learners shared 72 mangoes equally. 
+How many mangoes did each learner get?
+9.  A father shared 54 biscuits among his 6 
+children. How many biscuits did each child 
+get?
+10. Seven teachers shared 35 bottles of mineral 
+water equally. How many bottles of mineral 
+water did each teacher get?
+Work to do 
+Divide 
+  9 90
+  9 90
+   - 90
+  00
+10
+Example 2
+
+164
+Property of the Government of Kenya
+Activity 1
+Measure the longer and the shorter lengths of 
+your classroom floor.
+Floor distance Length in metres
+Longer length
+Shorter length
+Longer length
+Shorter length
+Add the lengths
+Longer length    shorter length
+Longer length     longer length
+Shorter length    shorter length
+Week 8  Lesson 4
+_______    +    _______    =    _______
+_______    +    _______    =    _______
+_______    +    _______    =    _______
+Adding and subtracting length 
+LENGTH
+MEASUREMENT
+
+165
+NOT FOR SALE
+Activity 2
+Measure the lengths
+Longer length Shorter length
+Teacher table
+Learner desk/ 
+bench
+The classroom 
+window
+Work to do: 
+a)  Asha walks from home to the school. How   
+ many metres does she walk altogether?   
+ _________
+b)  Asha walks from school to the market.    
+ How many metres does she walk      
+ altogether? _________
+c)  How many metres does Asha walk from   
+ the market to her home?________
+SHOP
+Home Market School
+270m
+170m
+1. Look at the following
+
+166
+Property of the Government of Kenya
+2.  Mercy had a string measuring 64 metres. She 
+used 31 metres to make a basket. How many 
+metres of string was she left  with?
+3.  Joshua ran 240 metres on Monday morning. 
+He also ran 155 metres in the evening. How 
+many metres did he run altogether?
+
+167
+NOT FOR SALE
+Estimating length
+Activity   1
+Measure the lengths 
+Object Length in metres
+Length of class room
+Length of chalkboard
+Length of a block of 
+classrooms
+Week 8 Lesson 5
+
+168
+Property of the Government of Kenya
+Work to do
+Estimate and measure
+Object Estimate Actual How close 
+was the 
+estimate
+Width of class
+Length of 
+tables
+Length of desk
+Length of 
+classroom floor
+Lenth of 
+football pitch
+
+169
+NOT FOR SALE
+Week 9 Lesson 1
+Adding mass in kilograms 
+Work to do
+1. Jane has 2 of kg beans and 7 kg of maize. How 
+many kg does she have altogether?
+2. Peter has 4 kg of coffee and 3 kg of tea leaves.  
+How many kg does he have altogether?
+3. Halima has 2 kg of meat and 3 kg of potatoes.  
+How many kg does she have altogether?
+4. In a hotel, there are 20 kg of rice and 14 kg of 
+vegetables. How many kg are there altogether?
+5. A school has 12 kg of sugar and 5 kg of coffee. 
+How many kg are there altogether?
+The total mass of potatoes and maize is 8kg
+Example  
+What is the 
+total mass of 
+potatoes and 
+maize?
+         5kg + 3kg = 8kg
+    potatoes               maize
+mass
+
+170
+Property of the Government of Kenya
+Week 9 Lesson 2
+Subtracting mass in kilograms
+Work to do:
+1.  James bought 25 kg of meat.  He gave 10 kg 
+to John.  How many kg was he left with?
+2.  Mary had 16 kg of beans.  She cooked 9 kg.  
+how many kg were left?
+3.  Jane has 22 kg of sugar.  She gave Asha 10 
+kg.  How many kg of sugar was she left with?
+Example  
+Halima has 18 
+kg of potatoes, 
+she gave Jacin-
+ta 5 kgs. How 
+many kgs were 
+left?                18kg – 5kg = 13kg
+Halima is left with 13 kg of potatoes
+
+171
+NOT FOR SALE
+Estimating mass
+Week 9 Lesson 3
+Activity  
+1. Estimate the mass in kilograms.
+2. Measure  Mass of wood is ______?
+    Mass of sand is ______?
+a) b)
+3. How close were the estimates?
+Estimate mass of 
+wood
+Estimate mass of 
+sand
+Work to do
+Activity
+Estimate and measure
+Object Estimate 
+in kg
+Actual in 
+kg
+How close 
+was the 
+estimate
+Books
+Bags
+
+172
+Property of the Government of Kenya
+Object Estimate 
+in kg
+Actual in 
+kg
+How close 
+was the 
+estimate
+Shoes
+Stones
+Soil
+sand
+
+173
+NOT FOR SALE
+CapaCity
+ Week 9 Lesson 4
+Adding capacity 
+Work to do 
+1. Jane wanted to make tea.  She used 2 litres of 
+milk and 5 litres of water.  How many litres of 
+tea did she make?
+2. Juma had  23 litres of water.  He was given 8 
+more litres.  How many litres of water does he 
+have altogether?
+3. A tank had 134 litres of water. Helen added 57 
+litres of water into the tank.  How many litres 
+does it have altogether?
+4. A cook prepared 14 litres of porridge in the 
+morning.  He prepared 9 litres of porridge in the 
+afternoon.  How many litres of porridge did he 
+prepare altogether?
+5. Mary bought 12 litres of juice.  Ann bought 9 
+litres of juice.  How many litres of juice did they 
+have altogether?
+Example
+John bought 
+4 litres of 
+milk.  His 
+grandmother 
+brought him 
+3 litres of milk.  How many litres does he have 
+altogether?  4 litres + 3 litres = 7 litres
+
+174
+Property of the Government of Kenya
+Week 9 Lesson 5
+Subtracting capacity 
+Work to do
+1. Juma had 43 litres water.  He used 5 litres.  
+How many litres of water was left?
+2. A shopkeeper had 93 litres of milk.  He sold 
+38 litres.  How many litres of milk were left?
+3. A school tank had 532 litres of water.  The 
+school used 117 litres. How many litres of 
+water were left?
+4. Amina had 749 litres of diesel.  She sold 63 
+litres.  How many litres of diesel were left?
+Example
+A car had 26 litres of petrol.  It used 14 litres.  
+How many litres were left? 
+26 litres – 14 litres = 12 litres.
+5. A bucket had 26 litres 
+of water. Mwau used 15 
+litres. How many litres 
+were left.
+26 
+Litres
+
+175
+NOT FOR SALE
+Week 10  Lesson 1
+Estimating capacity
+Estimate capacity of each container.
+How many litres can each container hold?
+Activity
+Work to do
+Estimate and measure.
+Containers Estimate 
+in litres
+Actual 
+in litres
+How close was 
+the Estimate?
+1. 
+2.  
+3. 
+4. 
+5. 
+6. 
+7.
+
+176
+Property of the Government of Kenya
+Work to do
+What is the time?
+1.    2.    3.
+4.    5.    6.
+7.    8.
+Week 10 Lesson 2
+Reading and telling time “to” the hour
+Examples
+Quarter to 
+12 o’clock
+20 minutes 
+to 10 o’clock
+Time
+1/4 hour
+1/4 hour
+1/2 hour
+The Hour
+1. 2.
+
+177
+NOT FOR SALE
+Term 10 Lesson 3
+Reading and telling time
+half past 1
+half past 1
+quarter past 12 half past 4
+half past 48 o’clock
+Time within the night
+Time within the day time 
+Examples 
+What is the time?
+1.             2.                      3.
+4.             5.                     6.
+During the day time
+Work to do
+What is the time?
+
+178
+Property of the Government of Kenya
+7.             8.                     9.
+10.
+During the night
+
+179
+NOT FOR SALE
+Work to do
+What is the time?
+1.    2.    3.
+4.    5.    6.
+Week 10 Lesson 4
+Examples
+3 o’clock     
+15 minutes 
+past 1 o’clock
+25 minutes 
+past 1 o’clock
+___ minutes past 11   
+__ minutes past ___ __ minutes past ___ __ minutes past ___
+____ minutes past_______ minutes past___
+Writing time “past” the hour
+1.
+3.
+2.
+
+180
+Property of the Government of Kenya
+Week 10 Lesson 5
+Work to do
+What is the time?
+Examples
+15 minutes 
+to 8 o’clock
+20 minutes 
+to 2 o’clock
+Writing time “to” the hour
+1.
+1. 3.2.
+2.
+4.
+ 5. 6.
+___ minutes past 11   
+__ minutes past ___ __ minutes past ___ __ minutes past ___
+____ minutes past_______ minutes past___
+
+181
+NOT FOR SALE
+Week 11 Lesson 1Money
+Shopping activities involving change.
+Use the classroom shop.
+1.  Peter has a sh.1000 
+note. How many sh.500 
+notes will he get? 
+2.	 Hellen	has	five	sh.100	notes.		How	many	
+sh.500 notes will she get? 
+Change is the same amount of money but in 
+different denominations.
+Peter gets 
+two sh.500 
+notes as 
+change.
+Hellen gets 
+one sh. 500 
+note as 
+change.
+Examples
+
+182
+Property of the Government of Kenya
+Work to do
+1. Juma has a sh.200 note.  How many one 
+hundred shillings notes will he get as change?
+2. Judy has a sh.100 note.  How many sh.50 
+notes will she get as change?
+3. Abdi has a sh.200 note.  How many sh.50 
+notes will he get as change?
+4. Moses has a sh.500 note.  How many sh.100 
+notes will he get as change?
+5. Asha has a sh.1000 note.  How many sh.200 
+notes will she get as change?
+6.	 Mary	has	five	sh.200 notes.  How many 
+sh.1000 notes will she get as change?
+7. Tom has a sh.1000	note.		How	many	five	
+hundred shillings notes will he get as change?
+
+183
+NOT FOR SALE
+Week 11 Lesson 2
+Work to do 
+Shopping activities involving balance.
+Examples
+Using the classroom shop
+1. Tom had a sh.1000 
+note.  He bought a bag 
+for sh.600.  How much 
+money was he left 
+with?
+ Sh.1000 – sh.600 = sh.400
+ sh 400 is the balance.
+2. Asha had a sh.500 
+note.  She bought a 
+book for sh.320.  What 
+was the balance?
+ sh.500 – sh.320 = sh.180
+1. Martin had a sh.500 note.  He bought a stool 
+for sh.300.  What balance did he get?
+2.	David	had	a	sh.1000	note.		He	bought	a	school	
+bag for sh.950.  What balance did he get?
+3. Joan has a sh.500 note.  She bought petrol for 
+her care for sh.350.  What balance did sheget?
+
+184
+Property of the Government of Kenya
+Adding and subtracting money
+Week 11  Lesson 3
+     sh.
+   345
++ 225
+   570
+Example 1
+Mary had sh. 345.  Her mother 
+gave	her	sh.	225 more.  How much 
+money	did	she	have	altogether?
+   sh.
+   32
+- 16
+   16
+Example 2
+Maurice had sh. 32 He spent  
+sh 16. How much money was he 
+left with?
+Work to do
+1. Peter bought sugar for sh.176.  He also bought 
+flour	for	sh	206.  How much did he spend 
+altogether?
+2. Babu spent sh 341 at the market. He spent 
+sh.270 on transport.  How much did he spend 
+altogether?
+3. A family spends sh.514 on lunch.  It also 
+spends sh.275 on super.  How much does it 
+spend altogether?
+
+185
+NOT FOR SALE
+4. A watchman is paid sh.626 a day.  A sweeper 
+is paid sh.302 a day.  How much are they paid 
+altogether?
+5. Peris had sh. 714. She used sh.220 to buy a 
+dress. How much money was she left with?
+6.  Joshua has sh 403. He uses sh 53 to buy a toy. 
+How much money is he left with?
+7.	Onesmus	was	given	sh. 256. He used sh 141. 
+How much money was he left with?
+
+186
+Property of the Government of Kenya
+Week 11 Lesson 4Position and direction
+Turning to the Right
+1.  To visit the bore hole from the hospital, one 
+walks straight then turns ________
+2.  From the market to the bank one will walk 
+straight then turn _________
+3.  From the farm to Moraa’s home you walk 
+straight then turn __________
+Borehole
+School
+Farm
+Bank
+Market
+BANK
+SHOP
+HOSPITA
+L
+Moraa’s home
+Moraa
+Hospital
+Example 
+Using the picture
+To visit the bank from the hospital, a person 
+moves straight then turns RIGHT
+Picture
+Work to do 
+Fill in
+GEOMETRY
+
+187
+NOT FOR SALE
+Week 11 Lesson 5
+Turning to the Left
+Work to do
+Fill in
+1.  For Mwende to visit Amina she walks straight 
+then turns _______
+2. From the hotel to the market the farmer will 
+move straight then turn _______
+3. To reach Mwende’s home from the bank, a 
+person moves straight then turns __________
+Example
+Using the picture
+School
+Hotel
+Borehole
+Bank
+Kamau’s         
+home
+Kamau
+Farm
+Amina’s     
+home
+Mwende’s 
+home
+BANK
+Market
+SHOP
+HOSPITA
+L
+Mwende
+To fetch water from the borehole Kamau walks 
+straight then turns to the LEFT
+Picture
+
+188
+Property of the Government of Kenya
+
+189
+NOT FOR SALE
+Term 3
+
+190
+Property of the Government of Kenya
+
+191
+NOT FOR SALE
+Activity         
+Match the number cards above with their 
+position.
+eleventh ______ 	 fifteenth		 ______
+twelfth	 			_____		 sixteenth	 ______
+thirteenth _____ seventeenth ______
+fourteenth	______	 eighteenth	 ______
+nineteenth ______ twentieth ______
+Week 1   Lesson 1
+NUmBer CONCePT
+Position names 
+Number cards
+NUMBERS
+
+192
+Property of the Government of Kenya
+Work to do
+Balloons
+What	is	the	position	of	the	red	balloons?
+
+193
+NOT FOR SALE
+ Position 1st to 20th
+  Example 
+  What	is	the	position	of	policewoman	as	he	moves	
+up?
+Work to do 
+Complete the table
+Number Position
+11 11th
+12 12th
+13 13th
+14 14th
+15 15th
+16
+17
+18
+19
+20
+Week 1 Lesson 2
+1
+2
+3
+4
+5
+6
+7
+8         
+9
+10
+11
+12
+13
+14           
+15
+16
+17
+18
+19
+20
+1st
+11th
+
+194
+Property of the Government of Kenya
+Week 1 Lesson 3
+Counting in Tens
+Activity 
+Count
+80, 90, 100, 110, 120, 130, 140
+310, 320, 330, 340, 350, 360, 370
+520, 530, 540, 550, 560, 570, 580 
+920, 930, 940, 950, 960, 970, 980, 990 
+810, 800, 790, 780, 770, 760, 750 
+1000, 990, 980, 970, 960, 950, 940
+600, 590, 580, 570, 560, 550, 540
+Work to do 
+Fill in the missing numbers
+1. 280, 290, 300, 310, _______, ________, _______
+2. 360, 350, 340, 330, _______, _______, ______
+3. 580, 570, 560, 550, 540, _____, _____, _____
+4. 780, 790, 800, _________, __________, _________
+5. 890, 900, 910, _________, __________, _________
+WhoLe numbers
+
+195
+NOT FOR SALE
+Week 1 Lesson 4
+Example 1
+798 can be shown as follows
+Example 2
+1000 is shown on the place value chart as
+7 hundreds, 9 Tens , 8 Ones
+That is 1 thousands 0 hundreds, 0 tens and 
+0 ones.
+Place value
+
+196
+Property of the Government of Kenya
+Week 1 Lesson 4
+Work to do
+Fill in the missing numbers
+1.  205 =  ___ hundreds ____tens ____ones
+2.  983 =  ___ hundreds ____tens ____ones
+3.  ___ =   4   hundreds    5  tens    6   ones
+4.  7291 = __ thousands __hundreds__ tens __ones
+5.  8457 = __ thousands __hundreds __ tens __ones
+6.   ___ = 1 thousands  3   hundreds    4  tens    9   ones
+7.   ___ = 5 thousands  9   hundreds    8  tens    6   ones
+8.  3546 = __ thousands __hundreds __ tens __ones
+9.  521 = __ thousands __hundreds __ tens __ones
+10.
+       __________________
+
+197
+NOT FOR SALE
+Week 1 Lesson 5
+ 101  204  350  427  505
+ 687  790  812  855  900
+ 999  1000  10  20  35
+ 40  45  50  65  70
+ 1 1    1 2   13  33  47
+ 67 89 93 26 555 
+ 452 835 326 142 742
+Work to do
+1. In turns learners pair out and read whole 
+numbers using number cards.
+2. In groups learners read whole numbers using 
+number cards.
+Reading Numbers 1 to 1000
+Read
+
+198
+Property of the Government of Kenya
+Reading and writing numbers in words 
+Activity 
+  Match
+Number Words
+Work to do
+Write the numbers
+  Number  Words
+1.    66  Sixty six
+2.   27  ____________
+3.   58	 	fifty	eigth
+4.   98  ____________
+5.   19   ____________
+6.         ___  Fifty nine
+7.   99  ____________
+8.      ___  One hundred
+Week 2 Lesson 1
+12
+15
+23
+35
+57
+69
+70
+80
+94
+100
+fifteen
+thirty five
+eighty
+twelve
+fifty seven
+ninety four
+One hundred
+twenty three
+sixty nine
+seventy
+
+199
+NOT FOR SALE
+Week 2 Lesson 2
+Number Patterns 1 to 1000
+Example1
+Work out the missing numbers
+20, 25, 30, _____, ________, _______, 50 
+Counting on in 5’s the missing numbers are 
+35, 40, 45
+Example 2
+Work out the missing numbers
+1, 5, 9, _______, ________, 21, _______, 29 
+The rule is adding 4 to get the next number. 
+From 9 the next numbers is 9 + 4 to get 13
+The next number is 13 + 4 to get 17. 
+From 17 the next is 17 + 4 to get 21.
+From 21 the next number is 21 + 4 to get 25
+Example 3
+Work out the missing numbers 
+403, 413, 423, ________, _________ 
+By counting on in 10’s the missing numbers are 
+433, 443.
+
+200
+Property of the Government of Kenya
+Work to do
+Fill in the missing numbers
+1. 30, 29, 28, 27,    __________, __________, _________
+2. 12 8, 129, 130, __________, __________, _________ 
+3. 432, 434, 436,  __________, __________, _________
+4. 770, 760, 750,  __________, __________, _________
+5. 830, 880, 930, __________, __________, _________
+6. 22 8, 223, 218,  __________, __________, __________  
+Week 2 Lesson 2
+
+201
+NOT FOR SALE
+Week 2 Lesson 3
+FRACTIONS
+Comparing     ,      and       
+Which fraction is bigger?
+Work to do  
+1. Shade
+   
+2. Which is bigger? 
+Example
+a)        or        ?____
+c)        or        ?____
+b)        or       ? ____
+   is bigger than  
+    is bigger than 
+   is bigger than
+
+202
+Property of the Government of Kenya
+Week 2 Lesson 4
+Comparing        ,       and        
+of 8=2 of 8=4 of 8=1                         
+Example
+Which fraction is bigger?
+greater than
+greater than
+greater than
+
+203
+NOT FOR SALE
+Work to do
+Which fraction is bigger?
+1.     of 20   or      of 20 ?
+2.     of 16    or       of 16 ?
+3.     of 12    or       of 12 ?
+Which is the biggest fraction?
+4.      of 24   or       of 24   or      of 24     
+5.      of 32   or       of 32  or      of 32
+
+204
+Property of the Government of Kenya
+Week 2 Lesson 5
+Work to do 
+Add
+1. 436
+  + 3
+2. 247
+ +   2
+1.     472
+  +    6
+         478
+      690
+  +     8
+         698
+3. 452
+  +  7
+4. 650
+  +  9
+5. 256 + 3 =    
+ 2.  690 + 8 =    
+7. 784 + 5 =    
+6. 621 +  7 =    
+8. 923 +  6 =    
+9.   Ali had 800 goats.  He bought 8 more goats. 
+How many goats does he have now?
+10. Mary had 102 packets of unga.  She bought 7 
+more packets.  How many packets does she 
+have altogether?
+Addition
+Adding a 3 - digit number to a 1 - digit number 
+Examples
+
+205
+NOT FOR SALE
+Week 3 Lesson 1
+1. 625
+    +   34
+3. 400
+    +   60
+2.  216
+    +   52
+6. 921 + 65 =    7. 862 + 34  =    
+8. 743 +  51 =    9. 600 + 90 =    
+5. 900
+    +    99
+4.  608
+   +    40
+1.       670
+ +   28
+        698
+    572
+ +   27
+        599
+Work to do  
+Add
+10.  Otieno had 125 bottles of juice.  He bought 72 
+more bottles of juice.  How many bottles of juice 
+does he have altogether?
+11.  Muso had 200 packets of pencils.  He bought 66 
+more packets  of pencils.  How many packets of 
+pencils does he have altogether?
+Example
+Adding a 3 - digit number to a 2 - digit number
+ 2.  572 + 27 =
+
+206
+Property of the Government of Kenya
+Week 3 Lesson 2
+1. 126
+   +     7
+4. 484
+   +     6
+2. 214
+    +    8
+5. 688
+    +    7
+3. 326
+    +     9
+6. 714
+   +     8
+Work to do : 
+Add
+ 409
+  +  8
+  417
+1. 172
+  + 9
+ 1 81
+7. 525 + 8  =    
+9. 918 +  8  =    10. 982 + 8  =    
+8. 672 + 9  =    
+11. Fatuma  had 105 buttons in her shop. She 
+bought another 6 buttons.  How many 
+buttons does she have altogether?
+12. A box of mangoes weighs 126 kg. Another  
+48kg of  mangoes were added.  How many 
+kilograms are there altogether?
+Example
+Adding a 3 - digit number to a 1 - digit number 
+ 2.  409 + 8 =
+
+207
+NOT FOR SALE
+Week 3 Lesson 3        
+Work to do
+Add
+Example
+1. 260
+   +    57
+      
+2. 384
+   +    35
+      
+3. 672
+   +    47
+4. 652
+   +   93
+8. Peter had 246 bottles of soda in his shop.  He 
+bought 70 more bottles of soda.  How many bottles 
+of soda does he have altogether?
+9. Juma has 256 oranges. Amina has 71 oranges. 
+How many oranges do they have altogether?
+10. Lesiampe has 174 goats. His brother Leshere 
+has 92 goats. How many goats do they have 
+altogether?
+Re-write this as
+Adding a 3 - digit number to a 2 - digit number 
+1. 462
+    +   73
+       535
+ 782
+   +    47
+      829
+2. 782 + 47 =
+5. 567 + 42 = 6. 784 + 55 =
+7. 856 + 63 =
+
+208
+Property of the Government of Kenya
+ 7 + 6 + 9   =
+Write 6 as 5 + 1
+ 7 + 5 + 1 + 9  = 
+ 7 + 5 +  10  = 
+Write 5 as 3 + 2
+ 7 + 3 + 2 + 10  = 
+    10 + 2 + 10  =
+ 2 + 20   =    22 
+Week 3 Lesson 4                                
+1. 3 + 4 +  8 =    
+7.   6
+   4
+    +   3
+8.   7
+   6
+    +   8
+9.   9
+   8
+    +   4
+10.   6
+   9
+    +   9
+Example 1
+Example 2
+Work to do
+Add
+  5 + 8 + 6 = 
+     13 + 6 = 19
+2. 6 + 7 +  5 =    
+3. 7 + 4 +  6 =    4. 7 + 8 +  6 =    
+5. 8 + 9 +  7 =    6. 9 + 9 +  9 =    
+Adding a 3 - single digit numbers
+
+209
+NOT FOR SALE
+Week 3 Lesson 5                            
+1. 467
+   +  221
+      688      
+Work to do 
+Add
+1.  375
+   +   423 
+2. 854
+  +    135 
+3. 695
+  +    302 
+ 769
+   +  220
+      989      
+9. 737 +  251  =       10. 426 +  302 = 
+4. 632
+   +   103 
+5. 191
+  +   806 
+6. 329
+  +   260 
+7. 807
+   +   19 1 
+8. 275
+  +   310 
+Adding two 3-digit numbers
+Example
+2. 159 +  740 = 899
+
+210
+Property of the Government of Kenya
+Week 4 Lesson 1                             
+Steps
+1. Add 5 ones to 7 ones to get 12 
+ones. Write 2 in ones column, 
+and take 1 tens to tens column.
+2. Add 1 tens to 3 tens to 4 tens 
+to get 8 tens. write 8 in tens 
+column.
+3. Add 2 hundreds to 1 hundreds 
+to get 3 hundreds Write 3 in 
+the  hundreds column.
+Example
+Adding two 3 - digit numbers
+ 235
+   +  147
+     382      
+1. 235
+   +  147
+      
+ 2 8 1
+   +  136
+      417       
+2. 2 8 1
+   +  136
+       
+Steps
+1. Add 1 ones to 6 ones to get 7 
+ones.
+2. Add 8 tens to 3 tens  to get 11 
+tens. Write 1 in tens column and 
+take 1 hundreds to the hundreds 
+column.
+3. Add 1 hundreds to 2 hundreds 
+to 1 hundreds to get 4 hundreds.
+4. Write 4 in hundreds column.
+
+211
+NOT FOR SALE
+Work to do 
+Add
+1. 426
+   +  348 
+2. 257
+  +   234 
+3. 363
+  +    129 
+4. 227
+   +   292 
+5. 122
+   + 181 
+6. 479
+   + 214 
+7. 546  +  219 = 8. 127  +  292   =       
+9. 248  +  171  = 10. 567  +  182  =
+
+212
+Property of the Government of Kenya
+Week 4    Lesson 2nUMBER PAttERnS
+Example 1
+Create a pattern in 5s starting at 150
+You make 5 dashes ___, ___, ___, ___, __ 
+The pattern in 5s starting at 150 is
+150, 155, 160, 165, 170, 175
+Work to do
+Create patterns
+1. Create a pattern in 10’s starting at 320
+2. Create a pattern in 100’s starting at 550
+3. Create a pattern in 50’s starting at 630
+4. Create a pattern in 5’s starting at 811
+5. Create a pattern in 20’s starting at 460
+Number patterns
+You make 5 dashes ___, ___, ___, ___, __ 
+The pattern in 10’s starting at 300 is
+300, 310, 320, 330, 340, 350
+Example 2
+Create a pattern in 10’s starting at 300
+
+213
+NOT FOR SALE
+Week 4  Lesson 3SUBTRACTION
+Example 1
+Example 2
+  537
+-   24
+   5 1 3
+  897
+-   25
+  872
+Work to to
+Subtract
+Steps
+1.  Subtract 4 ones from 7 ones to 
+get 3 ones
+2.  Subtract 2 tens from 3 tens to 
+get 1 tens.
+3. Bring down 5 hundreds
+Steps
+1. Arrange vertically
+2. Subtract 5 ones from 7 ones 
+to get 2 ones
+3. Subtract 2 tens from 9 tens 
+to get 7 tens.
+4. Write 8 in the hundreds place 
+5. 596
+   -    42
+6. 985
+   -    1 4
+a) 378
+   -    52
+2. 267
+   -    23
+3. 146
+   -    15
+4. 489
+   -    63
+Subtracting a 2 - digit number from a 3 - digit 
+number
+897 - 25 =
+
+214
+Property of the Government of Kenya
+8. 689 - 72 = 
+9. 689 - 65 = 
+10. A town has 196 adults. There are 84 men. 
+How many are women?
+
+215
+NOT FOR SALE
+Week 4  Lesson 4
+Example 1
+    646
+  -    73
+  
+Example 2
+Steps
+1. Subtract 2 ones from 6 ones to get 
+4 ones.
+2. Since you can not subtract 8 tens 
+from 6 tens, regroup 2 hundreds 
+as 1 hundreds and 10 tens. Add 10 
+tens to 6 tens to get 16 tens. 
+3. Subtract 8 tens from 16 tens to get 
+8 tens.
+4. Bring down the remaining 1 
+hundreds.
+Steps
+1. Subtract 3 ones from 6 ones to 
+get 3 ones.
+2. Since you can not subtract 7 tens 
+from 4 tens, regroup 6 hundreds 
+as 5 hundreds and 10 tens. Add 10 
+tens to4 tens to get 14 tens. 
+3. Subtract 7 tens from 14 tens to 
+get 7 tens.
+4. Bring down the remaining 5 
+hundreds.
+Subtracting a 2 - digit number from a 3 - digit 
+number
+     266
+  -   82
+     266
+  -    82
+      184
+    646
+  -   73
+     573
+
+216
+Property of the Government of Kenya
+Work to do 
+Subtraction
+10. A farmer harvested 425 oranges.  He gave 64 
+of them to children.  How many oranges were 
+left? 
+5. 456
+   -    75
+6. 839
+   -    43
+9. 337
+   -    54
+7. 923
+   -    72
+8. 527
+   -    94
+1.  135
+   -    72
+2. 347
+   -    62
+4. 734
+   -    63
+3. 349
+   -     52
+
+217
+NOT FOR SALE
+Week 4  Lesson 5
+Example 1
+Example 2
+Steps
+1. Subtract 5 ones from 6 ones to get 
+1 ones.
+2. Since you can not subtract 4 tens 
+from 1 tens, regroup 4 hundreds 
+as 3 hundreds and 10 tens. Add 10 
+tens to 1 tens to get 11 tens. 
+3. Subtract 4 tens from 11 tens to get 
+7 tens
+4. Subtract 2 hundreds from the 
+remaining 3 hundreds to get 1 
+hundreds
+Steps
+1. Subtract 7 ones from 8 ones to get 
+1 ones.
+2. Since you can not subtract 5 tens 
+from 1 tens, regroup 5 hundreds 
+as 4 hundreds and 10 tens. Add 10 
+tens to 1 tens to get 11 tens. 
+3. Subtract 5 tens from 11 tens to get 
+6 tens
+4. Subtract 4 hundreds from the 
+remaining 4 hundreds to get 0 
+hundreds
+Subtracting a 3 - digit number from a 3 - digit 
+number
+    416
+-  245
+     171
+    416
+-  245
+    51 8
+-  457
+       61
+    51 8
+-  457
+
+218
+Property of the Government of Kenya
+Work to do
+   Subtract
+9. A forester had 638 seedlings. He gave out 475 
+seedlings. How many seedlings was he left 
+with? 
+10. A school bought 535 pencils. The headteacher 
+gave 365 pencils to his learners. How many 
+pencils were left? 
+5.  957
+   -   562
+6. 489
+   -   197
+7. 778
+   -  593
+8. 807
+   -  432
+1.  527
+   -   241
+2. 306
+   -  245
+3. 675
+   -   193
+4. 736
+   -  373
+
+219
+NOT FOR SALE
+Week 5  Lesson 1
+    680
+-   130
+    
+    680
+-   130
+    550
+Steps
+1. Subtract 0 ones from 0 
+ones to get 0 ones.
+2. Subtract 3 tens from 8 tens 
+to get 5 tens
+3. Subtract 1 hundreds from 6 
+hundreds to get 5 hundreds
+Steps
+1. Arrange vertically
+2. Subtract 0 ones from 0 ones 
+to get 0 ones.
+3. Subtract 4 tens from 7 tens 
+to get 3 tens
+4. Bring down 7 hundreds
+Subtracting  multiples of 10 
+    770
+-    40
+    730
+Example 1
+Example 2
+770 -  40 =
+
+220
+Property of the Government of Kenya
+5.  940
+   -   230
+6. 880
+   -  370
+10.   On Monday, 750 passengers got onto a train 
+from Mombasa to Nairobi. At Voi, 30 passengers 
+got off the train. How many passengers were 
+left in the train?
+Work to do 
+Subtract
+1.  190
+   -    30
+2. 780
+   -    70
+3.  670
+   -   550
+4. 380
+   -   160
+7. 440 - 320 =
+8.     590 - 160 =
+9. 680 - 150 =
+
+221
+NOT FOR SALE
+Week 5  Lesson 2
+Numbers in patterns
+Workout missing numbers
+Example 1
+Example 2
+  800, 750, 700, 650, _____, _____
+Steps
+1. Get the rule by getting the difference through 
+subtraction between two numbers following 
+each other.
+2. The rule is subtract 50.
+3. To get the next number, subtract 50 from 
+650. The next number is 600.
+4. To get the next missing number, subtract 50 
+from 600. The number is 550.
+   975, 825, ______, 525, 475, _______
+Steps
+1. Get the rule by getting the difference through 
+subtraction between two numbers following 
+each other.
+2. The rule is subtract 150.
+3. To get the missing number, subtract 150 from 
+825 .The next number is 675. 
+4. To get the next missing number, subtract 150 
+from 475. The number is 325.
+
+222
+Property of the Government of Kenya
+Work to do
+Work out the missing numbers
+1. 535, 460, 3 85, 310, ______, _______
+2. 640, 580, 520, 460, ______, _______
+3. 450, 300, 250, 200, ______, _______
+4. 500, 425, ______, 325, 300, _______
+5. 650, 630, _______, 590, 570, ______
+6. 850, 700, 550, 400, ______, _______
+7. 520, 440, 360, 2 80, ______, _______
+
+223
+NOT FOR SALE
+MULTIPLICATION
+ Week 5 Lesson 3
+Multiplying 8, 9 and 10
+2    X     9    =     18
+3    X     8    =     24
+There are 2 groups of 9 cows each
+Example 1 
+Example 2
+There are 3 groups of 8 toy cars each
+ 3    X     8    =
+ 2    X     9    =
+
+224
+Property of the Government of Kenya
+Work to do
+Multiply
+1. 8 x  4   
+2. 8 x 10 
+3. 10 x  5   
+4. 8 x 8    
+8.      10
+  X 2
+      
+9.       9
+  X 2
+      
+10.       9
+  X 1
+      
+5.     9 x 3  
+6.  9 x 7 
+7. 8 x 9
+= =
+= = 
+= = 
+=
+
+225
+NOT FOR SALE
+Multiplying 8, 9 and 10
+Use multiplication table to multiply
+Week 5  Lesson 4
+X 1 2 3 4 5 6 7 8 9 10
+1 1 2 3 4 5 6 7 8 9 10
+2 2 4 6 8 10 12 14 16 18 20
+3 3 6 9 12 15 18 21 24 27 30
+4 4 8 12 16 20 24 28 32 36 40
+5 5 10 15 20 25 30 35 40 45 50
+6 6 12 18 24 30 36 42 48 54 60
+7 7 14 21 28 35 42 49 56 63 70
+8 8 16 24 32 40 48 56 64 72 80
+9 9 18 27 36 45 54 63 72 81 90
+10 10 20 30 40 50 60 70 80 90 10090
+56
+1.    8 x  7     =   56
+2.  10  x  9    =  90
+Examples
+
+226
+Property of the Government of Kenya
+Work to do
+Complete the multiplication table below
+1. 
+X 1 2 3 4 5
+8 32
+9 18
+10 50
+Multiply
+2.   8  x  9    =   
+3.   9  x  5    =   
+4. 10  x  8    =   
+5.  9  x  9    =
+
+227
+NOT FOR SALE
+Week 5   Lesson 5
+1. A pencil costs sh.10.  How much do I pay for 
+5 pencils?
+      Sh.10  +  sh.10  +  sh.10  +  sh.10  +  sh.10  
+= 5 x Sh.10 = sh.50
+2. A cow has four legs.  How many legs do 8 
+cows have?
+ 8   x  4 = 32 legs
+Work to do
+Multiply
+1. Jane sells 10 apples every day. How many 
+apples will she sell in 9 days?
+2. A cow produces 8 litres of milk in a day. How 
+many litres will it produce in 5 days?
+3. James sells 9 packets of milk every day. How 
+many packets of milk will he sell in 8 days?
+Examples
+Multiplying 8, 9 and 10 by 1 - 10
+
+228
+Property of the Government of Kenya
+4. A farmer planted 10 rows of cabbage in one 
+hour. How many rows of cabbage did he 
+plant in 5 hours?
+5. There are 4 windows in a classroom. How 
+many windows are there in 8 classrooms?
+
+229
+NOT FOR SALE
+Week 6 Lesson 1DIVISION
+2.   9 90
+  9 90
+   - 90
+  00
+10
+Steps
+1. Read the number 54 on the 
+multiplication table.
+2. Move horizontally on the 
+row to identify 6.
+90 ÷ 9 =  10
+Example
+54 ÷ 6 = 9
+  6 54
+   - 54
+      00
+ 9
+X 1 2 3 4 5 6 7 8 9 10
+1 1 2 3 4 5 6 7 8 9 10
+2 2 4 6 8 10 12 14 16 18 20
+3 3 6 9 12 15 18 21 24 27 30
+4 4 8 12 16 20 24 28 32 36 40
+5 5 10 15 20 25 30 35 40 45 50
+6 6 12 18 24 30 36 42 48 54 60
+7 7 14 21 28 35 42 49 56 63 70
+8 8 16 24 32 40 48 56 64 72 80
+9 9 18 27 36 45 54 63 72 81 90
+10 10 20 30 40 50 60 70 80 90 100
+90
+54
+Dividing numbers
+54 ÷ 6 = 1. 
+3. Move 
+vertically 
+on the 
+column to 
+identify 9.
+
+230
+Property of the Government of Kenya
+1. 48 ÷ 6  = 
+4 72 ÷ 8  = 
+6.   7  49
+7.  10  60 8.   9  63
+9.   8  64
+Work to do
+Divide
+2. 63 ÷ 7  =  
+3. 81 ÷ 9 = 
+5. 54 ÷ 6  =
+
+231
+NOT FOR SALE
+1. John shared sh 72 equally among 9 children. 
+How much money did each get?
+2. Nasieku shared 64 oranges equally among 8 
+children. How many oranges did each child 
+get?
+3. Halima had 36 fish. She shared them equally 
+among her 4 daughters. How many fish did 
+each daughter get?
+4. Perez shared 24 biscuits equally among 6 
+children. How many biscuits did each child 
+get?
+5. An egg tray has 24 eggs. The eggs are shared 
+equally among 3 people. How many eggs did 
+each person get?
+6. Mother had 56 bananas. She shared them 
+equally among her 8 children. How many 
+bananas did each child get?
+Example
+45 pupils were shared equally among 5 cars. 
+How many pupils did each car carry.
+45 ÷ 5 = 945 ÷ 5 =
+Week 6 Lesson 2
+Word questions involving division
+
+232
+Property of the Government of Kenya
+Week 6  Lesson 3
+LENGTH
+Example 
+Add the lengths
+Work to do
+1.  The distance from grade 3A to grade 3B is 5 
+metres. The distance from grade 3B to the 
+staffroom is 8 metres.  What is the distance 
+from grade 3A to the staffroom.
+Adding Lengths in Metres
+MEASUREMENT
+_________  +  ___________  = 
+_________  +  ___________  = 
+_________  +  ___________  = 
+Longer length      shorter length   
+Longer length      longer length    
+Shorter length    shorter length  
+STAFF
+ROOM
+
+233
+NOT FOR SALE
+2.  The distance from the gate to the office is 
+10 metres.  John walked from the gate to 
+the office and back. How many metres did 
+he walk?
+3.  The distance from Bens home to the market 
+is 450 metres. The distance from the market 
+to the school is 360 metres. What is the 
+distance in metres from Bens home to the 
+school.
+
+234
+Property of the Government of Kenya
+Week 6 Lesson 4
+Subtracting lengths in metres
+Example 1
+Example 2
+Work to do
+            
+Subtract 450m from 625m. Arrange as 
+follows
+John has a 5m rope.  He gives Paul 4m of the 
+rope.  How many metres of rope was John left 
+with?
+ 5m – 4m = 1m
+625m  - 450m = 175m
+625m  
+-    450m
+175 m
+1. A piece of timber is 27m long.  7m is cut from 
+it.  How long is the remaining timber?       
+2. The length of a classroom block is 87m. A 
+worker painted 58m.  How many metres 
+remained?
+
+235
+NOT FOR SALE
+3. Maria’s home is 687m from the market.  After 
+walking for 397m from the market towards 
+home, maria rested.  How far was she from 
+home when she rested?
+4. Peter left home for school, which is 200m 
+away. After walking for 70m, Peter stopped.  
+How far was he from the school?
+5. Mwende walked to the hospital which is 870m 
+away from home. After walking for 630m, 
+mwende rested. What was the remaining 
+distance?
+
+236
+Property of the Government of Kenya
+MASS
+What is the total mass of beans and maize?
+Beans Maize
+Adding and subtracting mass in kilograms
+26kg + 11kg = 37kg
+The mass of beans and maize is 37kg
+28kg – 19kg = 9kg
+Brandon is left with 9kgs of potatoes
+Week 6    Lesson 5
+Example 1 
+Brandon has 28kg of sugar. He gave Jusper 
+19 kg. How many kg were left?
+Example 2
+
+237
+NOT FOR SALE
+Work to do
+Add
+1. Maina has 4kg beans and  18kg of maize.  How 
+many kg does she have altogether.
+2. Kuria has 37kg of coffee and 16kg of tea leaves.  
+How many kg does he have altogether?
+3. Kefa has 62kg of meat and 7 kg of potatoes.  
+How many kg does he have altogether?
+4. A shopkeeper has 158kg of sugar.  He sells 28kg.  
+How many kg of sugar are left?
+5. Patel had 120kg of rice. he sold 75kg. How many 
+kg were left.
+6. Jerry bought 25kg of meat.  He gave Elijah 17kgs.  
+How many kg was he left with?
+7. Cyprine had 56kg of beans.  She cooked 9kg.  
+how many kg were left?
+8. Juma has 42kg of potatoes.  She gave Fatuma 
+20kg.  How many kg of potatoes was she left 
+with?
+
+238
+Property of the Government of Kenya
+CAPACITY
+ Week 7  Lesson 1
+Measuring capacity in litres
+1 litre
+A
+Container
+A = _____ litres
+Activity 
+Measure to find out how much each can hold. 
+Use the 1 litre container to measure.
+Measure the capacity of the following containers 
+using 1 litre container.
+Container Capacity in litres
+Bucket ________________
+Jerrican ________________
+Sufuria ________________
+Basin ________________
+Jug ________________
+        B = _____ litres
+B
+Container
+Work to do
+
+239
+NOT FOR SALE
+Week 7  Lesson 2
+Subtract capacity in litres
+Example 
+A lorry was transporting 81 litres of water. 
+On the way, 7 litres spilled. How many 
+litres of water were remained?
+81 litres - 7 litre = 74 litres
+Work to do : 
+1.  Wambua has 53 litres of milk. He sold 19 litres. 
+How many litres was he left with?
+2.  Wafula has 443 litres of cooking oil. He used 72 
+litres. How many litres was he left with?
+3.  A family had 773 litres of water at a party. They 
+used 429 litres. How many litres was left?
+4.  A vehicle had 517 litres of petrol. It used 134 
+litres. How many litres were left?
+5.  A school tank had 896 litres of water. Learners 
+used 524 litres. How many litres were left?
+Litres in the lorry   =  81
+        Litres poured   =   7 
+               Litres left  =
+
+240
+Property of the Government of Kenya
+Week 7 Lesson 3
+Estimating capacity
+Activity
+1. How many litres can container a, b, c and d 
+hold? Record your estimates in the table.
+2. Measure the actual capacity using 1 Litre 
+container and record alongside the estimates.
+Work to do
+Estimate and measure the capacity of containers
+A B C D1 
+Litre
+Containers Estimate in 
+Litres
+Actual Litres How close
+A 
+B
+C
+D
+
+241
+NOT FOR SALE
+Week 7 Lesson 4
+Add time in hours and minutes
+Example
+   2 hrs 45 mins 
+ +  4 hrs   5 mins
+   6 hrs 50 mins
+   4 hrs 51 mins 
+ +  5 hrs 4 mins
+   9 hrs 55 mins
+2. A bus used 4 hours and 51 minutes to move 
+to Nairobi. A lorry used 5 hours and 4 
+minutes to move to Nairobi. How many hours 
+and minutes did the bus and the lorry use 
+altogether?
+Bus used 4 hours and 51 minutes
+Lorry used 5 hours and 4 minutes
+1.  John used 2 hours and 45 minutes to cycle to 
+the market. Rose used 4 hours and 5 minutes 
+to walk to the same market. How many hours 
+and minutes did they use altogether?
+John used 2 hours and 45 minutes
+Rose used 4 hours and 5 minutes
+TIME
+
+242
+Property of the Government of Kenya
+Work to do
+1.  A tailor used 4 hours and 22 minutes to 
+make a pair of trousers. He used 2 hours and 
+17 minutes to make a shirt. How many hours 
+and minutes did he use altogether?
+2.  Perpetua used 2 hours and 34 minutes 
+to wash clothes. She used 2 hours and 15 
+minutes to clean the compound. How many 
+hours and minutes did she use altogether?
+3.  Teacher Joy used 1 hour and 15 minutes 
+to teach language activities. She used 1 
+hour and 20 minutes to teach mathematics 
+activities. How many hours and minutes did 
+she use in teaching altogether?
+
+243
+NOT FOR SALE
+Week 7 Lesson 5
+1.   Mr. Omolo used 1 hour and 45 minutes to 
+run a race. Miss Claire used 1 hour and 15 
+minutes to run the same race. By how many 
+hours and minutes was miss Claire faster 
+than Mr. Omolo?
+Mr. Omolo used 1 hour and 45 minutes
+Miss Claire used 1 hour and 15 minutes
+Subtract time in hours and minutes
+Example
+ 1 hr 45 mins
+-  1 hr  15 mins
+   30 mins
+Work to do
+1.  A cook used 3 hours and 44 minutes to 
+roast meat. He used 2 hours and 12 minutes 
+to bake a cake. How many more hours and 
+minutes did he use in roasting?
+2.  A bus took 8 hours and 20 minutes to reach 
+Nakuru. A matatu took 7 hours and 15 
+minutes. By how many hours and minutes 
+was the matatu faster than the bus?
+
+244
+Property of the Government of Kenya
+3. A boda boda rider used 2 hours and 35 
+minutes to Pondamali market. A car used 
+1 hour and 25 minutes to reach the same 
+market. By how many hours and minutes 
+was the car faster than the boda boda?
+
+245
+NOT FOR SALE
+Week 8 Lesson 1
+Picture showing goods and services
+Relating money to goods and services
+MONEY
+Work to do : 
+Fill in as a good or a service
+Item Good or Service Amount
+Hair cut Service sh.50
+Flask Good sh. 300
+Transport sh. 200
+Cloth repair sh. 100
+Book sh 400
+Pencil sh. 20
+School Sweater sh. 800
+Shoe repair sh. 50
+Unga Matatu Doctor
+School 
+bag
+Chair
+Sh 130 Sh 200
+Sh 850Sh 50Sh 900
+Barber
+Sh 400
+
+246
+Property of the Government of Kenya
+Week 8 Lesson 2
+Needs and wants 
+Example
+Complete the table using the following items: 
+phone, car, clothes, toy, house, bus, radio, 
+food, TV.
+Needs Wants
+Fill in as needs and wants
+Item Needs Wants
+a)  Bicycle
+b)  Car
+c)  Chair
+d)  Table
+e) Pencil
+f) Duster
+g) Watch
+h) Clothes
+i) Toy
+j) House
+k) Book
+l) Food
+
+247
+NOT FOR SALE
+Week 8 Lesson 3
+Spending and saving 
+  Example
+John received sh.300 from his uncle.  He spent 
+sh. 50 on a book.  How much did he save?
+Shillings before 
+spending
+Spending in 
+shillings
+Saving in shillings
+1.  500 300 200
+2.  1000 400 __________
+3.  650 250 __________
+4.  500 400 __________
+5.  200 150 __________
+6.  400 350 __________
+7.  1000 400 __________
+8.  700 _________ 400
+9.  800 _________ 300
+10. 900 _________ 500
+Shillings Spending in 
+shillings
+Saving in 
+shillings
+300 50 250
+Work to do 
+Fill in as a spending or saving
+
+248
+Property of the Government of Kenya
+Week 8 Lesson 4POSITION AND DIRECTION
+Turning to the right and left from a point
+Hospital
+Borehole
+Kamau
+Farm
+Mwende
+Bank
+BANK
+Market
+SHOP
+HOSPI
+TAL
+Amina’s  home
+Example
+To get to the hospital from school, a learner will 
+walk straight then turn   right  
+1.  To get  to school Mwende moves straight then 
+turns  _______
+2.  To visit the market Mwende will walk straight 
+then turn ________
+3.  To walk to the market, Kamau will move 
+straight then turn _________
+4.  From the school to the borehole, learners will 
+walk ________
+5.  To visit the farm from school, a teacher will 
+walk straight then turn _______
+Work to do
+ Use the map above to fill in 
+School
+GEOMETRY
+
+249
+NOT FOR SALE
+Week 8   Lesson 5PATTERNS
+Example
+Pattern making using shapes
+Work to do
+Complete the pattern
+1. 
+2.
+3.
+4.
+5.
+This is a pattern. On the right we put?
+We put
+
+MATHEMATICS
+PUPIL ’S  BOOK 3  
+This book has been developed for use by learners in Grade 3.
+This book has:
+ Covered all the concepts in the mathematics curriculum design for 
+grade 3.
+ Identi/f_ied lessons for each week 
+  Variety of examples and activities
+ Variety of strategies for working out questions
+ Clear illustrations
+This book has been developed by a team of experts from the Kenya 
+Institute of Curriculum Development (KICD), Ministry of Education (MoE), 
+Primary Education Development Project (PRIEDE), Teachers Service 
+Commission (TSC) Centre for Mathematics Science and Technology 
+Education in East Africa (CEMASTEA).
+P . O. Box 30040-00100
+Tel No: 254-2-3318581, Fax No: 254-2-214287, Email: ps@education.go.ke

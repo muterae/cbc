@@ -21,4 +21,6 @@ dependencies = [
     "xgboost>=3.4.1",
     "pymupdf>=1.28.2",
     "pytest>=9.1.1",
+    "sentence-transformers>=6.2.0",
+    "pinecone>=10.1.0",
 ]
