@@ -51,6 +51,7 @@ Requires `server/.env` with `GROQ_API_KEY` and `PINECONE_API_KEY`.
 
 ## Documentation
 
+- [`docs/design-system.md`](docs/design-system.md) — colours, type scale, spacing, shape
 - [`docs/decisions/`](docs/decisions/) — why each architectural choice was made
 - [`docs/pages/`](docs/pages/) — one document per screen, written as the screen is built
 
@@ -60,3 +61,4 @@ Requires `server/.env` with `GROQ_API_KEY` and `PINECONE_API_KEY`.
 |---|---|
 | [0001](docs/decisions/0001-monorepo.md) | Single repository for mobile and server |
 | [0002](docs/decisions/0002-package-naming.md) | Android application ID `ke.ac.bics.cbcapp` |
+| [0003](docs/decisions/0003-design-tokens.md) | Semantic colour/type tokens, ABeeZee, 30dp radius |
