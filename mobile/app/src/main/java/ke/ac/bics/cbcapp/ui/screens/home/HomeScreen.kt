@@ -1,7 +1,6 @@
 package ke.ac.bics.cbcapp.ui.screens.home
 
 import android.content.res.Configuration
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
@@ -68,7 +67,7 @@ fun HomeScreen(
         }
 
         item {
-            Spacer(modifier = Modifier.height(Spacing.xs))
+            Spacer(modifier = Modifier.height(Spacing.lg))
             ProgressCard(state)
         }
 
@@ -114,9 +113,8 @@ private fun ProgressCard(state: HomeUiState) {
         modifier = Modifier.fillMaxWidth(),
         shape = MaterialTheme.shapes.large,
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
-        ),
-        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
+            containerColor = MaterialTheme.colorScheme.background
+        )
     ) {
         Column(modifier = Modifier.padding(Spacing.lg)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
