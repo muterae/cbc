@@ -12,6 +12,7 @@ import androidx.compose.ui.graphics.Color
 // ---------------------------------------------------------------------------
 
 val BrandPurple = Color(0xFF362486)
+val BrandPurpleLight = Color(0xFFA99BF0)
 
 val Cream = Color(0xFFFFFDF5)
 val Ink = Color(0xFF151517)
@@ -33,6 +34,9 @@ val DestructiveDark = Color(0xFFFF6B6B)
 
 // Brand "correct" green. It is a fill colour: dark text goes on top of it.
 val SuccessGreen = Color(0xFF8CF45D)
+
+// Darker green for thin strokes (rings), where the light green would vanish.
+val SuccessGreenStroke = Color(0xFF3E8E2A)
 
 val WarningLight = Color(0xFF8A5A14)
 val WarningDark = Color(0xFFF2C14E)

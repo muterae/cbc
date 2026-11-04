@@ -52,8 +52,8 @@ Requires `server/.env` with `GROQ_API_KEY` and `PINECONE_API_KEY`.
 ## Documentation
 
 - [`docs/design-system.md`](docs/design-system.md) — colours, type scale, spacing, shape
-- [`docs/decisions/`](docs/decisions/) — why each architectural choice was made
-- [`docs/pages/`](docs/pages/) — one document per screen, written as the screen is built
+- [`docs/pages/`](docs/pages/) — one short document per screen
+- [`docs/decisions/`](docs/decisions/) - why each architectural choice was made
 
 ### Decision log
 

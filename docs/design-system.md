@@ -55,6 +55,10 @@ for the text, with a check icon — never colour alone.
 | Destructive on dark background | 3.4:1 | Large text only — dark mode uses `#FF6B6B` |
 | `success` as fill with `onSuccess` text | ~9:1 | Pass |
 
+**Rings:** strokes use mode-specific colours — Math `#362486` / `#A99BF0`, English `#3E8E2A`
+/ `#8CF45D`, Science `#8A5A14` / `#F2C14E` (light / dark). The thin stroke needs a darker
+green than the `success` fill.
+
 ## Typography
 
 ABeeZee, bundled in `res/font/` with its OFL licence at `docs/licenses/abeezee-OFL.txt`.
