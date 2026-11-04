@@ -1,0 +1,26 @@
+[project]
+name = "cbc-server"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "groq>=1.7.0",
+    "joblib>=1.6.0",
+    "kagglehub>=1.0.2",
+    "langchain>=1.4.2",
+    "langchain-community>=0.4.2",
+    "langchain-text-splitters>=1.1.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "pdf2image>=1.17.0",
+    "pypdf>=6.19.0",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+    "pymupdf>=1.28.2",
+    "pytest>=9.1.1",
+    "sentence-transformers>=6.2.0",
+    "pinecone>=10.1.0",
+]

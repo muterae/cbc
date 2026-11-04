@@ -1,0 +1,132 @@
+{
+  "dataset": {
+    "name": "Student Performance Factors (Kaggle: lainguyn123)",
+    "rows_loaded": 6607,
+    "rows_used": 6607,
+    "features": [
+      "Hours_Studied",
+      "Attendance",
+      "Sleep_Hours",
+      "Previous_Scores",
+      "Tutoring_Sessions",
+      "Physical_Activity",
+      "Parental_Involvement",
+      "Access_to_Resources",
+      "Extracurricular_Activities",
+      "Motivation_Level",
+      "Internet_Access",
+      "Family_Income",
+      "Teacher_Quality",
+      "School_Type",
+      "Peer_Influence",
+      "Learning_Disabilities",
+      "Parental_Education_Level",
+      "Distance_from_Home",
+      "Gender"
+    ],
+    "target": "CBC_Band (quartiles of Exam_Score)",
+    "band_cut_points": [
+      65.0,
+      67.0,
+      69.0
+    ],
+    "band_counts": {
+      "Approaching Expectation": 1468,
+      "Below Expectation": 2131,
+      "Exceeding Expectation": 1625,
+      "Meeting Expectation": 1383
+    }
+  },
+  "cleaning": {
+    "rows_loaded": 6607,
+    "rows_missing_target": 0,
+    "duplicate_rows_removed": 0,
+    "exam_scores_clipped": 1,
+    "attendance_values_clipped": 0,
+    "rows_after_cleaning": 6607,
+    "missing_feature_values": 235,
+    "missing_values_by_column": {
+      "Teacher_Quality": 78,
+      "Parental_Education_Level": 90,
+      "Distance_from_Home": 67
+    }
+  },
+  "cross_validation": {
+    "folds": 5,
+    "accuracy_mean": 0.7415326395458846,
+    "accuracy_std": 0.007924462286233452,
+    "f1_macro_mean": 0.7195665309650108,
+    "f1_macro_std": 0.009859130266463277
+  },
+  "holdout": {
+    "accuracy": 0.7420574886535553,
+    "macro_f1": 0.7198724698840088,
+    "weighted_f1": 0.7403343131125508,
+    "per_class": {
+      "Approaching Expectation": {
+        "precision": 0.5886287625418061,
+        "recall": 0.5986394557823129,
+        "f1": 0.5935919055649241,
+        "support": 294
+      },
+      "Below Expectation": {
+        "precision": 0.8600451467268623,
+        "recall": 0.8943661971830986,
+        "f1": 0.8768699654775605,
+        "support": 426
+      },
+      "Exceeding Expectation": {
+        "precision": 0.84472049689441,
+        "recall": 0.8369230769230769,
+        "f1": 0.8408037094281299,
+        "support": 325
+      },
+      "Meeting Expectation": {
+        "precision": 0.5891472868217055,
+        "recall": 0.5487364620938628,
+        "f1": 0.5682242990654206,
+        "support": 277
+      }
+    },
+    "confusion_matrix": [
+      [
+        176,
+        57,
+        3,
+        58
+      ],
+      [
+        41,
+        381,
+        0,
+        4
+      ],
+      [
+        4,
+        5,
+        272,
+        44
+      ],
+      [
+        78,
+        0,
+        47,
+        152
+      ]
+    ],
+    "class_labels": [
+      "Approaching Expectation",
+      "Below Expectation",
+      "Exceeding Expectation",
+      "Meeting Expectation"
+    ]
+  },
+  "trained_at": "2026-10-29T09:58:37.120287+00:00",
+  "versions": {
+    "python": "3.14.3",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  }
+}
