@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import kotlin.math.roundToInt
 
@@ -23,7 +24,8 @@ fun ProgressRing(
     progress: Float,
     color: Color,
     label: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    strokeWidth: Dp = 18.dp
 ) {
     val clamped = progress.coerceIn(0f, 1f)
     val animated by animateFloatAsState(
@@ -39,7 +41,7 @@ fun ProgressRing(
             contentDescription = "$label, $percent percent"
         }
     ) {
-        val stroke = 10.dp.toPx()
+        val stroke = strokeWidth.toPx()
         val inset = stroke / 2f
         val arcSize = Size(size.width - stroke, size.height - stroke)
         val topLeft = Offset(inset, inset)

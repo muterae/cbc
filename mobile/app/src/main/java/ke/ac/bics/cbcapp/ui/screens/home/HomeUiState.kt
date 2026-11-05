@@ -39,7 +39,7 @@ fun sampleHomeState() = HomeUiState(
     subjects = listOf(
         SubjectProgress(
             id = "math",
-            name = "Mathematics",
+            name = "Math",
             description = "Numbers, shapes and patterns",
             icon = Icons.Rounded.Calculate,
             answeredToday = 3,

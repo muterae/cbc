@@ -60,7 +60,7 @@ fun HomeScreen(
             top = Spacing.lg,
             bottom = Spacing.xl
         ),
-        verticalArrangement = Arrangement.spacedBy(Spacing.md)
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg)
     ) {
         item {
             Greeting(state.greetingName)
@@ -155,32 +155,36 @@ private fun SubjectRing(subject: SubjectProgress) {
                 progress = subject.progress,
                 color = accent,
                 label = subject.name,
-                modifier = Modifier.size(72.dp)
+                modifier = Modifier.size(96.dp),
+                strokeWidth = 12.dp
             )
-
             if (isComplete) {
                 Icon(
                     imageVector = Icons.Rounded.Check,
                     contentDescription = null,
                     tint = accent,
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(32.dp)
                 )
             } else {
-                Text(
-                    text = "${(subject.progress * 100).roundToInt()}%",
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(Spacing.sm)
+                ){
+                    Text(
+                        text = "${(subject.progress * 100).roundToInt()}",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                    Text(
+                        text="${subject.name}",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                }
+
             }
         }
 
-        Spacer(modifier = Modifier.height(Spacing.sm))
-
-        Text(
-            text = subject.name,
-            style = MaterialTheme.typography.labelSmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
     }
 }
 
