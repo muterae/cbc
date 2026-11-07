@@ -19,33 +19,36 @@ import androidx.navigation.compose.rememberNavController
 import ke.ac.bics.cbcapp.ui.screens.home.HomeScreen
 import ke.ac.bics.cbcapp.ui.screens.play.PlayScreen
 import ke.ac.bics.cbcapp.ui.screens.profile.ProfileScreen
+import ke.ac.bics.cbcapp.ui.screens.quiz.QuizScreen
 import ke.ac.bics.cbcapp.ui.theme.CbcappTheme
 
 @Composable
 fun AppNavHost() {
     val navController = rememberNavController()
+    val navBackStackEntry by navController.currentBackStackEntryAsState()
+    val currentDestination = navBackStackEntry?.destination
+    val currentRoute = currentDestination?.route
 
     Scaffold(
         bottomBar = {
-            NavigationBar {
-                val navBackStackEntry by navController.currentBackStackEntryAsState()
-                val currentDestination = navBackStackEntry?.destination
-
-                mainTabs.forEach { screen ->
-                    NavigationBarItem(
-                        icon = { Icon(screen.icon, contentDescription = screen.title) },
-                        label = { Text(screen.title) },
-                        selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true,
-                        onClick = {
-                            navController.navigate(screen.route) {
-                                popUpTo(navController.graph.findStartDestination().id) {
-                                    saveState = true
+            if (currentRoute != Screen.Quiz.route) {
+                NavigationBar {
+                    mainTabs.forEach { screen ->
+                        NavigationBarItem(
+                            icon = { Icon(screen.icon, contentDescription = screen.title) },
+                            label = { Text(screen.title) },
+                            selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true,
+                            onClick = {
+                                navController.navigate(screen.route) {
+                                    popUpTo(navController.graph.findStartDestination().id) {
+                                        saveState = true
+                                    }
+                                    launchSingleTop = true
+                                    restoreState = true
                                 }
-                                launchSingleTop = true
-                                restoreState = true
                             }
-                        }
-                    )
+                        )
+                    }
                 }
             }
         }
@@ -55,9 +58,29 @@ fun AppNavHost() {
             startDestination = Screen.Home.route,
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable(Screen.Home.route) { HomeScreen() }
-            composable(Screen.Play.route) { PlayScreen() }
+            composable(Screen.Home.route) {
+                HomeScreen(
+                    onSubjectClick = { navController.navigate(Screen.Quiz.route) }
+                )
+            }
+            composable(Screen.Play.route) {
+                PlayScreen(
+                    onStartQuiz = { navController.navigate(Screen.Quiz.route) }
+                )
+            }
             composable(Screen.Profile.route) { ProfileScreen() }
+            composable(Screen.Quiz.route) {
+                QuizScreen(
+                    onExit = {
+                        navController.navigate(Screen.Home.route) {
+                            popUpTo(navController.graph.findStartDestination().id) {
+                                inclusive = false
+                            }
+                            launchSingleTop = true
+                        }
+                    }
+                )
+            }
         }
     }
 }
