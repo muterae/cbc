@@ -37,7 +37,6 @@ fun ProfileScreen(
 ) {
     val accountItems = listOf(
         SettingsItem(icon = Icons.Rounded.Edit, label = "Edit profile"),
-        SettingsItem(icon = Icons.AutoMirrored.Rounded.Logout, label = "Log out", destructive = true)
     )
     val preferenceItems = listOf(
         SettingsItem(icon = Icons.Rounded.Flag, label = "Daily goal"),
@@ -48,6 +47,9 @@ fun ProfileScreen(
         SettingsItem(icon = Icons.AutoMirrored.Rounded.HelpOutline, label = "Help & support"),
         SettingsItem(icon = Icons.Rounded.Info, label = "About")
     )
+    val destructiveItems = listOf(
+        SettingsItem(icon = Icons.AutoMirrored.Rounded.Logout, label = "Log out", destructive = true)
+    )
 
     Column(
         modifier = Modifier
@@ -55,24 +57,18 @@ fun ProfileScreen(
             .background(MaterialTheme.colorScheme.background)
             .verticalScroll(rememberScrollState())
             .padding(Spacing.lg),
-        verticalArrangement = Arrangement.spacedBy(Spacing.md)
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg)
+
     ) {
         Text(
             text = "Profile",
             style = MaterialTheme.typography.displaySmall
         )
-
         ProfileHeaderCard(state = state)
-
-        GroupLabel("ACCOUNT")
         SettingsGroupCard(items = accountItems, onItemClick = { onAction(it.label) })
-
-        GroupLabel("PREFERENCES")
         SettingsGroupCard(items = preferenceItems, onItemClick = { onAction(it.label) })
-
-        GroupLabel("SUPPORT")
         SettingsGroupCard(items = supportItems, onItemClick = { onAction(it.label) })
-
+        SettingsGroupCard(items = destructiveItems, onItemClick = { onAction(it.label) })
         Text(
             text = "Version 1.0",
             style = MaterialTheme.typography.bodySmall,

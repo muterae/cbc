@@ -40,8 +40,7 @@ fun ProfileHeaderCard(
     Card(
         modifier = modifier.fillMaxWidth(),
         shape = MaterialTheme.shapes.large,
-        colors = CardDefaults.cardColors(containerColor = colors.surface),
-        border = BorderStroke(1.dp, colors.outlineVariant)
+        colors = CardDefaults.cardColors(containerColor = colors.surface)
     ) {
         Column(modifier = Modifier.padding(Spacing.lg)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -59,6 +58,8 @@ fun ProfileHeaderCard(
                 }
 
                 Spacer(modifier = Modifier.width(Spacing.lg))
+                Spacer(modifier = Modifier.width(Spacing.lg))
+                Spacer(modifier = Modifier.width(Spacing.lg))
 
                 Column {
                     Text(
@@ -74,6 +75,8 @@ fun ProfileHeaderCard(
             }
 
             Spacer(modifier = Modifier.height(Spacing.lg))
+            Spacer(modifier = Modifier.width(Spacing.lg))
+            Spacer(modifier = Modifier.width(Spacing.lg))
 
             Row(horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
                 StatChip(
