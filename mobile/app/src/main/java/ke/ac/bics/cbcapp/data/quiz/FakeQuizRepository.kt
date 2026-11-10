@@ -1,7 +1,7 @@
 package ke.ac.bics.cbcapp.data.quiz
 
 /**
- * Local quiz used until the server exposes POST /api/v1/adaptive-quiz.
+ * Local quiz used until the mobile client is wired to POST /api/v1/adaptive-quiz.
  * Option strings keep the server's "A) ..." prefix so the swap to a remote
  * repository will not change the UI.
  */

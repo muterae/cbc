@@ -24,3 +24,7 @@ dependencies = [
     "sentence-transformers>=6.2.0",
     "pinecone>=10.1.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

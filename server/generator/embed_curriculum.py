@@ -52,9 +52,13 @@ log = logging.getLogger("embed")
 
 
 def load_chunks(path: Path, include_answers: bool, limit: int | None) -> list[dict]:
-    """Read the JSONL produced by chunk_curriculum.py."""
+    """Read the checked-in JSONL chunk artifact (see CHUNKING.md)."""
     if not path.exists():
-        raise SystemExit(f"Chunk file not found: {path}\nRun: python generator/chunk_curriculum.py")
+        raise SystemExit(
+            f"Chunk file not found: {path}\n"
+            "The chunker is not in the working tree; restore the tracked JSONL first. "
+            "See generator/CHUNKING.md."
+        )
 
     chunks = []
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -76,6 +80,9 @@ def load_chunks(path: Path, include_answers: bool, limit: int | None) -> list[di
 def build_metadata(chunk: dict) -> dict:
     """Flat metadata stored beside each vector, used for filters and prompts."""
     return {
+        "chunk_id": chunk["chunk_id"],
+        "grade": 3,
+        "subject": "mathematics",
         "document": chunk["document"],
         "term": chunk["term"],
         "strand": chunk["strand"],
@@ -165,7 +172,7 @@ def main(argv: list[str] | None = None) -> int:
     log.info("Loading embedding model %s", MODEL_NAME)
     started = time.perf_counter()
     model = SentenceTransformer(MODEL_NAME)
-    log.info("Model ready in %.1fs (dimension %d)", time.perf_counter() - started, model.get_sentence_embedding_dimension())
+    log.info("Model ready in %.1fs (dimension %d)", time.perf_counter() - started, model.get_embedding_dimension())
 
     if args.dry_run:
         sample = chunks[:3]

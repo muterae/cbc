@@ -6,9 +6,10 @@ A learner logs in with a student ID, generates a quiz, and answers it. The serve
 learner's competency band, retrieves the matching KICD curriculum material, and generates a
 quiz at that level.
 
-> **Current milestone:** mobile UI, running against a local fallback quiz. The server's quiz
-> generation endpoint is still a stub, so the app will switch from the fallback to the real
-> network call once that route is implemented.
+> **Current milestone:** the server's adaptive quiz endpoint is live
+> (`POST /api/v1/adaptive-quiz`), grounded in 149 embedded KICD lessons and the CBC band
+> playbook. The mobile app still uses its local fallback quiz; wiring it to the server is
+> the next step.
 
 ## Repository layout
 
@@ -45,9 +46,11 @@ Open `mobile/` as the project root in Android Studio.
 cd server
 uv sync
 uv run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uv run pytest
 ```
 
-Requires `server/.env` with `GROQ_API_KEY` and `PINECONE_API_KEY`.
+Requires `server/.env` with `GROQ_API_KEY` and `PINECONE_API_KEY`. Set
+`GROQ_MODEL` to override the default `qwen/qwen3.8-27b`.
 
 ## Documentation
 

@@ -9,7 +9,7 @@ chunk on real headings instead of fixed character counts.
 |---|---|
 | `ingest_documents.py` | Extracts every PDF in `documents/` to `output/<name>.pdf.txt` |
 | `probe_structure.py` | Lists terms, strands and sub-strands with PDF page numbers |
-| `chunk_curriculum.py` | Splits the Teacher's Guide into lesson chunks (JSONL) |
+| `chunk_curriculum.py` | **Not in the working tree.** The checked-in JSONL is authoritative; see [CHUNKING.md](CHUNKING.md) |
 | `embed_curriculum.py` | Embeds `embedding_text` and upserts to Pinecone |
 | `test_retrieval.py` | Runs band-shaped queries and prints top matches |
 | `documents/` | Source PDFs |
@@ -89,21 +89,20 @@ those pages must be labelled as answer keys and kept out of the teaching chunks.
 
 ## Chunking
 
-`chunk_curriculum.py` produces **one chunk per lesson**, because a lesson is
-already one skill: one specific learning outcome, one activity set, one
-`Work to do`. Fixed-width splitting would separate the outcome from its
-activities.
-
-Each lesson chunk gets the sub-strand preamble prepended (General Learning
-Outcome, lesson count, Background Information, cut at a sentence boundary) so it
-is self-contained when retrieved.
-
-```bash
-python generator/chunk_curriculum.py
-```
+The corpus uses **one chunk per lesson**, because a lesson is already one skill:
+one specific learning outcome, one activity set, one `Work to do`. Fixed-width
+splitting would separate the outcome from its activities. Each lesson chunk gets
+the sub-strand preamble prepended (General Learning Outcome, lesson count,
+Background Information, cut at a sentence boundary) so it is self-contained when
+retrieved.
 
 Output: `generator/output/teacher_guide_chunks.jsonl`, 149 lesson chunks plus
 144 answer-key chunks.
+
+> `chunk_curriculum.py` is **not in the working tree or reachable git history**.
+> The JSONL is the authoritative artifact; the command above cannot reproduce it
+> today. Full schema, statistics, defects and provenance are in
+> [CHUNKING.md](CHUNKING.md).
 
 | Field | Meaning |
 |---|---|
@@ -134,3 +133,7 @@ Index `cbc-curriculum-rag`: 384 dimensions, cosine, AWS `us-east-1` serverless.
 The script embeds `embedding_text`, stores `text` in metadata for the prompt, and
 skips answer keys. `--reset` clears stale vectors; `--recreate` rebuilds the index
 if its dimension is wrong.
+
+**Current state:** 149 lesson vectors, embedded 2026-11-09. Run details are in
+`output/embedding_manifest.json`. `test_retrieval.py` applies both an `indexable`
+and a `sub_strand` filter.

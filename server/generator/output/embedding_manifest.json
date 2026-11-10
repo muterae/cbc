@@ -1,0 +1,19 @@
+{
+  "embedded_at": "2026-11-09",
+  "index": "cbc-curriculum-rag",
+  "cloud": "aws",
+  "region": "us-east-1",
+  "dimension": 384,
+  "metric": "cosine",
+  "vector_count": 149,
+  "chunks_file": "generator/output/teacher_guide_chunks.jsonl",
+  "chunks_sha256": "A46048E75B126CB8D2C6E165BD8239E81D54A2F31CE3B7B149B3C22CA5B009FD",
+  "chunks_total": 293,
+  "chunks_indexable": 149,
+  "chunks_skipped_answers": 144,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "normalize_embeddings": true,
+  "metadata_added": ["chunk_id", "grade", "subject"],
+  "git_commit": "1d7d320"
+}

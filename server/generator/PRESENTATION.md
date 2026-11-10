@@ -60,8 +60,8 @@ sentences. It cannot supply exercises without OCR.
 ## 3. What was built
 
 ```
-PDF  →  clean text  →  structure map  →  lesson chunks  →  [ embeddings ]
-       ingest_documents   probe_structure   chunker          INCOMPLETE
+PDF  →  clean text  →  structure map  →  lesson chunks  →  [ 149 vectors ]
+       ingest_documents   probe_structure   artifact only   Pinecone
 ```
 
 ### 3.1 Extraction — done
@@ -223,7 +223,7 @@ the data instead of disappearing.
 | Is the content official? | It is the KICD Grade 3 Mathematics Teacher's Guide |
 | Why is Geometry weak? | Only 7 lessons exist; retrieval must filter by sub-strand or arithmetic will dominate |
 | What happens to diagrams? | They are images or linearised text; number glyphs survive, layout does not |
-| What if retrieval fails? | A static fallback of core benchmarks is planned (not built yet) |
+| What if retrieval fails? | A static Grade 3 guidance fallback is built into `retriever.py` |
 
 ---
 
@@ -241,53 +241,51 @@ the data instead of disappearing.
 
 ---
 
-## 7. INCOMPLETE — remaining work
-
-Nothing below has been run. The scripts exist; the outputs do not.
+## 7. Status — what is built and what remains
 
 | Stage | Status |
 |---|---|
 | PDF extraction | done |
 | Structure map | done |
-| Lesson chunking | done (JSONL output) |
-| Embedding to vector store | **INCOMPLETE** |
-| Retrieval smoke test | **INCOMPLETE** |
-| CBA framework chunking | **INCOMPLETE** |
-| Band playbook + few-shots | **INCOMPLETE** |
-| Quiz synthesis service | **INCOMPLETE** |
-| API integration | **INCOMPLETE** |
-| Evaluation | **INCOMPLETE** |
+| Lesson chunking | done (artifact; chunker script missing) |
+| Embedding to vector store | done — 149 vectors, 2026-11-09 |
+| Retrieval smoke test | done — 6/6 queries with sub-strand filter |
+| Band playbook + few-shots | done — `services/band_playbook.py` |
+| Quiz synthesis service | done — Groq JSON mode, validation, fallback |
+| API integration | done — adaptive quiz + teacher band endpoints |
+| Evaluation | not started |
+| Corpus gaps | open |
+| Reproducibility | open — chunker missing |
 
-**1. Embeddings — INCOMPLETE.** `embed_curriculum.py` is written but has never run.
-`torch`, `sentence-transformers` and `pinecone` are not installed, so there are currently
-**0 vectors**. The plan: MiniLM, 384 dimensions, cosine, Pinecone serverless in
-`us-east-1`, index `cbc-curriculum-rag`, 149 lesson chunks only.
+**1. Embeddings — DONE.** MiniLM, 384 dimensions, cosine, Pinecone serverless in
+`us-east-1`, index `cbc-curriculum-rag`. 149 lesson chunks embedded; answer keys skipped.
+Run details: `generator/output/embedding_manifest.json`.
 
-**2. Retrieval test — INCOMPLETE.** `test_retrieval.py` defines six band-shaped queries
-(ordinal numbers, two-digit addition, quarters, missing-number subtraction, change,
-turning left and right). None has been run. There is no precision@k, no evidence yet that
-top-3 returns the right lesson.
+**2. Retrieval test — DONE.** Six band-shaped queries pass (ordinal numbers, two-digit
+addition, quarters, missing-number subtraction, change, turning left and right). The test
+applies both `indexable` and `sub_strand` filters.
 
-**3. CBA framework — INCOMPLETE.** The 5-page assessment document is extracted but not
-chunked. Until it is, the BE/AE/ME/EE descriptions in the playbook have no grounded
-source.
+**3. CBA framework — NOT USED.** The 5-page CBA document explains assessment policy; it
+does not define BE/AE/ME/EE difficulty. The playbook is therefore a project design
+artifact grounded in `AGENTS.md`, not an official KICD difficulty scale.
 
-**4. Playbook — INCOMPLETE.** No `mathematics.grade3.yaml`, no few-shot file, no loader.
-The lever sets and band rules are designed but not written.
+**4. Playbook — DONE.** `services/band_playbook.py` holds the four bands, item counts,
+ranges, regrouping rules, word caps, hints, distractors, examples and validators.
+`docs/band-playbook.md` is generated from it.
 
-**5. Quiz synthesis — INCOMPLETE.** No prompt assembly, no Groq call, no JSON validation,
-no deterministic fallback. The contract exists only on paper.
+**5. Quiz synthesis — DONE.** Prompt assembly, Groq JSON mode, Pydantic validation, one
+retry and a deterministic fallback bank.
 
-**6. API — INCOMPLETE.** `/api/v1/adaptive-quiz` is still a stub. The band is not yet
-connected to retrieval or generation.
+**6. API — DONE.** `POST /api/v1/adaptive-quiz` is live, plus
+`GET /api/v1/teacher/bands` and `GET /api/v1/teacher/bands/{band}`.
 
-**7. Evaluation — INCOMPLETE.** No retrieval quality measurement, no answer-correctness
-check, no teacher review of generated questions.
+**7. Evaluation — NOT STARTED.** No retrieval precision@k, no answer-correctness check,
+no teacher review of generated questions.
 
-**8. Corpus gaps — INCOMPLETE.** Pupils Book needs OCR; diagrams and stacked fractions
+**8. Corpus gaps — OPEN.** Pupils Book needs OCR; diagrams and stacked fractions
 are lost in text; Geometry is thin; cross-references to learner's book pages dangle.
 
-**9. Reproducibility — INCOMPLETE.** The lesson-chunking script is not currently in the
+**9. Reproducibility — OPEN.** The lesson-chunking script is not currently in the
 working tree; only `teacher_guide_chunks.jsonl` is present. The corpus cannot be rebuilt
 from a clean checkout until that script is restored and committed.
 

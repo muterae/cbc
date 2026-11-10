@@ -213,7 +213,7 @@ profile guess with evidence.
 * **Type:** Dense semantic retriever over a vector index.
 * **Storage:** Pinecone serverless index (`cbc-curriculum-rag`, AWS `us-east-1`).
 * **Embedding model:** `sentence-transformers/all-MiniLM-L6-v2` (384 dimensions, cosine).
-* **Status:** corpus built; embeddings not yet generated (0 vectors).
+* **Status:** corpus built; **149 lesson vectors** embedded 2026-11-09.
 
 #### Corpus
 
@@ -228,8 +228,9 @@ is a scan with no text layer.
   embedded or retrieved.
 * `embedding_text` is capped under 1,000 characters because MiniLM truncates near 256
   tokens; the full `text` is retained in metadata for the prompt.
-* Metadata: `term`, `strand`, `sub_strand`, `week`, `lesson`, `lesson_title`,
-  `page_start`, `page_end`, `section`, `indexable`, `warnings`.
+* Metadata: `chunk_id`, `grade`, `subject`, `term`, `strand`, `sub_strand`, `week`,
+  `lesson`, `lesson_title`, `page_start`, `page_end`, `section`, `indexable`,
+  `char_count`, `text`.
 * Output: `generator/output/teacher_guide_chunks.jsonl` (293 chunks: 149 lessons +
   144 answer keys).
 
@@ -250,7 +251,8 @@ pure similarity search is dominated by arithmetic.
 
 ### Agent 3: The Adaptive Synthesis Agent (Generative Assessment)
 
-* **Type:** Hosted high-throughput LLM via Groq Cloud (`llama-3.1-8b-instant`).
+* **Type:** Hosted high-throughput LLM via Groq Cloud (`qwen/qwen3.8-27b` by
+  default, overridable with `GROQ_MODEL`).
 * **Execution mode:** Few-shot prompt conditioning with forced JSON mode
   (`response_format={"type": "json_object"}`).
 * **Temperature:** `0.3` – `0.4`, prioritising curriculum fidelity over variation.
@@ -308,6 +310,10 @@ and allowed for ME and EE.
 The profile is stored server-side from the term import; it is not re-sent on every
 request.
 
+**Current implementation:** the endpoint is live. Until profile storage and onboarding
+exist, the request additionally accepts an optional `competency_band` (default
+`Meeting Expectation`). That field moves server-side once profiles are stored.
+
 #### Processing sequence
 
 1. Validate the request and resolve the learner's role and class.
@@ -327,6 +333,8 @@ request.
 - `POST /api/v1/teacher/import` — CSV profile import with validation report.
 - `POST /api/v1/teacher/exam-scores` — termly exam import; sets the reported band.
 - `GET /api/v1/teacher/classes/{class_id}` — class and learner views.
+- `GET /api/v1/teacher/bands` — list every band playbook.
+- `GET /api/v1/teacher/bands/{band}` — one band playbook for teacher views.
 
 ---
 
@@ -337,6 +345,7 @@ request.
 ```bash
 PINECONE_API_KEY="pcsk_..."
 GROQ_API_KEY="gsk_..."
+GROQ_MODEL="qwen/qwen3.8-27b"   # optional override
 ```
 
 ### Commands
@@ -352,13 +361,14 @@ python generator/probe_structure.py    # map terms, strands, sub-strands
 # Lesson chunking output already exists at generator/output/teacher_guide_chunks.jsonl;
 # the chunker script is not currently in the working tree.
 
-# Retrieval (blocked until torch, sentence-transformers and pinecone are installed)
+# Retrieval
 python generator/embed_curriculum.py --dry-run
 python generator/embed_curriculum.py
 python generator/test_retrieval.py
 
-# Server
+# Server and tests
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+python -m pytest
 ```
 
 ---

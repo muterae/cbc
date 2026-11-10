@@ -117,7 +117,10 @@ def main(argv: list[str] | None = None) -> int:
             vector=vector,
             top_k=args.top_k,
             include_metadata=True,
-            filter={"indexable": True},
+            filter={
+                "indexable": True,
+                "sub_strand": {"$eq": query["sub_strand"]},
+            },
         )
 
         print()

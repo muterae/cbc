@@ -247,15 +247,17 @@ These are recorded in the `warnings` field of the affected chunks, not hidden:
 
 ## 9. Next steps
 
-1. Chunk the CBA framework by section (5 pages, roughly one chunk per competency
-   level) and tag each chunk with the band it describes.
-2. Embed `embedding_text` with `all-MiniLM-L6-v2` (384 dimensions, cosine) and
-   upsert to a Pinecone serverless index, storing `text` in metadata for the
-   prompt. Do not index `section="answers"` chunks.
-3. Metadata filters for retrieval: `grade=3`, `subject=mathematics`, `term`,
-   `strand`, `sub_strand`, `week`, `lesson`, `section`, `indexable`.
-4. Build the retriever with Top-K (default 3), band-aware query construction, and
-   the static fallback required by the guardrails.
+1. **CBA framework — deferred.** The 5-page CBA document explains assessment
+   policy, not BE/AE/ME/EE difficulty. The band playbook is therefore a project
+   design artifact grounded in `AGENTS.md`, not a chunk of this document.
+2. **Embedding — done.** `embedding_text` embedded with `all-MiniLM-L6-v2`
+   (384 dimensions, cosine) and upserted to `cbc-curriculum-rag`. `text` is stored
+   in metadata for the prompt; `section="answers"` chunks are not indexed.
+3. **Metadata filters — done.** Vectors carry `chunk_id`, `grade`, `subject`,
+   `term`, `strand`, `sub_strand`, `week`, `lesson`, `lesson_title`,
+   `section`, `indexable`, `page_start`, `page_end`, `char_count` and `text`.
+4. **Retriever — done.** Top-K (default 3), band-aware query construction,
+   mandatory sub-strand filter and static fallback in `retriever.py`.
 
 ---
 
@@ -264,5 +266,9 @@ These are recorded in the `warnings` field of the affected chunks, not hidden:
 ```bash
 python generator/ingest_documents.py --force   # extract all PDFs
 python generator/probe_structure.py            # verify the outline
-python generator/chunk_curriculum.py           # write 293 chunks
 ```
+
+The chunking step cannot currently be reproduced: `chunk_curriculum.py` is not in
+the working tree or reachable git history. The tracked
+`output/teacher_guide_chunks.jsonl` is the authoritative artifact; see
+[CHUNKING.md](CHUNKING.md) for its schema, statistics and provenance.

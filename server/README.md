@@ -22,20 +22,23 @@ profile + quiz activity ──> [ predictor ] ──> band (BE / AE / ME / EE)
 
 ## Current state
 
-Status as of October 2026.
+Status as of November 2026.
 
 | Part | What it does | Status |
 |---|---|---|
 | **Predictor** | Places a learner in one of four competency bands | **Working** |
 | **Curriculum corpus** | Extracts, maps and chunks the Grade 3 Teacher's Guide | **Working** |
-| **Embeddings + retrieval** | Searches the corpus for the right lesson | **In progress** — 0 vectors yet |
-| **Quiz generation** | Prompts the LLM and validates its JSON | **Not started** — stubs only |
+| **Embeddings + retrieval** | Searches the corpus for the right lesson | **Working** — 149 vectors in `cbc-curriculum-rag` |
+| **Band playbook** | Maps BE/AE/ME/EE to item counts and difficulty | **Working** — tested, teacher endpoint live |
+| **Quiz generation** | Prompts the LLM and validates its JSON | **Working** — Groq JSON mode + fallback |
 | **Onboarding & lifecycle** | Profiles, placement quiz, weekly adaptation, termly band | **Designed** — not implemented |
-| **API** | Serves the mobile client | **Stub** |
+| **API** | Serves the mobile client | **Working** — adaptive quiz + teacher bands |
 | **Evaluation** | Measures retrieval and question quality | **Not started** |
 
-The end-to-end path is **not connected yet**. The predictor works on its own, and the
-curriculum corpus is built and validated, but nothing joins them to a live quiz endpoint.
+The server path is **connected end to end**: request → curriculum retrieval → band
+playbook → LLM generation → validation → fallback. The predictor is not yet wired into
+the endpoint, so the band is supplied by the request until profiles are stored. The
+mobile app still uses its local fallback quiz.
 
 ### What works today
 
@@ -43,7 +46,45 @@ curriculum corpus is built and validated, but nothing joins them to a live quiz 
   Cross-validated accuracy **0.747 ± 0.015**, holdout **0.742** (random guessing: 0.250).
 - **Corpus:** 257 pages extracted, 3 terms, 14 sub-strands, **293 chunks**
   (149 complete lessons + 144 answer keys). Structure validation passes 41/41.
-- **Not yet:** embeddings, retrieval, the band playbook, quiz generation, API integration.
+  Chunk schema and provenance: [generator/CHUNKING.md](generator/CHUNKING.md).
+- **Retrieval:** MiniLM embeddings in `cbc-curriculum-rag` (384d, cosine, **149 vectors**).
+  Six band-shaped queries pass with a mandatory sub-strand filter; run details are in
+  `generator/output/embedding_manifest.json`.
+- **Band playbook:** `services/band_playbook.py` defines the BE/AE/ME/EE difficulty
+  ladder, item counts, word caps, hint style and example items. Human view:
+  `docs/band-playbook.md`.
+- **Quiz generation:** `POST /api/v1/adaptive-quiz` retrieves top-3 lessons, prompts
+  Groq (`qwen/qwen3.8-27b`) in JSON mode, validates against the band playbook, retries
+  once, then returns a deterministic fallback quiz if generation still fails.
+- **Teacher band API:**
+  `GET /api/v1/teacher/bands` and `GET /api/v1/teacher/bands/{band}`.
+- **Not yet:** profile storage, predictor integration, the placement quiz, event logging
+  and evaluation.
+
+### API
+
+```bash
+POST /api/v1/adaptive-quiz
+{
+  "student_id": "std_ke_09823",
+  "strand": "Addition",
+  "session_type": "practice",
+  "competency_band": "Approaching Expectation"
+}
+```
+
+`strand` accepts a top-level strand, a sub-strand (`Addition`), or
+`Numbers - Addition`. `competency_band` is optional and defaults to
+`Meeting Expectation` until profiles are stored. The response is the quiz payload in
+[AGENTS.md](AGENTS.md) §3: `strand`, `competency_band`, `questions`,
+`teacher_insight_summary`.
+
+Teacher views can read the band rules directly:
+
+```bash
+GET /api/v1/teacher/bands
+GET /api/v1/teacher/bands/AE
+```
 
 ---
 
@@ -106,9 +147,10 @@ missing fields explicitly rather than dropping rows.
 | Path | Contents |
 |---|---|
 | `predictor/` | Dataset, training script, model artifact, evaluation and reports |
-| `generator/` | PDF ingestion, structure probe, lesson chunker, embedding scripts |
-| `services/` | Quiz schema and generative-AI stubs |
-| `main.py` | FastAPI entry point (currently two placeholder routes) |
+| `generator/` | PDF ingestion, structure probe, embeddings; chunker artifact checked in |
+| `services/` | Band playbook, quiz schema, generation and fallback |
+| `routers/` | HTTP routes (adaptive quiz and teacher bands) |
+| `main.py` | FastAPI entry point |
 | `deliverables/` | Assignment plans and submissions |
 
 ---
