@@ -6,10 +6,11 @@ A learner logs in with a student ID, generates a quiz, and answers it. The serve
 learner's competency band, retrieves the matching KICD curriculum material, and generates a
 quiz at that level.
 
-> **Current milestone:** the server's adaptive quiz endpoint is live
-> (`POST /api/v1/adaptive-quiz`), grounded in 149 embedded KICD lessons and the CBC band
-> playbook. The mobile app still uses its local fallback quiz; wiring it to the server is
-> the next step.
+> **Current milestone:** the server onboarding path is live: fixed placement quiz,
+> in-memory learner profiles, placement scoring, and profile-driven adaptive quizzes
+> (`GET /api/v1/intro-quiz`, `/api/v1/profiles`, `POST /api/v1/adaptive-quiz`). It is
+> grounded in 149 embedded KICD lessons and the CBC band playbook. The mobile app still
+> uses its local fallback quiz; wiring it to the server is the next step.
 
 ## Repository layout
 

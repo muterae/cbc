@@ -88,6 +88,13 @@ and the main sub-strands. It is **not adaptive**. It provides:
 The band stays **provisional** until at least two sessions and roughly 20 answered
 questions exist. The teacher sees "provisional" explicitly.
 
+**Current implementation:** 12 items, 3 per band, generated once from RAG excerpts and
+committed at `generator/output/intro_quiz.json`. The server serves the quiz without
+`correct_answer` or `hint`, scores submissions, and stores the provisional band. The rule
+is the highest band with at least 2 of 3 correct; otherwise BE. Regenerate the snapshot
+with `python -m services.intro_quiz` and bump `INTRO_QUIZ_VERSION` when the prompt or item
+count changes.
+
 ### 2.5 Weekly adaptation vs termly reporting
 
 Two different things must not be conflated:
@@ -295,6 +302,30 @@ and allowed for ME and EE.
 
 ## 4. Communication Protocols & APIs
 
+### Onboarding endpoints
+
+- `GET /api/v1/intro-quiz` — the fixed 12-item placement quiz. The public payload has
+  `quiz_id`, `version`, `title`, `question_count`, `generated_at`, `source` and
+  `questions`. Each question has `question_number`, `question_text`, `options`, `band`,
+  `strand`, `sub_strand` and `pedagogical_objective`; answers and hints are withheld.
+- `POST /api/v1/profiles` — create or update a learner profile. Returns the stored
+  `StudentProfile`.
+- `GET /api/v1/profiles/{student_id}` — read a profile; 404 for unknown IDs.
+- `POST /api/v1/profiles/{student_id}/placement` — score a placement submission:
+
+  ```json
+  {
+    "quiz_id": "intro-v1",
+    "answers": [
+      {"question_number": 1, "selected_option": "C) 4"}
+    ]
+  }
+  ```
+
+  The server validates the quiz version and every option, returns the per-band breakdown
+  and stores the provisional band. Re-submitting the same quiz version is idempotent; a
+  different version returns 409.
+
 ### Primary endpoint: `POST /api/v1/adaptive-quiz`
 
 #### Request payload
@@ -310,9 +341,10 @@ and allowed for ME and EE.
 The profile is stored server-side from the term import; it is not re-sent on every
 request.
 
-**Current implementation:** the endpoint is live. Until profile storage and onboarding
-exist, the request additionally accepts an optional `competency_band` (default
-`Meeting Expectation`). That field moves server-side once profiles are stored.
+**Current implementation:** the endpoint is live. It reads `competency_band` from the
+stored profile, so the mobile client does not send it. An optional `competency_band`
+field remains for tests/admin overrides. An unknown profile returns 404; a profile
+without a completed placement returns 409.
 
 #### Processing sequence
 
@@ -366,6 +398,9 @@ python generator/embed_curriculum.py --dry-run
 python generator/embed_curriculum.py
 python generator/test_retrieval.py
 
+# Fixed placement quiz (writes generator/output/intro_quiz.json)
+python -m services.intro_quiz
+
 # Server and tests
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 python -m pytest
@@ -396,3 +431,6 @@ python -m pytest
    stored as `Unknown` when declined. They are never required to use the system.
 10. **Model versioning:** every prediction stores the model version and feature snapshot.
     Retraining uses a temporal split and enters shadow mode before replacing the live model.
+11. **In-memory profiles are temporary:** the simulation store is process-local, lost on
+    restart, and safe only with a single worker. It must not hold real learner data; replace
+    it with a persistent `ProfileStore` before production.

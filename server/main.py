@@ -2,6 +2,8 @@
 from fastapi import FastAPI
 
 from routers.bands import router as bands_router
+from routers.intro_quiz import router as intro_quiz_router
+from routers.profiles import router as profiles_router
 from routers.quiz import router as quiz_router
 
 app = FastAPI(
@@ -11,6 +13,8 @@ app = FastAPI(
 )
 
 app.include_router(bands_router)
+app.include_router(intro_quiz_router)
+app.include_router(profiles_router)
 app.include_router(quiz_router)
 
 

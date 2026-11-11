@@ -1,0 +1,201 @@
+{
+  "quiz_id": "intro-v1",
+  "version": 1,
+  "title": "Grade 3 baseline quiz",
+  "generated_at": "2026-11-11T07:58:05.936390+00:00",
+  "source": "rag",
+  "questions": [
+    {
+      "question_text": "Which position is the first book in the row?",
+      "options": [
+        "A) 1st",
+        "B) 2nd",
+        "C) 3rd",
+        "D) 4th"
+      ],
+      "correct_answer": "A) 1st",
+      "hint": "Point to the very first book on the left.",
+      "question_number": 1,
+      "band": "Below Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Number Concept",
+      "pedagogical_objective": "Identify ordinal position 1st using concrete objects."
+    },
+    {
+      "question_text": "How do you read the number 5 in words?",
+      "options": [
+        "A) Five",
+        "B) Four",
+        "C) Six",
+        "D) Seven"
+      ],
+      "correct_answer": "A) Five",
+      "hint": "Count five fingers and say the word aloud.",
+      "question_number": 2,
+      "band": "Below Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Whole Numbers",
+      "pedagogical_objective": "Read whole number 5 in words."
+    },
+    {
+      "question_text": "Which shape has three straight sides?",
+      "options": [
+        "A) Triangle",
+        "B) Circle",
+        "C) Square",
+        "D) Rectangle"
+      ],
+      "correct_answer": "A) Triangle",
+      "hint": "Touch the three corners of a triangle cutout.",
+      "question_number": 3,
+      "band": "Below Expectation",
+      "strand": "Geometry",
+      "sub_strand": "Shapes",
+      "pedagogical_objective": "Identify a triangle by its three sides."
+    },
+    {
+      "question_text": "Kofi has 8 shillings. He buys a sweet for 3 shillings. How many shillings remain?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "correct_answer": "A) 5",
+      "hint": "Count back 3 from 8.",
+      "question_number": 4,
+      "band": "Approaching Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Subtraction",
+      "pedagogical_objective": "Subtracting single-digit numbers within 20 without borrowing."
+    },
+    {
+      "question_text": "Amina has 12 mangoes. She buys 5 more. How many mangoes does she have now?",
+      "options": [
+        "A) 15",
+        "B) 16",
+        "C) 17",
+        "D) 18"
+      ],
+      "correct_answer": "C) 17",
+      "hint": "Start at 12 and count 5 steps forward.",
+      "question_number": 5,
+      "band": "Approaching Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Addition",
+      "pedagogical_objective": "Adding single-digit numbers to two-digit numbers within 20 without carrying."
+    },
+    {
+      "question_text": "Which shape has four equal sides and four right angles?",
+      "options": [
+        "A) Circle",
+        "B) Triangle",
+        "C) Square",
+        "D) Oval"
+      ],
+      "correct_answer": "C) Square",
+      "hint": "Think of a tile on the floor.",
+      "question_number": 6,
+      "band": "Approaching Expectation",
+      "strand": "Geometry",
+      "sub_strand": "Shapes",
+      "pedagogical_objective": "Identifying basic geometric shapes by their properties."
+    },
+    {
+      "question_text": "Ama has 24 marbles. She finds 15 more. How many marbles does she have now?",
+      "options": [
+        "A) 39",
+        "B) 35",
+        "C) 49",
+        "D) 19"
+      ],
+      "correct_answer": "A) 39",
+      "hint": "Add the ones first, then the tens. Remember to carry over if the ones are more than 9.",
+      "question_number": 7,
+      "band": "Meeting Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Addition",
+      "pedagogical_objective": "Add two 2-digit numbers with regrouping (carrying) in the ones place."
+    },
+    {
+      "question_text": "A pen costs 12 shillings. A book costs 25 shillings. What is the total cost?",
+      "options": [
+        "A) 37 shillings",
+        "B) 35 shillings",
+        "C) 47 shillings",
+        "D) 13 shillings"
+      ],
+      "correct_answer": "A) 37 shillings",
+      "hint": "Add the shillings together. Check if the sum is more than 12 and 25.",
+      "question_number": 8,
+      "band": "Meeting Expectation",
+      "strand": "Measurement",
+      "sub_strand": "Money",
+      "pedagogical_objective": "Add money amounts in shillings up to 100."
+    },
+    {
+      "question_text": "There are 8 sweets. One sweet is shaded. What fraction of the sweets is shaded?",
+      "options": [
+        "A) 1/8",
+        "B) 1/4",
+        "C) 1/2",
+        "D) 8/1"
+      ],
+      "correct_answer": "A) 1/8",
+      "hint": "Count the total number of sweets. The bottom number is the total. The top number is the shaded part.",
+      "question_number": 9,
+      "band": "Meeting Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Fractions",
+      "pedagogical_objective": "Identify an eighth (1/8) as part of a group."
+    },
+    {
+      "question_text": "A farmer had 90 eggs. He sold 35. How many eggs remain? Use borrowing to solve.",
+      "options": [
+        "A) 45",
+        "B) 55",
+        "C) 65",
+        "D) 75"
+      ],
+      "correct_answer": "B) 55",
+      "hint": "Borrow from the tens column to subtract the ones first.",
+      "question_number": 10,
+      "band": "Exceeding Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Subtraction",
+      "pedagogical_objective": "Subtracting two 2-digit numbers with regrouping."
+    },
+    {
+      "question_text": "A shopkeeper packs 9 boxes with 8 apples each. How many apples are packed in total?",
+      "options": [
+        "A) 63",
+        "B) 72",
+        "C) 81",
+        "D) 90"
+      ],
+      "correct_answer": "B) 72",
+      "hint": "Multiply 9 by 8 using your multiplication table.",
+      "question_number": 11,
+      "band": "Exceeding Expectation",
+      "strand": "Numbers",
+      "sub_strand": "Multiplication",
+      "pedagogical_objective": "Multiplying numbers 8, 9 and 10 in word questions."
+    },
+    {
+      "question_text": "Wanjiku buys a book for Sh. 45. She pays with a Sh. 100 note. What is her change?",
+      "options": [
+        "A) Sh. 45",
+        "B) Sh. 55",
+        "C) Sh. 65",
+        "D) Sh. 75"
+      ],
+      "correct_answer": "B) Sh. 55",
+      "hint": "Subtract the cost from the amount paid to find the balance.",
+      "question_number": 12,
+      "band": "Exceeding Expectation",
+      "strand": "Measurement",
+      "sub_strand": "Money",
+      "pedagogical_objective": "Subtracting money involving shillings to find change."
+    }
+  ]
+}

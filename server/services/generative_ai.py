@@ -140,18 +140,23 @@ Create the quiz now."""
     ]
 
 
-def _call_groq(messages: list[dict]) -> str:
+def call_groq_json(messages: list[dict], max_tokens: int = MAX_TOKENS) -> str:
+    """Call Groq in JSON mode and return the raw content."""
     response = _get_client().chat.completions.create(
         model=GROQ_MODEL,
         messages=messages,
         response_format={"type": "json_object"},
         temperature=TEMPERATURE,
-        max_tokens=MAX_TOKENS,
+        max_tokens=max_tokens,
     )
     content = response.choices[0].message.content
     if not content:
         raise QuizGenerationError("model returned an empty response")
     return content
+
+
+def _call_groq(messages: list[dict]) -> str:
+    return call_groq_json(messages)
 
 
 def _parse_questions(

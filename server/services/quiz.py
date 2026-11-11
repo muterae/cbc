@@ -14,9 +14,9 @@ class AdaptiveQuizRequest(BaseModel):
     strand: str = "Mathematics"
     sub_strand: str | None = None
     session_type: Literal["placement", "practice", "assessment"] = "practice"
-    # Temporary until learner profiles and the predictor are wired in. The
-    # stored profile will supply this in the live onboarding flow.
-    competency_band: str = "Meeting Expectation"
+    # Optional only for tests/admin tooling. The live path reads the band from
+    # the stored learner profile.
+    competency_band: str | None = None
 
 
 class QuizQuestion(QuizItem):
