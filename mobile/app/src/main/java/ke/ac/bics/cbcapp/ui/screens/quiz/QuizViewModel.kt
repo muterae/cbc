@@ -2,15 +2,15 @@ package ke.ac.bics.cbcapp.ui.screens.quiz
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import ke.ac.bics.cbcapp.data.quiz.FakeQuizRepository
 import ke.ac.bics.cbcapp.data.quiz.QuizRepository
+import ke.ac.bics.cbcapp.data.quiz.RemoteQuizRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
 class QuizViewModel(
-    private val repository: QuizRepository = FakeQuizRepository()
+    private val repository: QuizRepository = RemoteQuizRepository()
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<QuizUiState?>(null)
