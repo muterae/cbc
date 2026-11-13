@@ -5,6 +5,7 @@ import androidx.compose.material.icons.rounded.Calculate
 import androidx.compose.material.icons.automirrored.rounded.MenuBook
 import androidx.compose.material.icons.rounded.Science
 import androidx.compose.ui.graphics.vector.ImageVector
+import ke.ac.bics.cbcapp.data.api.StudentProfileDto
 
 data class SubjectProgress(
     val id: String,
@@ -70,3 +71,22 @@ fun sampleHomeState() = HomeUiState(
         LeaderboardEntry(rank = 5, name = "Zawadi", xp = 150)
     )
 )
+
+fun StudentProfileDto.toHomeUiState(): HomeUiState {
+    val base = sampleHomeState()
+    return base.copy(
+        greetingName = name,
+        streakDays = streakDays,
+        subjects = base.subjects.map { it.copy(dailyGoal = dailyGoal) },
+        leaderboard = base.leaderboard
+            .map { entry ->
+                if (entry.isCurrentUser) {
+                    entry.copy(name = name, xp = xp)
+                } else {
+                    entry
+                }
+            }
+            .sortedByDescending { it.xp }
+            .mapIndexed { index, entry -> entry.copy(rank = index + 1) }
+    )
+}

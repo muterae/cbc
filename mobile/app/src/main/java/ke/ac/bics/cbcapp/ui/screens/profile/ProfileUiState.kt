@@ -1,5 +1,7 @@
 package ke.ac.bics.cbcapp.ui.screens.profile
 
+import ke.ac.bics.cbcapp.data.api.StudentProfileDto
+
 data class ProfileUiState(
     val name: String,
     val studentId: String,
@@ -18,4 +20,12 @@ fun sampleProfileState() = ProfileUiState(
     grade = "Grade 3",
     streakDays = 4,
     xp = 280
+)
+
+fun StudentProfileDto.toProfileUiState() = ProfileUiState(
+    name = name,
+    studentId = studentId,
+    grade = grade,
+    streakDays = streakDays,
+    xp = xp
 )

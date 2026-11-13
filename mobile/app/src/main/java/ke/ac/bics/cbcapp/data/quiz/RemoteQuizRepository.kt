@@ -7,25 +7,28 @@ import ke.ac.bics.cbcapp.data.api.ApiClient
 import ke.ac.bics.cbcapp.data.api.ApiConfig
 import ke.ac.bics.cbcapp.data.api.CbcApi
 import ke.ac.bics.cbcapp.data.api.QuizQuestionDto
+import ke.ac.bics.cbcapp.data.session.SessionManager
 import kotlinx.coroutines.CancellationException
 
 /**
  * Fetches an adaptive quiz from the FastAPI server.
  *
- * The demo uses a seeded learner whose placement is already complete. If the
- * server is unreachable or rejects the request, the local sample quiz keeps the
- * app usable.
+ * The quiz is requested for the signed-in learner. If there is no session yet,
+ * the seeded demo learner is used. If the server is unreachable or rejects the
+ * request, the local sample quiz keeps the app usable.
  */
 class RemoteQuizRepository(
     private val api: CbcApi = ApiClient.api,
-    private val studentId: String = ApiConfig.DEMO_STUDENT_ID
+    private val studentId: String? = null
 ) : QuizRepository {
 
     override suspend fun getQuiz(subjectId: String): Quiz {
         return try {
             val response = api.adaptiveQuiz(
                 AdaptiveQuizRequestDto(
-                    studentId = studentId,
+                    studentId = studentId
+                        ?: SessionManager.studentId
+                        ?: ApiConfig.DEMO_STUDENT_ID,
                     strand = if (subjectId.equals("math", ignoreCase = true)) {
                         "Mathematics"
                     } else {

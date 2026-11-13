@@ -19,12 +19,14 @@ object ApiClient {
         .callTimeout(90, TimeUnit.SECONDS)
         .build()
 
-    val api: CbcApi by lazy {
+    private val retrofit: Retrofit by lazy {
         Retrofit.Builder()
             .baseUrl(ApiConfig.BASE_URL)
             .client(httpClient)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
-            .create(CbcApi::class.java)
     }
+
+    val api: CbcApi by lazy { retrofit.create(CbcApi::class.java) }
+    val onboardingApi: OnboardingApi by lazy { retrofit.create(OnboardingApi::class.java) }
 }

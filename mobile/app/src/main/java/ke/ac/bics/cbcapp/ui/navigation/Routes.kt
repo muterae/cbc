@@ -7,6 +7,8 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.ui.graphics.vector.ImageVector
 
 sealed class Screen(val route: String, val title: String, val icon: ImageVector) {
+    data object Auth : Screen("auth", "Log in", Icons.Default.Person)
+    data object Placement : Screen("placement", "Placement", Icons.Filled.PlayArrow)
     data object Home : Screen("home", "Home", Icons.Default.Home)
     data object Play : Screen("play", "Play", Icons.Filled.PlayArrow)
     data object Profile : Screen("profile", "Profile", Icons.Default.Person)
