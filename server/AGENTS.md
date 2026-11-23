@@ -220,6 +220,14 @@ profile guess with evidence.
 * **Type:** Dense semantic retriever over a vector index.
 * **Storage:** Pinecone serverless index (`cbc-curriculum-rag`, AWS `us-east-1`).
 * **Embedding model:** `sentence-transformers/all-MiniLM-L6-v2` (384 dimensions, cosine).
+* **Runtime:** query embeddings are **precomputed**, not computed in the API process.
+  The query string depends only on `(strand, sub_strand, band)`, and the vocabulary is
+  fixed (3 strands, 14 sub-strands, 4 bands), so `generator/build_query_vectors.py`
+  embeds all 72 reachable strings once into `services/query_vectors.json` (152 KB).
+  `retriever.load_query_vectors()` reads that file at startup. This keeps
+  `sentence-transformers` and `torch` out of the deployed image, where the import
+  alone cost ~413 MB and ~37 s and caused the container to be OOM-killed (see
+  `OPTIMIZATION.md`).
 * **Status:** corpus built; **149 lesson vectors** embedded 2026-11-09.
 
 #### Corpus
@@ -248,8 +256,15 @@ query = (
     f"Grade 3 Mathematics strand: {strand}, "
     f"sub-strand: {sub_strand}, assessment level: {band}"
 )
+# vector = services/query_vectors.json[query]   <- precomputed, no model load
 # Top-K (default 3) with a sub_strand filter and indexable=true
 ```
+
+`build_query` normalises the band, so `"ME"`, `"meeting-expectation"` and
+`"Meeting Expectation"` all map to the same cached key. A cache miss is not an error:
+the retriever logs it and returns static curriculum guidance. After adding a strand or
+sub-strand to `services/curriculum.py`, regenerate the table with
+`python generator/build_query_vectors.py`.
 
 A sub-strand filter is mandatory: Numbers has 102 lessons against 7 for Geometry, so
 pure similarity search is dominated by arithmetic.
@@ -258,10 +273,16 @@ pure similarity search is dominated by arithmetic.
 
 ### Agent 3: The Adaptive Synthesis Agent (Generative Assessment)
 
-* **Type:** Hosted high-throughput LLM via Groq Cloud (`qwen/qwen3.8-27b` by
+* **Type:** Hosted high-throughput LLM via Groq Cloud (`openai/gpt-oss-20b` by
   default, overridable with `GROQ_MODEL`).
 * **Execution mode:** Few-shot prompt conditioning with forced JSON mode
   (`response_format={"type": "json_object"}`).
+* **Latency budget:** `GROQ_REASONING_EFFORT=low` (default), a 12 s client timeout and
+  `max_retries=0`. Rate limits, timeouts and connection errors are **not** retried — the
+  endpoint falls straight through to the deterministic fallback bank, so a request cannot
+  exceed roughly 12 s on the LLM leg. Only schema/validation failures are retried.
+  The previous default model (`qwen/qwen3.8-27b`) took 18–60 s for the same prompt and
+  overran the platform gateway timeout.
 * **Temperature:** `0.3` – `0.4`, prioritising curriculum fidelity over variation.
 
 #### Pedagogical difficulty mapping
@@ -377,7 +398,9 @@ without a completed placement returns 409.
 ```bash
 PINECONE_API_KEY="pcsk_..."
 GROQ_API_KEY="gsk_..."
-GROQ_MODEL="qwen/qwen3.8-27b"   # optional override
+GROQ_MODEL="openai/gpt-oss-20b"        # optional override
+GROQ_REASONING_EFFORT="low"            # set "" for non-reasoning models
+GROQ_TIMEOUT="20"                      # seconds, per attempt
 ```
 
 ### Commands
@@ -398,13 +421,21 @@ python generator/embed_curriculum.py --dry-run
 python generator/embed_curriculum.py
 python generator/test_retrieval.py
 
+# Precomputed query vectors (required after any change to services/curriculum.py)
+python generator/build_query_vectors.py
+
 # Fixed placement quiz (writes generator/output/intro_quiz.json)
 python -m services.intro_quiz
 
 # Server and tests
+uv sync --extra dev                   # dev extra carries torch, xgboost, pytest
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 python -m pytest
 ```
+
+The deployed image installs only the base dependencies (`fastapi[standard]`, `groq`,
+`pinecone`, `pydantic`, `python-dotenv`). Everything in the `dev` extra is offline
+tooling: training, ingestion and embedding generation.
 
 ---
 

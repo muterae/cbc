@@ -63,7 +63,7 @@ endpoint yet. The mobile app still uses its local fallback quiz.
   the quiz, stores the provisional band and returns the per-band breakdown. The rule is the
   highest band with at least 2 of 3 correct; otherwise BE.
 - **Adaptive quiz:** `POST /api/v1/adaptive-quiz` reads the band from the stored profile,
-  retrieves top-3 lessons, prompts Groq (`qwen/qwen3.8-27b`) in JSON mode, validates
+  retrieves top-3 lessons, prompts Groq (`openai/gpt-oss-20b`) in JSON mode, validates
   against the band playbook, retries once, then returns a deterministic fallback quiz if
   generation still fails. The optional `competency_band` field remains for tests/admin.
 - **Teacher band API:**

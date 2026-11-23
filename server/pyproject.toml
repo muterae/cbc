@@ -1,28 +1,36 @@
 [project]
 name = "cbc-server"
 version = "0.1.0"
-requires-python = ">=3.14"
+requires-python = "==3.14.*"
 dependencies = [
     "fastapi[standard]>=0.141.1",
     "groq>=1.7.0",
+    "pinecone>=10.1.0",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+]
+
+# Training, ingestion and offline embedding tooling. None of this is imported by
+# the running API: `services/` and `routers/` depend only on the packages above.
+#
+# This is an optional extra rather than a [dependency-groups] entry on purpose:
+# `uv sync` installs dependency groups by default, so a group would still put
+# torch back into the deployed image. Extras are only installed on request
+# (`uv sync --extra dev`), so the cloud build stays lean.
+[project.optional-dependencies]
+dev = [
     "joblib>=1.6.0",
     "kagglehub>=1.0.2",
-    "langchain>=1.4.2",
-    "langchain-community>=0.4.2",
-    "langchain-text-splitters>=1.1.2",
     "numpy>=2.5.3",
     "pandas>=3.0.6",
-    "pydantic>=2.13.5",
     "pdf2image>=1.17.0",
+    "pymupdf>=1.28.2",
     "pypdf>=6.19.0",
     "pytesseract>=0.3.13",
-    "python-dotenv>=1.2.3",
-    "scikit-learn>=1.9.1",
-    "xgboost>=3.4.1",
-    "pymupdf>=1.28.2",
     "pytest>=9.1.1",
+    "scikit-learn>=1.9.1",
     "sentence-transformers>=6.2.0",
-    "pinecone>=10.1.0",
+    "xgboost>=3.4.1",
 ]
 
 [tool.pytest.ini_options]

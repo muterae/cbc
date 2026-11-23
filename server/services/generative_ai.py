@@ -7,7 +7,7 @@ import logging
 import os
 
 from dotenv import load_dotenv
-from groq import Groq
+from groq import APIConnectionError, Groq, RateLimitError
 from pydantic import BaseModel, ValidationError
 
 from retriever import RetrievedLesson
@@ -18,7 +18,15 @@ from services.quiz import AdaptiveQuizRequest, QuizQuestion, QuizResponse
 
 load_dotenv()
 
-GROQ_MODEL = os.getenv("GROQ_MODEL", "qwen/qwen3.8-27b")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
+# Reasoning models spend most of their latency on hidden reasoning tokens. "low"
+# returns a schema-valid quiz in ~1s; the previous default model took 18-60s for
+# the same prompt, which overran the platform gateway timeout.
+GROQ_REASONING_EFFORT = os.getenv("GROQ_REASONING_EFFORT", "low")
+GROQ_TIMEOUT = float(os.getenv("GROQ_TIMEOUT", "12"))
+# Errors where a second attempt is pointless. APIConnectionError is the parent of
+# APITimeoutError in the Groq SDK, so this covers both.
+NON_RETRYABLE = (RateLimitError, APIConnectionError)
 TEMPERATURE = 0.3
 MAX_TOKENS = 2600
 MAX_LESSON_CHARS = 1800
@@ -48,7 +56,10 @@ def _get_client() -> Groq:
         api_key = os.getenv("GROQ_API_KEY")
         if not api_key:
             raise RuntimeError("GROQ_API_KEY is not set")
-        _client = Groq(api_key=api_key)
+        # max_retries=0: a stalled call should fall through to the deterministic
+        # fallback bank rather than spend minutes in SDK backoff, which is what
+        # turned a slow model into gateway timeouts.
+        _client = Groq(api_key=api_key, timeout=GROQ_TIMEOUT, max_retries=0)
     return _client
 
 
@@ -141,13 +152,22 @@ Create the quiz now."""
 
 
 def call_groq_json(messages: list[dict], max_tokens: int = MAX_TOKENS) -> str:
-    """Call Groq in JSON mode and return the raw content."""
+    """Call Groq in JSON mode and return the raw content.
+
+    ``reasoning_effort`` is only sent when configured, so overriding ``GROQ_MODEL``
+    with a non-reasoning model works by setting ``GROQ_REASONING_EFFORT=""``.
+    """
+    extra: dict = {}
+    if GROQ_REASONING_EFFORT:
+        extra["reasoning_effort"] = GROQ_REASONING_EFFORT
+
     response = _get_client().chat.completions.create(
         model=GROQ_MODEL,
         messages=messages,
         response_format={"type": "json_object"},
         temperature=TEMPERATURE,
         max_tokens=max_tokens,
+        **extra,
     )
     content = response.choices[0].message.content
     if not content:
@@ -225,6 +245,11 @@ def generate_quiz(
         except Exception as exc:  # noqa: BLE001 - retry or fall back
             last_error = exc
             log.warning("Quiz generation attempt %d failed: %s", attempt, exc)
+            if isinstance(exc, NON_RETRYABLE):
+                # A rate limit, timeout or connection failure will not fix itself
+                # on an immediate retry, and two attempts would double the time the
+                # learner waits. Serve the deterministic bank now.
+                break
             if attempt < MAX_ATTEMPTS:
                 if raw:
                     messages.append({"role": "assistant", "content": raw})
